@@ -3,17 +3,17 @@
 
 # Credits
 ## Sadamitsu
-- [Composite Input](https:|sadamitsu.ru/cwcheat/compositeinput.htm)
-- [Converter](https:|sadamitsu.ru/cwcheat/converter.htm)
-- [Hand Gestures](https:|sadamitsu.ru/cwcheat/gestures.htm)
-- [Limbs](https:|sadamitsu.ru/cwcheat/limbs.htm)
-- [Move Finder](https:|sadamitsu.ru/cwcheat/movefinder.htm)
-- [P0 Animations](https:|sadamitsu.ru/cwcheat/p0animations.htm)
-- [Throw Camera Modes](https:|sadamitsu.ru/cwcheat/throwcameramodes.htm)
-- [NetCheat](https:|sadamitsu.ru/netcheat/)
+- [Composite Input](https://sadamitsu.ru/cwcheat/compositeinput.htm)
+- [Converter](https://sadamitsu.ru/cwcheat/converter.htm)
+- [Hand Gestures](https://sadamitsu.ru/cwcheat/gestures.htm)
+- [Limbs](https://sadamitsu.ru/cwcheat/limbs.htm)
+- [Move Finder](https://sadamitsu.ru/cwcheat/movefinder.htm)
+- [P0 Animations](https://sadamitsu.ru/cwcheat/p0animations.htm)
+- [Throw Camera Modes](https://sadamitsu.ru/cwcheat/throwcameramodes.htm)
+- [NetCheat](https://sadamitsu.ru/netcheat/)
 
 ## Kiloutre
-- [TKMovesets](https:|github.com/Kiloutre/TKMovesets) - Used to dump character animations from TTT2 (PS3/USA) and Tekken 7 (Steam)
+- [TKMovesets](https://github.com/Kiloutre/TKMovesets) - Used to dump character animations from TTT2 (PS3/USA) and Tekken 7 (Steam)
 
 ---
 
