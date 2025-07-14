@@ -1090,6 +1090,7 @@ _L 0x00000000 0x00000000
 | 81F0 (Tk6) | 
 | 8203 (Tk6) | 230B (TTT2) | 853D (TK7) | ???
 
+```Markdown
 | I haven't found the T6 equivalent yet
 | 12D (TTT2) | 385 (Tk7) | ???
 | 1CA (TTT2) | 2CD (Tk8) | ???
@@ -1124,6 +1125,7 @@ _L 0x00000000 0x00000000
 
 | 1C5 (Tk8) | ???
 | 83C3 (Tk8) | ???
+```
 </details>
 
 ## Customisations
