@@ -3,14 +3,14 @@
 | 00 | | | | No Condition |  
 | 01 | | | | If Practice Mode |  
 | 02 | | 02 | | If It Hits |  
-| 03 | | 17 | | If It Hits Front-Facing Standing Opponent. XXXX is the required distance |  
-| 04 | | | | If It Hits Backturned Standing Opponent. XXXX is the required distance |  
-| 05 | | | | If It Hits Left-turned Standing Opponent. XXXX is the required distance |  
-| 06 | | | | If It Hits Right-turned Standing Opponent. XXXX is the required distance |  
-| 07 | 07 | 07 | | If It Hits Front-Facing Crouching Opponent. XXXX is the required distance |
-| 08 | 08 | 08 | | If It Hits Backturned Crouching Opponent. XXXX is the required distance |  
-| 09 | 09 | 09 | | If It Hits Left-turned Crouching Opponent. XXXX is the required distance |  
-| 0A | 0A | 0A | | If It Hits Right-turned Crouching Opponent. XXXX is the required distance |  
+| 03 | | 17 | | If It Hits Front-Facing Standing Opponent. *0000XXXX* is the required distance |  
+| 04 | | | | If It Hits Backturned Standing Opponent. *0000XXXX* is the required distance |  
+| 05 | | | | If It Hits Left-turned Standing Opponent. *0000XXXX* is the required distance |  
+| 06 | | | | If It Hits Right-turned Standing Opponent. *0000XXXX* is the required distance |  
+| 07 | 07 | 07 | | If It Hits Front-Facing Crouching Opponent. *0000XXXX* is the required distance |
+| 08 | 08 | 08 | | If It Hits Backturned Crouching Opponent. *0000XXXX* is the required distance |  
+| 09 | 09 | 09 | | If It Hits Left-turned Crouching Opponent. *0000XXXX* is the required distance |  
+| 0A | 0A | 0A | | If It Hits Right-turned Crouching Opponent. *0000XXXX* is the required distance |  
 | 0B | | | | If It Hits Grounded Opponent (Face Up, Feet Away). *0000XXXX* is the required distance |
 | 0C | | | | If It Hits Grounded Opponent (Face Up, Feet Towards). *0000XXXX* is the required distance |
 | 0D | | | | If It Hits Grounded Opponent (Face Up, Left Side). *0000XXXX* is the required distance |
@@ -29,14 +29,14 @@
 | 1A | 1A | | | If It hits Right-turned Standing/Crouching Opponent. *0000XXXX* is the required distance |
 | 1B | 1B | | | If It hits Airborne Opponent (Face Up, Feet Towards). *0000XXXX* is the required distance |
 | 1C | 1C | | | If It hits Airborne Opponent (Face Up, Feet Away). *0000XXXX* is the required distance |
-| 1D |    | | | If It hits Airborne Opponent (Face Up, Left Side). *0000XXXX* is the required distance |
-| 1E |    | | | If It hits Airborne Opponent (Face Up, Right Side). *0000XXXX* is the required distance |
-| 1F |    | | | If It hits Airborne Opponent (Face Down, Feet Towards). *0000XXXX* is the required distance |
-| 20 |    | | | If It hits Airborne Opponent (Face Down, Feet Away). *0000XXXX* is the required distance |
-| 21 |    | | | If It hits Airborne Opponent (Face Down, Left Side). *0000XXXX* is the required distance |
-| 22 |    | | | If It hits Airborne Opponent (Face Down, Right Side). *0000XXXX* is the required distance |
-| 23 |    | | | If The Opponent's distance < *0000XXXX* (min:300, max:1B58) |
-| 24 |    | | | If The Opponent's distance > *0000XXXX* (min:300, max:1B58) |
+| 1D | | | | If It hits Airborne Opponent (Face Up, Left Side). *0000XXXX* is the required distance |
+| 1E | | | | If It hits Airborne Opponent (Face Up, Right Side). *0000XXXX* is the required distance |
+| 1F | | | | If It hits Airborne Opponent (Face Down, Feet Towards). *0000XXXX* is the required distance |
+| 20 | | | | If It hits Airborne Opponent (Face Down, Feet Away). *0000XXXX* is the required distance |
+| 21 | | | | If It hits Airborne Opponent (Face Down, Left Side). *0000XXXX* is the required distance |
+| 22 | | | | If It hits Airborne Opponent (Face Down, Right Side). *0000XXXX* is the required distance |
+| 23 | | | | If The Opponent's distance < *0000XXXX* (min:300, max:1B58) |
+| 24 | | | | If The Opponent's distance > *0000XXXX* (min:300, max:1B58) |
 | 25 | 
 | 26 | 
 | 27 | 
@@ -66,24 +66,24 @@
 | 40 | 
 | 41 | 
 | 42 | | 4D | | Related to Throws |
-| 43 | 
-| 44 | 
+| 43 | | 4E | | 
+| 44 | | 4F | | 
 | 45 | | 50 | | If BT or RT |
 | 46 | | 51 | | If BT or LT |
-| 47 | 
-| 48 | 
-| 49 | | 54 | | If laying on ground and opponent at feet |
-| 4A | | 55 | | If laying on ground and opponent at right side |
-| 4B | | 56 | | If laying on ground and opponent at left side |
-| 4C | | 57 | | If laying on ground and opponent at head |
+| 47 | | 52 | |
+| 48 | | 53 | | 
+| 49 | | 54 | | If laying on ground and at opponent's feet |
+| 4A | | 55 | | If laying on ground and at opponent's right side |
+| 4B | | 56 | | If laying on ground and at opponent's left side |
+| 4C | | 57 | | If laying on ground and at opponent's head |
 | 4D | 5D | 60 | | If opponent is facing forward |
 | 4E | | | | If opponent is facing right |
 | 4F | | | | If opponent is facing left |
 | 50 | | | | If opponent is backturned |
 | 51 | | | | |
-| 52 | | | | If opponent's attack is High |
-| 53 | | | | |
-| 54 | | | | If opponent attacks |
+| 52 | | 64 | | If opponent's attack is High |
+| 53 | | 65 | | |
+| 54 | | 66 | | If opponent attacks |
 | 55 | | 67 | | If opponent's attack frame is XX |
 | 56 | 
 | 57 | 
@@ -109,24 +109,24 @@
 | 6B | 
 | 6C | 7C | 7E | | If opponent is downed |
 | 6D | | 7F | | If opponent is not downed |
-| 6E | 
-| 6F | | | | | if opponent is ?? |
+| 6E | | 80 | | 
+| 6F | | 81 | | | if opponent is ?? |
 | 70 | 80 | 82 | | If counterhit |
-| 71 |  | 83 | | If pressed 1 only |
-| 72 |  | 84 | | If pressed 2 only |
-| 73 |  | 85 | | If pressed 1+2 only |
-| 74 | | | | 
-| 75 |  | 87 | | If character is KO'd |
-| 76 | | | | 
-| 77 | | | | 
-| 78 |  | 8A | | If character HP ≥ XX |
-| 79 | | | | 
-| 7A | | | | 
-| 7B |  |  | | If opponent's HP ≤ XX |
-| 7C | 
-| 7D | 
-| 7E | 
-| 7F | 
+| 71 | | 83 | | If pressed 1 only |
+| 72 | | 84 | | If pressed 2 only |
+| 73 | | 85 | | If pressed 1+2 only |
+| 74 | | 86 | | 
+| 75 | | 87 | | If character is KO'd |
+| 76 | | 88 | | 
+| 77 | | 89 | | 
+| 78 | | 8A | | If character HP ≥ XX |
+| 79 | | 8B | | 
+| 7A | | 8C | | 
+| 7B | | 8D | | If opponent's HP ≤ XX |
+| 7C | | 8E | | 
+| 7D | | 8F | | 
+| 7E | | 90 | | 
+| 7F | | 91 | | 
 | 80 | | 92 | | If on P1 side |
 | 81 | | 93 | | If on P2 side |
 | 82 | | 94 | | if on P2 Side |
@@ -151,7 +151,7 @@
 | 95 | 
 | 96 | AC | | | 
 | 97 | | | | 
-| 98 |    | D8 | |
+| 98 | | D8 | |
 | 99 | 8C | D9 | | if character is "Move ID" *see 08C07A18*
 | 9A | | | | if character is not "Move ID" *see 08C07A18*
 | 9B | | | | if opponent is "Move ID" *see 08C078B4*
@@ -160,7 +160,7 @@
 | 9E | | | | 
 | 9F | | | | if opponent is "Character Move" *see 08C078B4* (Probably Exclusive to Alisa, look at her u/f+1+2 Throw)
 | A0 | 
-| A1        | D6       | E1       | E4       | Character Controller
+| A1 | D6 | E1 | E4 | Character Controller
 | A2 |
 | A3 | 
 | A4 | 
@@ -176,67 +176,67 @@
 | AE | 
 | AF | 
 | B0 | 
-| B1
-| B2
-| B3
-| B4
-| B5
-| B6
+| B1 |
+| B2 |
+| B3 |
+| B4 |
+| B5 |
+| B6 |
 | B7 | 
 | B8 | E8 | | |
-| BA | | FD| | if "inner KiCharge" is (00 = off, 01 = on)
+| BA | | FD| | if "inner KiCharge" is (00 = off, 01 = on) |
 | BB | 
-| BC
-| BD
-| BE
-| BF
-| C0
-| C1
-| C2
-| C3
+| BC |
+| BD |
+| BE |
+| BF |
+| C0 |
+| C1 |
+| C2 |
+| C3 |
 | C4 | | 121 | | 
 | C5 |
 | C6 | 
-| C7
-| C8
-| C9
-| CA
-| CB
-| CC
-| CD
-| CE
-| CF
-| D0
+| C7 |
+| C8 |
+| C9 |
+| CA |
+| CB |
+| CC |
+| CD |
+| CE |
+| CF |
+| D0 |
 | D1 | 126 | 149 | | if flag XX is set by 805C *see 08C07C84*
 | D2 |
 | D3 |
 | D4 | 
 | D5 | 
 | D6 | 139 | 160 | 166 | if flag XX is set by 8068
-| D7
-| D8
-| D9
-| DA
-| DB
-| DC
-| DD
-| DE
-| DF
-| E0
-| E1
-| E2
-| E3
-| E4
-| E5
+| D7 |
+| D8 |
+| D9 |
+| DA |
+| DB |
+| DC |
+| DD |
+| DE |
+| DF |
+| E0 |
+| E1 |
+| E2 |
+| E3 |
+| E4 |
+| E5 |
 | E6 | 
-| E7
-| E8
-| E9
+| E7 | 
+| E8 | 
+| E9 | 
 | EA | 
 | EB | 184 | 214 | | if character speed > *0000XXXX*
 | EC | 
-| ED 
-| EE 
+| ED | 
+| EE | 
 | EF | 
 | F0 | 
 | F1 | 
@@ -261,7 +261,35 @@
 | 105 | 
 | 106 | 
 | 11E | 1AA | | | 
+| 11F | 
+| 120 | 
+| 121 | 
+| 123 |
+| 124 |
+| 125 | 
+| 126 | 
+| 127 | 
+| 128 |
+| 129 |
+| 12A | 
+| 12B | 
+| 12C | 
+| 12D | 
+| 12E | 
+| 12F | 
+| 130 | 
+| 131 | 
+| 133 |
+| 134 |
+| 135 | 
+| 136 | 
+| 137 | 
+| 138 |
+| 139 |
+| 13A | 
 | 13B | | 261 | | if customisation *00000XXX* item is equipped |
+| 13C | 
+| 13D | 
 | 13E | | | | if Yoshimitsu is not in NSS
 | 13F | | | | if Yoshimitsu is in NSS
 | 140 | | | | 
@@ -280,7 +308,7 @@
 | 182 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
 | 185 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
 | 186 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
-| 18D  | 2B2 | 371 | 44C | End of Permission |
+| 18D | 2B2 | 371 | 44C | End of Permission |
 | * | * | * | * | * |
 | * | * | * | * | * |
 | 8001 | 8001 | 8001 | 8001 | Camera Shake #1 |
@@ -299,8 +327,8 @@
 | 800E | | | |
 | 800F | 800E | 800F | | Ground Break Effect | 
 | 8010 | | | | Strong Blast Wave on the floor | 
-| 8011 | | | | Character is on fire (0 = YelLow, 1 = Purple) | 
-| 8012 | | | | Opponent is on fire (0 = YelLow, 1 = Purple) | 
+| 8011 | | | | Character is on fire (0 = Yellow, 1 = Purple) | 
+| 8012 | | | | Opponent is on fire (0 = Yellow, 1 = Purple) | 
 | 8013 | | | | 
 | 8014 | | | | Somewhat related to 8011 |
 | 8015 | | | | Seen on Elemental Reaction: Thunder (Idk what it does) |
@@ -328,7 +356,7 @@
 | 802E | | | | | Alisa's Extra Specific Visual Effects |
 | 802F | | | | | 
 | 8030 | | | | | 
-| 8031 | | | | | Evil Mist Effect (Specific Characters Only) |
+| 8031 | | | | | Evil Mist Effect (Certain Characters Only) |
 | 8032 | | | | | 
 | 8033 | | | | | 
 | 8034 | | | | | Chain Sparks on the Ground, v1 |
@@ -422,7 +450,7 @@
 | 8092 | | | | |
 | 8093 | | | | |
 | 8094 | 80FB| 818D| Return to Position after performing a throw |
-| 8095 | | | | Set size of Colliders *XXXX, 0000 = 0%, 1000 = 100%* |
+| 8095 | | | | Set size of Colliders *0000XXXX* (0000 = 0%, 1000 = 100%) |
 | 8096 | | | | | 
 | 8097 | 8100 | 8193 | | Footstep SFX |
 | 8098 | | | | |
@@ -496,28 +524,28 @@
 | 8108 | | | | |
 | 8109 | 8184 | | |
 | 810C | | | | |
-| 810D | 8188 | 824A |  | |
-| 810E | 8189 | 824B |  | |
-| 810F | 818A | 824C |  | Combo Meter Reset on *000000XX* frame |
-| 8110 | | | | |
-| 8111 | 818B | | |
+| 810D | 8188 | 824A | |
+| 810E | 8189 | 824B | | 
+| 810F | 818A | 824C | | Combo Meter Reset on *000000XX* frame |
+| 8110 | | | | 
+| 8111 | 818B | | 
 | 8112 | | | | Combo Meter Does Not Reset |
-| 8113 | | | | |
-| 8114 | | | | |
+| 8113 | | | | 
+| 8114 | | | | 
 | 8115 | | 8251 | | Character Disappears, without VFX (01 = Disappear, 02 >= Flicker) |
 | 8116 | | 8252 | | Opponent Disappears, without VFX (01 = Disappear, 02 >= Flicker) |
-| 8117 | | | | |
-| 8118 | | | | |
-| 8119 | | | | |
-| 811A | | | | |
-| 811B | | | | |
-| 811C | | | | |
-| 811D | | | | |
-| 811E | | | | |
-| 811F | | | | |
-| 8120 | 8193 | 8255 | | Spend Bound '*Screw* (Tk7)' '*Tornado* (Tk8)' |
+| 8117 | | | | 
+| 8118 | | | | 
+| 8119 | | | | 
+| 811A | | | | 
+| 811B | | | | 
+| 811C | | | | 
+| 811D | | | | 
+| 811E | | | | 
+| 811F | | | | 
+| 8120 | 8193 | 8255 | | Spend *Bound* (Tk6/TTT2); *Screw* (Tk7); *Tornado* (Tk8) |
 | 8121 | | 8256 | |
-| 8125 | | | | Item Move, attach item to XX limb |
+| 8125 | | | | Item Move, attach item to *000000XX* limb |
 | 8126 | | | | Item Move, switch on |
 | 8127 | | | | Item Move, Reset |
 | 8128 | | | | Item Move, Activate |
@@ -666,7 +694,7 @@
 | 81B7 | | | | 
 | 81B8 | | | | 
 | 81B9 | | | | 
-| 81BA | | | | Raven's Ghost performs a move from "Move ID" *00000XXX* (Can be used by any character) |
+| 81BA | | | | Raven's Ghost performs a P1 move (Can be used by any character) |
 | 81BB | | | | Raven's Ghost Disappears (Can be used by any character) |
 | 81BC | | | | Switch sides |
 | 81BD | | | | 
@@ -708,8 +736,8 @@
 | 81E1 | | | | |
 | 81E2 | | | | |
 | 81E3 | | | | |
-| 81E4 | 82F9 | 84C4 | 87F0 | Play Sound from Character's Base (*XX0000YY*; XX is the folder, YY is the sound) |
-| 81E5 | 82FB | 84C6 |  | Play Sound from Opponent's Base (*XX0000YY*; XX is the folder, YY is the sound) |
+| 81E4 | 82F9 | 84C4 | 87F0 | Play Sound from Character's Base *XX0000YY* (XX is the folder, YY is the sound) |
+| 81E5 | 82FB | 84C6 |  | Play Sound from Opponent's Base *XX0000YY* (XX is the folder, YY is the sound) |
 | 81E6 | | | | |
 | 81E7 | | 84CB | | Audio Track for Cutscenes |
 | 81E8 | 8301 | 84CC |  | Set of Camera Effects |
