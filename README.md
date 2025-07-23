@@ -107,7 +107,7 @@ _L 0x21744000 to _L 0x24700000
 | 8003 | u~n (side Step) |
 | 8004 | d~n (side Step) |
 
-## [Character IDs](https://github.com/gibesauce/Codes/CharID.md)
+## [Character IDs](https://github.com/gibesauce/Kekken-6/Codes/CharID.md)
 
 ## Hit Ranks: 08C07A08
 | ID  | Rank |
@@ -325,7 +325,7 @@ _L 0x00000000 0x00000000
 | 8080 | 08E422B8 |
 | 9ADC | | Connection to Back Throw
 
-## [Permissions:](https://github.com/gibesauce/Documentation/Permissions.md) 
+## [Permissions](https://github.com/gibesauce/Kekken-6/Documentation/Permissions.md) 
 
 ## Customisations
 ```Markdown
