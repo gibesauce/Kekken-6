@@ -11,32 +11,32 @@
 | 08 | 08 | 08 | | If It Hits Backturned Crouching Opponent. XXXX is the required distance |  
 | 09 | 09 | 09 | | If It Hits Left-turned Crouching Opponent. XXXX is the required distance |  
 | 0A | 0A | 0A | | If It Hits Right-turned Crouching Opponent. XXXX is the required distance |  
-| 0B | | | | If It Hits Grounded Opponent (Face Up, Feet Away). 0000XXXX is the required distance |
-| 0C | | | | If It Hits Grounded Opponent (Face Up, Feet Towards). 0000XXXX is the required distance |
-| 0D | | | | If It Hits Grounded Opponent (Face Up, Left Side). 0000XXXX is the required distance |
-| 0E | | | | If It Hits Grounded Opponent (Face Up, Right Side). 0000XXXX is the required distance |
-| 0F | | | | If It Hits Grounded Opponent (Face Down, Feet Away). 0000XXXX is the required distance |
-| 10 | | | | If It Hits Grounded Opponent (Face Down, Feet Towards). 0000XXXX is the required distance |
-| 11 | | | | If It Hits Grounded Opponent (Face Down, Left Side). 0000XXXX is the required distance |
-| 12 | | | | If It Hits Grounded Opponent (Face Down, Right Side). 0000XXXX is the required distance |
+| 0B | | | | If It Hits Grounded Opponent (Face Up, Feet Away). *0000XXXX* is the required distance |
+| 0C | | | | If It Hits Grounded Opponent (Face Up, Feet Towards). *0000XXXX* is the required distance |
+| 0D | | | | If It Hits Grounded Opponent (Face Up, Left Side). *0000XXXX* is the required distance |
+| 0E | | | | If It Hits Grounded Opponent (Face Up, Right Side). *0000XXXX* is the required distance |
+| 0F | | | | If It Hits Grounded Opponent (Face Down, Feet Away). *0000XXXX* is the required distance |
+| 10 | | | | If It Hits Grounded Opponent (Face Down, Feet Towards). *0000XXXX* is the required distance |
+| 11 | | | | If It Hits Grounded Opponent (Face Down, Left Side). *0000XXXX* is the required distance |
+| 12 | | | | If It Hits Grounded Opponent (Face Down, Right Side). *0000XXXX* is the required distance |
 | 13 | | | |
 | 14 | | | |
 | 15 | | | |
 | 16 | | | |
-| 17 | 17 | | | If It Hits Front-Facing Standing/Crouching Opponent. 0000XXXX is the required distance |
-| 18 | 18 | | | If It hits Backturned Standing/Crouching Opponent. 0000XXXX is the required distance |
-| 19 | 19 | | | If It hits Left-turned Standing/Crouching Opponent. 0000XXXX is the required distance |
-| 1A | 1A | | | If It hits Right-turned Standing/Crouching Opponent. 0000XXXX is the required distance |
-| 1B | 1B | | | If It hits Airborne Opponent (Face Up, Feet Towards). 0000XXXX is the required distance |
-| 1C | 1C | | | If It hits Airborne Opponent (Face Up, Feet Away). 0000XXXX is the required distance |
-| 1D |    | | | If It hits Airborne Opponent (Face Up, Left Side). 0000XXXX is the required distance |
-| 1E |    | | | If It hits Airborne Opponent (Face Up, Right Side). 0000XXXX is the required distance |
-| 1F |    | | | If It hits Airborne Opponent (Face Down, Feet Towards). 0000XXXX is the required distance |
-| 20 |    | | | If It hits Airborne Opponent (Face Down, Feet Away). 0000XXXX is the required distance |
-| 21 |    | | | If It hits Airborne Opponent (Face Down, Left Side). 0000XXXX is the required distance |
-| 22 |    | | | If It hits Airborne Opponent (Face Down, Right Side). 0000XXXX is the required distance |
-| 23 |    | | | If The Opponent's distance < 0000XXXX (min:300, max:1B58) |
-| 24 |    | | | If The Opponent's distance > 0000XXXX (min:300, max:1B58) |
+| 17 | 17 | | | If It Hits Front-Facing Standing/Crouching Opponent. *0000XXXX* is the required distance |
+| 18 | 18 | | | If It hits Backturned Standing/Crouching Opponent. *0000XXXX* is the required distance |
+| 19 | 19 | | | If It hits Left-turned Standing/Crouching Opponent. *0000XXXX* is the required distance |
+| 1A | 1A | | | If It hits Right-turned Standing/Crouching Opponent. *0000XXXX* is the required distance |
+| 1B | 1B | | | If It hits Airborne Opponent (Face Up, Feet Towards). *0000XXXX* is the required distance |
+| 1C | 1C | | | If It hits Airborne Opponent (Face Up, Feet Away). *0000XXXX* is the required distance |
+| 1D |    | | | If It hits Airborne Opponent (Face Up, Left Side). *0000XXXX* is the required distance |
+| 1E |    | | | If It hits Airborne Opponent (Face Up, Right Side). *0000XXXX* is the required distance |
+| 1F |    | | | If It hits Airborne Opponent (Face Down, Feet Towards). *0000XXXX* is the required distance |
+| 20 |    | | | If It hits Airborne Opponent (Face Down, Feet Away). *0000XXXX* is the required distance |
+| 21 |    | | | If It hits Airborne Opponent (Face Down, Left Side). *0000XXXX* is the required distance |
+| 22 |    | | | If It hits Airborne Opponent (Face Down, Right Side). *0000XXXX* is the required distance |
+| 23 |    | | | If The Opponent's distance < *0000XXXX* (min:300, max:1B58) |
+| 24 |    | | | If The Opponent's distance > *0000XXXX* (min:300, max:1B58) |
 | 25 | 
 | 26 | 
 | 27 | 
@@ -137,7 +137,7 @@
 | 87 | 
 | 88 | 
 | 89 | 
-| 8A | | | | if opponent performs one of the moves from the [registry](https://sadamitsu.ru/cwcheat/registry.htm). 0000XXXX is the start index |
+| 8A | | | | if opponent performs one of the moves from the [registry](https://sadamitsu.ru/cwcheat/registry.htm). *0000XXXX* is the start index |
 | 8B | 
 | 8C | 
 | 8D | 
@@ -152,13 +152,13 @@
 | 96 | AC | | | 
 | 97 | | | | 
 | 98 |    | D8 | |
-| 99 | 8C | D9 | | if character is <Move ID> *see 08C07A18*
-| 9A | | | | if character is not <Move ID> *see 08C07A18*
-| 9B | | | | if opponent is <Move ID> *see 08C078B4*
-| 9C | | | | if opponent is not <Move ID> *see 08C078B4*
+| 99 | 8C | D9 | | if character is "Move ID" *see 08C07A18*
+| 9A | | | | if character is not "Move ID" *see 08C07A18*
+| 9B | | | | if opponent is "Move ID" *see 08C078B4*
+| 9C | | | | if opponent is not "Move ID" *see 08C078B4*
 | 9D | | | | 
 | 9E | | | | 
-| 9F | | | | if opponent is <Character Move> *see 08C078B4* (Probably Exclusive to Alisa, look at her u/f+1+2 Throw)
+| 9F | | | | if opponent is "Character Move" *see 08C078B4* (Probably Exclusive to Alisa, look at her u/f+1+2 Throw)
 | A0 | 
 | A1        | D6       | E1       | E4       | Character Controller
 | A2 |
@@ -183,8 +183,8 @@
 | B5
 | B6
 | B7 | 
-| B8 | E8| | |
-| BA | | FD| | if <<inner KiCharge>> (00 = off, 01 = on)
+| B8 | E8 | | |
+| BA | | FD| | if "inner KiCharge" is (00 = off, 01 = on)
 | BB | 
 | BC
 | BD
@@ -207,7 +207,7 @@
 | CE
 | CF
 | D0
-| D1 | 126 | 149 | | if flag XX is set by 805C *see 0407C84*
+| D1 | 126 | 149 | | if flag XX is set by 805C *see 08C07C84*
 | D2 |
 | D3 |
 | D4 | 
@@ -233,7 +233,7 @@
 | E8
 | E9
 | EA | 
-| EB | 184 | 214 | | if character speed > 0000XXXX
+| EB | 184 | 214 | | if character speed > *0000XXXX*
 | EC | 
 | ED 
 | EE 
@@ -261,7 +261,7 @@
 | 105 | 
 | 106 | 
 | 11E | 1AA | | | 
-| 13B | | 261 | | if customisation item is equipped |
+| 13B | | 261 | | if customisation *00000XXX* item is equipped |
 | 13E | | | | if Yoshimitsu is not in NSS
 | 13F | | | | if Yoshimitsu is in NSS
 | 140 | | | | 
@@ -269,21 +269,21 @@
 | 142 | | | | 
 | 143 | | | | if opponent is airborne
 | 144 | | | | if B! is available
-| 160 | 285 | | | If opponent hits with 000000XX [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Low Attacks) |
-| 161 | 286 | 330 | | If opponent hits with 000000XX [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid/High Attacks) |
-| 162 | 287 | | | if opponent hits with one of the moves from the [registry](http://sadamitsu.ru/cwcheat/registry.htm), 0000XXXX is the start index |
+| 160 | 285 | | | If opponent hits with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Low Attacks) |
+| 161 | 286 | 330 | | If opponent hits with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid/High Attacks) |
+| 162 | 287 | | | if opponent hits with one of the moves from the [registry](http://sadamitsu.ru/cwcheat/registry.htm), *0000XXXX* is the start index |
 | 16E | | | |
-| 170 | | | | if opponent hits character with 000000XX [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
-| 171 | | | | if opponent hits character with 000000XX [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
-| 174 | | | | if opponent hits with one of the moves from the [registry](http://sadamitsu.ru/cwcheat/registry.htm), 0000XXXX is the start index |
-| 181 | | | | if opponent hits character with 000000XX [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
-| 182 | | | | if opponent hits character with 000000XX [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
-| 185 | | | | if opponent hits character with 000000XX [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
-| 186 | | | | if opponent hits character with 000000XX [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
+| 170 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
+| 171 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
+| 174 | | | | if opponent hits with one of the moves from the [registry](http://sadamitsu.ru/cwcheat/registry.htm), *0000XXXX* is the start index |
+| 181 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
+| 182 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
+| 185 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
+| 186 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
 | 18D  | 2B2 | 371 | 44C | End of Permission |
 | * | * | * | * | * |
 | * | * | * | * | * |
-| 8001 | 8001 | 8001 | 8001 |  Camera Shake #1 |
+| 8001 | 8001 | 8001 | 8001 | Camera Shake #1 |
 | 8002 | 8002 | 8002 | 8002 | Camera Shake #2 |
 | 8003 | 8003 | 8003 | 8003 | Camera Shake #3 |
 | 8004 | 8004 | 8004 | 8004 | Camera Shake #4 |
@@ -361,7 +361,7 @@
 | 8055 | 8062 | | |
 | 8056 | | | | |
 | 8057 | | | | Countdown Timer for Tk6SC Dialogs |
-| 8058 | 8066 | 8078 | | Launch The <<Inner KiCharge>> timer. XXXX is the time (Current Timer Value in 0407C80) |
+| 8058 | 8066 | 8078 | | Launch The "Inner KiCharge" timer. *0000XXXX* is the time (Current Timer Value in 08C07C80) |
 | 8059 | | 8079 | |
 | 805A | | 807A | |
 | 805B | | 807B | |
@@ -405,7 +405,7 @@
 | 8081 | | | | |
 | 8082 | | | | |
 | 8083 | 80EA | 817C | | Ability to Block |
-| 8084 | 80EB | 817D | | Launch the <<KiCharge>> timer. XXXX is the time (Current Timer Value in 08C07C60) |
+| 8084 | 80EB | 817D | | Launch the "KiCharge" timer. XXXX is the time (Current Timer Value in 08C07C60) |
 | 8085 | 80EC | 817E | | 
 | 8086 | 80ED | 817F | | 
 | 8087 | 80EE | 8180 | | 
@@ -416,18 +416,18 @@
 | 808C | 80F5 | 8187 | | 
 | 808D | 80F6 | 8188 | | 
 | 808E | 80F7 | 8189 | | 
-| 808F | 80F8 | 818A | 81FA | Tracking (0 | No Tracking, 1 | Homing, 7 | Standard, 12 | Infinite) |
+| 808F | 80F8 | 818A | 81FA | Tracking (0 = No Tracking, 1 = Homing, 7 = Standard, 12 = Infinite) |
 | 8090 | 80F9 | 818B | 
 | 8091 | 80FA | 818C | | Change Body State *see 08C0796C* |
 | 8092 | | | | |
 | 8093 | | | | |
 | 8094 | 80FB| 818D| Return to Position after performing a throw |
-| 8095 | | | | Set size of Colliders *XXXX, 0000 / 0%, 1000 / 100%* |
+| 8095 | | | | Set size of Colliders *XXXX, 0000 = 0%, 1000 = 100%* |
 | 8096 | | | | | 
 | 8097 | 8100 | 8193 | | Footstep SFX |
 | 8098 | | | | |
 | 8099 | | | | |
-| 809A | 8196 | Character can be Lower ground level (00 = off, 01 = on) |
+| 809A | 8196 | Character can be Lower than Ground Level (00 = off, 01 = on) |
 | 809B | | | | |
 | 809C | 8105 | | | Every 1st Frame |
 | 809D | | | | |
@@ -444,7 +444,7 @@
 | 80A8 | | | | |
 | 80A9 | | | | |
 | 80AA | | | | |
-| 80AB | | 81C8 | | Skip XX frames of the following move |
+| 80AB | | 81C8 | | Skip *00000XXX* frames of the following move |
 | 80B6 | | | | |
 | 80B7 | 8128 | 81D4 | | Opponent will perform a move from character base |
 | 80B8 | | | | Opponent will perform a move from character base |
@@ -498,7 +498,7 @@
 | 810C | | | | |
 | 810D | 8188 | 824A |  | |
 | 810E | 8189 | 824B |  | |
-| 810F | 818A | 824C |  | Combo Meter Reset on XX frame *000000XX* |
+| 810F | 818A | 824C |  | Combo Meter Reset on *000000XX* frame |
 | 8110 | | | | |
 | 8111 | 818B | | |
 | 8112 | | | | Combo Meter Does Not Reset |
@@ -515,7 +515,7 @@
 | 811D | | | | |
 | 811E | | | | |
 | 811F | | | | |
-| 8120 | 8193 | 8255 | | Spend Bound '*Screw (Tk7)' '*Tornado (Tk8)' |
+| 8120 | 8193 | 8255 | | Spend Bound '*Screw* (Tk7)' '*Tornado* (Tk8)' |
 | 8121 | | 8256 | |
 | 8125 | | | | Item Move, attach item to XX limb |
 | 8126 | | | | Item Move, switch on |
@@ -666,7 +666,7 @@
 | 81B7 | | | | 
 | 81B8 | | | | 
 | 81B9 | | | | 
-| 81BA | | | | Raven's Ghost performs a XXX move (Can be used by any character) |
+| 81BA | | | | Raven's Ghost performs a move from "Move ID" *00000XXX* (Can be used by any character) |
 | 81BB | | | | Raven's Ghost Disappears (Can be used by any character) |
 | 81BC | | | | Switch sides |
 | 81BD | | | | 
@@ -708,8 +708,8 @@
 | 81E1 | | | | |
 | 81E2 | | | | |
 | 81E3 | | | | |
-| 81E4 | 82F9 | 84C4 | 87F0 | Play Sound from Character's Base (XX0000YY *XX is the folder, YY is the sound*) |
-| 81E5 | 82FB | 84C6 |  | Play Sound from Opponent's Base (XX0000YY *XX is the folder, YY is the sound*) |
+| 81E4 | 82F9 | 84C4 | 87F0 | Play Sound from Character's Base (*XX0000YY*; XX is the folder, YY is the sound) |
+| 81E5 | 82FB | 84C6 |  | Play Sound from Opponent's Base (*XX0000YY*; XX is the folder, YY is the sound) |
 | 81E6 | | | | |
 | 81E7 | | 84CB | | Audio Track for Cutscenes |
 | 81E8 | 8301 | 84CC |  | Set of Camera Effects |
@@ -733,7 +733,7 @@
 | 825D| 83B2| ??? (Can be seen on Jin's f+1+2 [2] at |>38)
 | 825F| 83B4| ???
 
-| 9D | if Rage is activated *000000XX* (00 | off, 01 | on)
+| 9D | if Rage is activated *000000XX* (00 = off, 01 = on)
 | 8069| ???
 | 8211| ??? (Can be seen on Tk7 Kazuya's CD+3 at =>38)
 | 8212| ??? (Can be seen on Tk7 Kazuya's CD+3 at =>38)
