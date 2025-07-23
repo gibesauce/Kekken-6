@@ -10,7 +10,10 @@
 - [Move Finder](https://sadamitsu.ru/cwcheat/movefinder.htm)
 - [P0 Animations](https://sadamitsu.ru/cwcheat/p0animations.htm)
 - [Throw Camera Modes](https://sadamitsu.ru/cwcheat/throwcameramodes.htm)
-- [NetCheat](https://sadamitsu.ru/netcheat/)
+- [NetCheat](https:|sadamitsu.ru/netcheat/)
+
+## Raing3
+- [PSP Cheat Documentation](https://github.com/raing3/psp-cheat-documentation)
 
 ## Kiloutre
 - [TKMovesets](https://github.com/Kiloutre/TKMovesets) - Used to dump character animations from TTT2 (PS3/USA) and Tekken 7 (Steam)
@@ -31,130 +34,83 @@ _L 0x20906000 to _L 0x20946000
 ; Memory Plugin is Needed
 _L 0x21744000 to _L 0x24700000
 ```
-
 ## Legend:
 | Buttons | PlayStation |    Xbox    |
 |:-------:|:-----------:|:----------:|
 |    1    |      □      |     X      |
-|    2    |      △      |     Y      |
+|    2    |      △     |     Y      |
 |    3    |      ×      |     A      |
 |    4    |      ○      |     B      |
 
 ## Face Buttons: 08C07D3C or 08C07D3D
 ### 0xY0000000Z - Y can be 2 or 4 (2 is for conditional inputs, 4 is for regular inputs), Z is the button itself.
-| Hexadecimal | Buttons |
-|:-----------:|:-------:|
-|      0      |    *    |
-|      1      |    1    |
-|      2      |    2    |
-|      3      |   1+2   |
-|      4      |    3    |
-|      5      |   1+3   |
-|      6      |   2+3   |
-|      7      |  1+2+3  |
-|      8      |    4    |
-|      9      |   1+4   |
-|      A      |   2+4   |
-|      B      |  1+2+4  |
-|      C      |   3+4   |
-|      D      |  1+3+4  |
-|      E      |  2+3+4  |
-|      F      | 1+2+3+4 |
+| ID | Buttons |
+|:--:|:-------:|
+| 0 |    *    |
+| 1 |    1    |
+| 2 |    2    |
+| 3 |   1+2   |
+| 4 |    3    |
+| 5 |   1+3   |
+| 6 |   2+3   |
+| 7 |  1+2+3  |
+| 8 |    4    |
+| 9 |   1+4   |
+| A |   2+4   |
+| B |  1+2+4  |
+| C |   3+4   |
+| D |  1+3+4  |
+| E |  2+3+4  |
+| F | 1+2+3+4 |
 
 ## Directional Inputs: 08C07D30
 #### Uppercase Letters mean 'Hold'
-| Hexadecimal | Buttons |
-|:-----------:|:-------:|
-| 02 | d/b
-| 04 | d
-| 06 | d or d/b
-| 08 | d/f
-| 0A | ???
-| 0C | ???
-| 0E | d/b or d or d/f
-| 10 | b
-| 12 | d/b or d
-| 20 | neutral
-| 40 | f
-| 48 | f or d/f
-| 50 | ???
-| 60 | f or nothing
-| 70 | on release
-| 80 | u/b
-| 90 | b or u/b
-| D0 | f or b or u/b
-| 100 | u
-| 120 | ???
-| 200 | u/f
-| 248 | u/f or f or d/f
-| 300 | u or u/f
-| 380 | u/b or u or u/f
-| 38A | ???
-| 3DA | ???
-| 3EE | any buttons, except b
-| 3F0 | ???
-| 402 | D/B
-| 404 | D
-| 408 | D/F
-| 410 | B
-| 440 | F
-| 480 | U/B
-| 8001 | f,f
-| 8002 | b,b
-| 8003 | u~n (side Step)
-| 8004 | d~n (side Step)
+| ID |      Buttons      |
+|:--:|:-----------------:|
+| 02 | d/b               |
+| 04 | d                 |
+| 06 | d or d/b          |
+| 08 | d/f               |
+| 0A | ???               |
+| 0C | ???               |
+| 0E | d/b or d or d/f   |
+| 10 | b                 |
+| 12 | d/b or d          |
+| 20 | neutral           |
+| 40 | f                 |
+| 48 | f or d/f          |
+| 50 | ???               |
+| 60 | f or nothing      |
+| 70 | on release        |
+| 80 | u/b               |
+| 90 | b or u/b          |
+| D0 | f or b or u/b     |
+| 100 | u                |
+| 120 | ???              |
+| 200 | u/f              |
+| 248 | u/f or f or d/f  |
+| 300 | u or u/f         |
+| 380 | u/b or u or u/f  |
+| 38A | ???              |
+| 3C0 | ???              |
+| 3DA | ???              |
+| 3EE | any, except b    |
+| 3F0 | ???              |
+| 402 | D/B              |
+| 404 | D                |
+| 408 | D/F              |
+| 410 | B                |
+| 440 | F                |
+| 480 | U/B              |
+| 8001 | f,f             |
+| 8002 | b,b             |
+| 8003 | u~n (side Step) |
+| 8004 | d~n (side Step) |
 
-## Character Hexadecimal: 08C078B4
-| Hexadecimal | Character |
-|:-----------:|:---------:|
-| 00 | Paul
-| 01 | Law
-| 02 | Lei
-| 03 | King
-| 04 | Yoshimitsu
-| 05 | Nina
-| 06 | Hwoarang
-| 07 | Xiaoyu
-| 08 | Christie
-| 09 | Jin
-| 0A | Julia
-| 0B | Kuma
-| 0C | Bryan
-| 0D | Heihachi
-| 0E | Kazuya
-| 0F | Lee
-| 10 | Steve
-| 11 | Marduk
-| 12 | Jack-6
-| 13 | Roger Jr.
-| 14 | Anna
-| 15 | Wang
-| 16 | Ganryu
-| 17 | Asuka
-| 18 | Bruce
-| 19 | Baek
-| 1A | Devil Jin
-| 1B | Raven
-| 1C | Feng
-| 1D | Armor King
-| 1E | Lili
-| 1F | Dragunov
-| 20 | Panda
-| 21 | Eddy
-| 22 | Bob
-| 23 | Zafina
-| 24 | Miguel
-| 25 | Leo
-| 26 | Azazel (Unplayable)
-| 27 | Nancy (Unplayable)
-| 28 | Lars
-| 29 | Alisa
-| 2A | Player 3?
-| 2B | Player 4?
-| 2C | Mokujin?
+## [Character IDs](https://github.com/gibesauce/Codes/CharID.md)
 
 ## Hit Ranks: 08C07A08
-| Hexadecimal  |           Rank            |
+| ID  | Rank |
 |:---:|---------------------------|
 | 10F | Low
 | 217 | Mid
@@ -167,8 +123,8 @@ _L 0x21744000 to _L 0x24700000
 | B07 | High (For Airborne Opponent)
 
 ## Body States: 
-|   Hexadecimal     |       Status          |
-|:--------:|-----------------------|
+| ID | Status |
+|:--:|-----------------------|
 | 842 | Stand, Can Block
 | 6084 | Grounded, Face Up
 | 6A84 | Grounded, Face Down
@@ -180,7 +136,7 @@ _L 0x21744000 to _L 0x24700000
 | F01A | 
 
 ## Visual Recovery:
-|  Hexadecimal  |                   Name                   |
+|  ID  |                   Name                   |
 |:----:|------------------------------------------|
 | 8000 | The Main Manager                         | 
 | 8001 | Standing                                 |
@@ -347,7 +303,7 @@ _L 0x00407B4E 0x00000004
 _L 0x00000000 0x00000000
 ```
 
-# *Note: There might be mistakes from here on out. :-)
+# *Note: There might be mistakes from here on out.=->*
 
 ## Connection Type
 | Hexadecimal | Address | Attribute
