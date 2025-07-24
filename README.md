@@ -3,6 +3,7 @@
 
 # Credits
 ## Sadamitsu
+- [Images](https://sadamitsu.ru/images.htm) - This is where I got the character renders
 - [Composite Input](https://sadamitsu.ru/cwcheat/compositeinput.htm)
 - [Converter](https://sadamitsu.ru/cwcheat/converter.htm)
 - [Hand Gestures](https://sadamitsu.ru/cwcheat/gestures.htm)
