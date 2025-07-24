@@ -339,14 +339,14 @@
 | 801D | 8067 | 801F | | Alisa's Character Specific Visual Effect |
 | 801E | 801D | 802E | | Character Specific Visual Effect |
 | 801F | | | | Character Specific Visual Effect |
-| 8020 | 8036 | Character Extra Specific Visual Effects |
-| 8021 | 8039 | Opponent Specific Visual Effect |
-| 8022 | 803A | Opponent Extra Visual Effect |
+| 8020 | 8036 | | | Character Extra Specific Visual Effects |
+| 8021 | 8039 | | | Opponent Specific Visual Effect |
+| 8022 | 803A | | | Opponent Extra Visual Effect |
 | 8023 | 8024 | 803B | | Regular Hit Effect |
 | 8024 | | | | | Grapple Indicator (Main) |
-| 8025 | 8042 | | Smoke Effect |
-| 8026 | 802C | 8043 | Faint Smoke Effect (Doesn't Work in Tk6 PSP) |
-| 8027 | 802D | | Block Effect |
+| 8025 | 8042 | | | Smoke Effect |
+| 8026 | 802C | 8043 | | Faint Smoke Effect (Doesn't Work in Tk6 PSP) |
+| 8027 | 802D | | | Block Effect |
 | 8028 | | | | Vertical Blast |
 | 8029 | | | | Strong Vertical Blast |
 | 802A | | | | [Collection of Visual Effects](http://sadamitsu.ru/cwcheat/802A.htm) |
@@ -449,13 +449,13 @@
 | 8091 | 80FA | 818C | | Change Body State *see 08C0796C* |
 | 8092 | | | | |
 | 8093 | | | | |
-| 8094 | 80FB| 818D| Return to Position after performing a throw |
+| 8094 | 80FB | 818D | | Return to Position after performing a throw |
 | 8095 | | | | Set size of Colliders *0000XXXX* (0000 = 0%, 1000 = 100%) |
 | 8096 | | | | | 
 | 8097 | 8100 | 8193 | | Footstep SFX |
 | 8098 | | | | |
 | 8099 | | | | |
-| 809A | 8196 | Character can be Lower than Ground Level (00 = off, 01 = on) |
+| 809A | 8196 | | | Character can be Lower than Ground Level (00 = off, 01 = on) |
 | 809B | | | | |
 | 809C | 8105 | | | Every 1st Frame |
 | 809D | | | | |
@@ -702,13 +702,13 @@
 | 81BF | | | | 
 | 81C0 | | | | 
 | 81C1 | | | | 
-| 81C2 | 82D5 | 8248 | 860A | Gesture for Both Hands |
-| 81C3 | 82D6 | 8249 | 860B | Gesture for Left Hand |
-| 81C4 | 82D7 | 824A | 860C | Gesture for Right Hand |
-| 81C5 | 82D9 | 824B | 860D | Gesture for Both Hands |
+| 81C2 | 82D5 | 8428 | 860A | Gesture for Both Hands |
+| 81C3 | 82D6 | 8429 | 860B | Gesture for Left Hand |
+| 81C4 | 82D7 | 842A | 860C | Gesture for Right Hand |
+| 81C5 | 82D9 | 842C | 860D | Gesture for Both Hands |
 | 81C6 | 82DA | | | Gesture Animation for Both Hands |
-| 81C7 | 82DB | 824E | Gesture Animation for Left Hand |
-| 81C8 | 82DC | 824F | Gesture Animation for Right Hand |
+| 81C7 | 82DB | 842E | Gesture Animation for Left Hand |
+| 81C8 | 82DC | 842F | Gesture Animation for Right Hand |
 | 81C9 | | | |
 | 81CA | | | |
 | 81CB | | 8435 | | Camera Anim for Cutscenes, Based on Character Coordinates |
@@ -733,50 +733,50 @@
 | 81DE | | | | |
 | 81DF | 8286 | 84C1 | | Facial Expression *0000XXYY* (XX = Expression Number, YY = Smoothing) |
 | 81E0 | 84C2 | | | Facial Animation |
-| 81E1 | | | | |
-| 81E2 | | | | |
-| 81E3 | | | | |
+| 81E1 | | | | 
+| 81E2 | | | | 
+| 81E3 | | | | 
 | 81E4 | 82F9 | 84C4 | 87F0 | Play Sound from Character's Base *XX0000YY* (XX is the folder, YY is the sound) |
 | 81E5 | 82FB | 84C6 |  | Play Sound from Opponent's Base *XX0000YY* (XX is the folder, YY is the sound) |
-| 81E6 | | | | |
+| 81E6 | | | | 
 | 81E7 | | 84CB | | Audio Track for Cutscenes |
-| 81E8 | 8301 | 84CC |  | Set of Camera Effects |
-| 81F0 | | | | |
-| 8203 | 230B | 853D | | |
+| 81E8 | 8301 | 84CC | | Set of Camera Effects |
+| 81F0 | | | | 
+| 8203 | 230B | 853D | | 
+| * | * | * | * | * |
+| * | * | * | * | * |
+| I haven't | found the | T6 | equivalent | yet |  
+| | 12D | 385 | | 
+| | 1CA | 2CD | | 
+| | 1E4 | 2E6 | | 
+| | 1E5 | 3BB | | 
+| | 8093 | 80A3 | | 
+| | 8189 | 824B | | 
+| | 81B4 | | | 
+| | 81B5 | 85D6 | | 
+| | 81BC | 827E | | (Can be seen on Bryan's d+3+4,2~D/B at |>38)
+| | 81BD | 827F | | 
+| | 8258 | 83AD | | (Can be seen on Jin's b,f+2,3 at |>38)
+| | 8259 | 83AE | | (Can be seen on Jin's b,f+2,3 at |>14)
+| | 825D | 83B2 | | (Can be seen on Jin's f+1+2 [2] at |>38)
+| | 825F | 83B4 | | 
+| * | * | * | * | * |
+| | | 9D | | | if Rage is activated *000000XX* (00 = off, 01 = on)
+| | | 8069 | | 
+| | | 8211 | | (Can be seen on Tk7 Kazuya's CD+3 at =>38)
+| | | 8212 | | (Can be seen on Tk7 Kazuya's CD+3 at =>38)
+| | | 8236 | | 
+| | | 82A3 | | 
+| | | 82A4 | | 
+| | | 82B8 | | 
+| | | 82C8 | | Framedata Corrector
+| | | 82C9 | | Framedata Corrector
+| | | 82CB | | (Can be seen on Tk7 Bryan's d+2 at =>14)
+| | | 82D4 | | (Can be seen on T7 Armor King's f+1+4 at =>38)
+| | | 82DB | | (Can be seen on Tk7 Armor King's f,f+4 at =>38)
+| | | 82E9 | | 
+| | | 84D1 | | 
+| * | * | * | * | 
+| | | | 1C5 | 
+| | | | 83C3 | 
 
-```Markdown
-| I haven't found the T6 equivalent yet
-| 12D| 385| ???
-| 1CA| 2CD| ???
-| 1E4| 2E6| ???
-| 1E5| 3BB| ???
-| 8093| 80A3| ???
-| 8189| 824B| ???
-| 81B4| ???
-| 81B5| 85D6| ???
-| 81BC| 827E| ??? (Can be seen on Bryan's d+3+4,2~D/B at |>38)
-| 81BD| 827F| ???
-| 8258| 83AD| ??? (Can be seen on Jin's b,f+2,3 at |>38)
-| 8259| 83AE| ??? (Can be seen on Jin's b,f+2,3 at |>14)
-| 825D| 83B2| ??? (Can be seen on Jin's f+1+2 [2] at |>38)
-| 825F| 83B4| ???
-
-| 9D | if Rage is activated *000000XX* (00 = off, 01 = on)
-| 8069| ???
-| 8211| ??? (Can be seen on Tk7 Kazuya's CD+3 at =>38)
-| 8212| ??? (Can be seen on Tk7 Kazuya's CD+3 at =>38)
-| 8236| ???
-| 82A3| ???
-| 82A4| ???
-| 82B8| ???
-| 82C8| Framedata Corrector
-| 82C9| Framedata Corrector
-| 82CB| ??? (Can be seen on Tk7 Bryan's d+2 at |>14)
-| 82D4| ??? (Can be seen on T7 Armor King's f+1+4 at |>38)
-| 82DB| ??? (Can be seen on Tk7 Armor King's f,f+4 at |>38)
-| 82E9| ???
-| 84D1| ???
-
-| 1C5| ???
-| 83C3| ???
-```
