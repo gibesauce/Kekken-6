@@ -24,15 +24,17 @@
 
 ### I forgot where I got this. Credits to yer meemaws.
 ```hex
-_L 0x2061A488 to _L 0x20640C40
-_L 0x204C9000 to _L 0x204D3000
-_L 0x2054C000 to _L 0x2055F8F4
+_L 0x20000000 to _L 0x20003FFC// User Memory; idk if you can use this
+_L 0x2061A488 to _L 0x20640C3C// Unused Animation Area
+_L 0x204C9000 to _L 0x204D3000// I'm not sure about this one
+_L 0x2054BA10 to _L 0x2055F8F4
 _L 0x20884000 to _L 0x208A4000
 _L 0x208A6000 to _L 0x208A7C00
-_L 0x208C4300 to _L 0x208D4FA0
+_L 0x208C4240 to _L 0x208DE16C
 _L 0x20906000 to _L 0x20946000
+_L 0x217440D0 to _L 0x2174BFFC
 ; Memory Plugin is Needed
-_L 0x21744000 to _L 0x24700000
+_L 0x2174C000 ti _L 0x
 ```
 ## Legend:
 | Buttons | PlayStation |    Xbox    |
