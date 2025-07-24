@@ -21,20 +21,27 @@
 ---
 
 ## Free Memory Addresses
-
-### I forgot where I got this. Credits to yer meemaws.
+> I forgot where I got this. Credits to yer meemaws.
 ```hex
 _L 0x20000000 to _L 0x20003FFC// User Memory; idk if you can use this
 _L 0x2061A488 to _L 0x20640C3C// Unused Animation Area
 _L 0x204C9000 to _L 0x204D3000// I'm not sure about this one
 _L 0x2054BA10 to _L 0x2055F8F4
-_L 0x20884000 to _L 0x208A4000
-_L 0x208A6000 to _L 0x208A7C00
+_L 0x20883600 to _L 0x208A4000
+_L 0x208A6000 to _L 0x208A7C2C
+_L 0x208B1990 to _L 0x208B1F7C
 _L 0x208C4240 to _L 0x208DE16C
-_L 0x20906000 to _L 0x20946000
+_L 0x20904250 to _L 0x2095B8CC
+_L 0x20BFC910 to _L 0x20C2C2DC// I'm not sure
+_L 0x20C3C910 to _L 0x20C6C2DC// I'm not sure
+_L 0x20C7ED10 to _L 0x20C942DC// I'm not sure
+_L 0x20C9BB00 to _L 0x20CA02FC// I'm not sure
+_L 0x20DE4CD0 to _L 0x20DF049C// I'm not sure
+_L 0x20DF0A30 to _L 0x20DF33FC// I'm not sure
+_L 0x20E24000// Kernel Memory Starts (Don't Use it)
 _L 0x217440D0 to _L 0x2174BFFC
 ; Memory Plugin is Needed
-_L 0x2174C000 ti _L 0x
+_L 0x2174C000 to idk where will it end, lmao
 ```
 ## Legend:
 | Buttons | PlayStation |    Xbox    |
@@ -45,7 +52,8 @@ _L 0x2174C000 ti _L 0x
 |    4    |      ○      |     B      |
 
 ## Face Buttons: 08C07D3C or 08C07D3D
-### 0xY0000000Z - Y can be 2 or 4 (2 is for conditional inputs, 4 is for regular inputs), Z is the button itself.
+> *0xY0000000Z* - Y can be 2 or 4 (2 is for conditional inputs, 4 is for regular inputs), Z is the button itself.
+  
 | ID | Buttons |
 |:--:|:-------:|
 | 0 |    *    |
@@ -64,9 +72,11 @@ _L 0x2174C000 ti _L 0x
 | D |  1+3+4  |
 | E |  2+3+4  |
 | F | 1+2+3+4 |
+</details>
 
 ## Directional Inputs: 08C07D30
-#### Uppercase Letters mean 'Hold'
+> Uppercase Letters mean 'Hold'
+
 | ID |      Buttons      |
 |:--:|:-----------------:|
 | 02 | d/b               |
@@ -109,7 +119,8 @@ _L 0x2174C000 ti _L 0x
 | 8003 | u~n (side Step) |
 | 8004 | d~n (side Step) |
 
-## [Character IDs](https://github.com/gibesauce/Kekken-6/blob/main/Codes/CharID.md)
+## Character IDs: 08C078B4
+> [Click Here](https://github.com/gibesauce/Kekken-6/blob/main/Documentation/CharID.md)
 
 ## Hit Ranks: 08C07A08
 | ID  | Rank |
@@ -138,6 +149,9 @@ _L 0x2174C000 ti _L 0x
 | F01A | 
 
 ## Visual Recovery:
+<details>
+  <summary>Click to Expand</summary>
+
 |  ID  |                   Name                   |
 |:----:|------------------------------------------|
 | 8000 | The Main Manager                         | 
@@ -278,7 +292,9 @@ _L 0x2174C000 ti _L 0x
 | 8087 | Default Stance                           |
 | 8088 | Default Stance                           |
 | 8089 | Azazel Default Stance Connection         |
+</details>
 
+## Some Shitty Codes
 ```hex
 _C1 Slow-Mo on Hit
 _L 0xE0010004 0x20407C78
@@ -305,29 +321,30 @@ _L 0x00407B4E 0x00000004
 _L 0x00000000 0x00000000
 ```
 
-# *Note: There might be mistakes from here on out.=->*
+> *Note: There might be mistakes from here on out.=-)*
 
 ## Connection Type
 | Hexadecimal | Address | Attribute
 |:-:|:-:|---|
-| 80 | 0x08E423B0 | Common
+| 80 | 0x08E423B0 | Common |
 | 96 | |
-| 182 | 0x08E423C0 | Slight Tracking
-| 185 | | Moderate Tracking
+| 182 | 0x08E423C0 | Slight Tracking |
+| 185 | | Moderate Tracking |
 | 20F | |
 | 214 | |
 | 219 | 0x08E423BC |
-| 401 | 0x08E423B4 | Parallel Connection
-| 402 | | Parallel Connection
+| 401 | 0x08E423B4 | Parallel Connection |
+| 402 | | Parallel Connection |
 | 403 | |
 | 404 | |
-| 405 | | Parallel Connection
-| 1ADC | | Connection to Throw
-| 2800 | | Effects
-| 8080 | 08E422B8 |
-| 9ADC | | Connection to Back Throw
+| 405 | | Parallel Connection |
+| 1ADC | | Connection to Throw |
+| 2800 | | Effects |
+| 8080 | 08E422B8 | Connection to BT |
+| 9ADC | | Connection to Back Throw |
 
-## [Permissions](https://github.com/gibesauce/Kekken-6/blob/main/Documentation/Permissions.md) 
+## Permissions 
+> [Click Here](https://github.com/gibesauce/Kekken-6/blob/main/Documentation/Permissions.md) 
 
 ## Customisations
 ```Markdown
