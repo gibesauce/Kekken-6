@@ -1,3 +1,6 @@
+> There might be some wrong things I get here, feel free to correct them. Thanks.
+>> Note: if a question mark appears beside the values, that means I have not yet confirmed if they are in fact, correct.
+
 | Tekken 6 | Tekken Tag Tournament 2 | Tekken 7 | Tekken 8 | Attribute |  
 |:--------:|:-----------------------:|:--------:|:--------:|-----------|  
 | 00 | | | | No Condition |  
@@ -23,10 +26,10 @@
 | 14 | | | |
 | 15 | | | |
 | 16 | | | |
-| 17 | 17 | | | If It Hits Front-Facing Standing/Crouching Opponent. *0000XXXX* is the required distance (min:300, max:1B58) |
-| 18 | 18 | | | If It hits Backturned Standing/Crouching Opponent. *0000XXXX* is the required distance (min:300, max:1B58) |
-| 19 | 19 | | | If It hits Left-turned Standing/Crouching Opponent. *0000XXXX* is the required distance (min:300, max:1B58) |
-| 1A | 1A | | | If It hits Right-turned Standing/Crouching Opponent. *0000XXXX* is the required distance (min:300, max:1B58) |
+| 17 | 17 | | | If It Hits Standing/Crouching Opponent (Front). *0000XXXX* is the required distance (min:300, max:1B58) |
+| 18 | 18 | | | If It hits Standing/Crouching Opponent (Back). *0000XXXX* is the required distance (min:300, max:1B58) |
+| 19 | 19 | | | If It hits Standing/Crouching Opponent (Left). *0000XXXX* is the required distance (min:300, max:1B58) |
+| 1A | 1A | | | If It hits Standing/Crouching Opponent (Right). *0000XXXX* is the required distance (min:300, max:1B58) |
 | 1B | 1B | | | If It hits Airborne Opponent (Face Up, Feet Towards). *0000XXXX* is the required distance (min:300, max:1B58) |
 | 1C | 1C | | | If It hits Airborne Opponent (Face Up, Feet Away). *0000XXXX* is the required distance (min:300, max:1B58) |
 | 1D | | | | If It hits Airborne Opponent (Face Up, Left). *0000XXXX* is the required distance (min:300, max:1B58) |
@@ -184,6 +187,7 @@
 | B6 |
 | B7 | 
 | B8 | E8 | | |
+| B9 | | | | 
 | BA | | FD | | if "inner KiCharge" is (00 = off, 01 = on) |
 | BB | 
 | BC |
@@ -260,6 +264,29 @@
 | 104 | 
 | 105 | 
 | 106 | 
+| 107 | 
+| 108 | 
+| 109 | 
+| 10A | 
+| 10B | 
+| 10C | 
+| 10D | 
+| 10E | 
+| 10F | 
+| 110 | 
+| 111 | 
+| 112 | 
+| 113 | 
+| 114 | 
+| 115 | 
+| 116 | 
+| 117 | 
+| 118 | 
+| 119 | 
+| 11A | 
+| 11B | 
+| 11C | 
+| 11D | 
 | 11E | 1AA | | |
 | 11F | 
 | 120 | 
@@ -288,8 +315,8 @@
 | 139 |
 | 13A | 
 | 13B | | 261 | | if customisation *00000XXX* item is equipped |
-| 13C | 
-| 13D | 
+| 13C | | | | 
+| 13D | | | | 
 | 13E | | 262 | | if Yoshimitsu is not in NSS
 | 13F | | 263 | | if Yoshimitsu is in NSS
 | 140 | | | | 
@@ -297,17 +324,78 @@
 | 142 | | | | 
 | 143 | | | | if opponent is airborne
 | 144 | | | | if B! is available
+| 145 | | | | 
+| 146 | | | | 
+| 147 | | | | 
+| 148 | | | | 
+| 149 | | | | 
+| 14A | | | | 
+| 14B | | | | 
+| 14C | | | | 
+| 14D | | | | 
+| 14E | | | | 
+| 14F | | | | 
+| 151 | | | | 
+| 152 | | | | 
+| 153 | | | | 
+| 154 | | | | 
+| 155 | | | | 
+| 156 | | | | 
+| 157 | | | | 
+| 158 | | | | 
+| 158 | | | | 
+| 159 | | | | 
+| 15A | | | | 
+| 15B | | | | 
+| 15C | | | | 
+| 15D | | | | 
+| 15E | | | | 
+| 15F | | | | 
 | 160 | 285 | | | If opponent hits with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Low Attacks) |
 | 161 | 286 | 330 | | If opponent hits with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid/High Attacks) |
 | 162 | 287 | | | if opponent hits with one of the moves from the [registry](http://sadamitsu.ru/cwcheat/registry.htm), *0000XXXX* is the start index |
-| 16E | | | |
+| 163 | | | | 
+| 164 | | | | 
+| 165 | | | | 
+| 166 | | | | 
+| 167 | | | | 
+| 168 | | | | 
+| 169 | | | | 
+| 16A | | | | 
+| 16B | | | | 
+| 16C | | | | 
+| 16D | | | | 
+| 16E | | | | 
+| 16F | | | | 
 | 170 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
 | 171 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
+| 172 | | | | 
+| 173 | | | | 
 | 174 | | | | if opponent hits with one of the moves from the [registry](http://sadamitsu.ru/cwcheat/registry.htm), *0000XXXX* is the start index |
+| 175 | | | | 
+| 176 | | | | 
+| 177 | | | | 
+| 178 | | | | 
+| 179 | | | | 
+| 17A | | | | 
+| 17B | | | | 
+| 17C | | | | 
+| 17D | | | | 
+| 17E | | | | 
+| 17F | | | | 
+| 180 | | | | 
 | 181 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
 | 182 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
+| 183 | | | | 
+| 184 | | | | 
 | 185 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
 | 186 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
+| 187 | | | | 
+| 188 | | | | 
+| 189 | | | | 
+| 18A | | | | 
+| 18B | | | | 
+| 18C | | | | 
 | 18D | 2B2 | 371 | 44C | End of Permission |
 | * | * | * | * | * |
 | * | * | * | * | * |
@@ -324,7 +412,7 @@
 | 800B | 800B | 800B | 800B | Blast Wave on the floor |
 | 800C | | 800C | |
 | 800D | | 800D | |
-| 800E | | | | Doesn't do shit
+| 800E | x | x | x | x |
 | 800F | 800E | 800E | | Ground Break Effect | 
 | 8010 | 800F | 800F | | Strong Blast Wave on the floor | 
 | 8011 | | | | Character is on fire (0 = Yellow, 1 = Purple) | 
@@ -402,7 +490,7 @@
 | 8062 | | | | 
 | 8063 | | | | 
 | 8064 | | | | 
-| 8065 | | | | 
+| 8065 | 8093? | 80A3? | | 
 | 8066 | | | | 
 | 8067 | | | | 
 | 8068 | 8096 | 80A6 | 80C5 | Set flag XX for permission D6 |
@@ -600,16 +688,16 @@
 | 8150 | | | | |
 | 8151 | | | | |
 | 8152 | | | | |
-| 8153 | | | | |
-| 8154 | | | | |
+| 8153 | 81B4? | | | |
+| 8154 | 81B5? | | | |
 | 8155 | | | | |
 | 8156 | | | | |
 | 8157 | | | | |
 | 8158 | | | | |
 | 8159 | | | | |
 | 815A | | | | |
-| 815B | | | | |
-| 815C | | | | |
+| 815B | 81BC? | 827E? | | |
+| 815C | 81BD? | 827F? | | |
 | 815D | | | | |
 | 815E | | | | |
 | 815F | | | | |
@@ -716,8 +804,8 @@
 | 81C4 | 82D7 | 842A | 860C | Gesture for Right Hand |
 | 81C5 | 82D9 | 842C | 860D | Gesture for Both Hands |
 | 81C6 | 82DA | | | Gesture Animation for Both Hands |
-| 81C7 | 82DB | 842E | Gesture Animation for Left Hand |
-| 81C8 | 82DC | 842F | Gesture Animation for Right Hand |
+| 81C7 | 82DB | 842E | | Gesture Animation for Left Hand |
+| 81C8 | 82DC | 842F | | Gesture Animation for Right Hand |
 | 81C9 | | | |
 | 81CA | | | |
 | 81CB | | 8435 | | Camera Anim for Cutscenes, Based on Character Coordinates |
@@ -755,20 +843,17 @@
 | 81EB | | | | 
 | 81EC | | | | 
 | 81ED | | | | 
-| 81EF | | 84D2 (Maybe?) | | 
+| 81EF | | 84D2? | | 
 | 81F0 | | | | 
 | 8203 | 230B | 853D | | 
 | * | * | * | * | * |
-| * | * | * | * | * |
-| I haven't | found the | T6 | equivalent | yet |
-| * | * | * | * | * |
-| * | * | * | * | * |
+
+| I haven't | found the | Tekken 6 | equivalent | yet |
+|:-:|:-:|:-:|:-:|---|
 | | 12D | 385 | | 
 | | 1CA | 2CD | | 
 | | 1E4 | 2E6 | | 
 | | 1E5 | 3BB | | 
-| | 8093 | 80A3 | | 
-| | 8189 | 824B | | 
 | | 81B4 | | | 
 | | 81B5 | 85D6 | | 
 | | 81BC | 827E | | (Can be seen on Bryan's d+3+4,2~D/B at =>38)
@@ -796,7 +881,7 @@
 | | | 82DC | | 
 | | | 82E9 | | 
 | | | 84D1 | | 
-| * | * | * | * | 
+| * | * | * | * | * |
 | | | | 1C5 | 
 | | | | 83C3 | 
 
