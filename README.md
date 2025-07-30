@@ -52,8 +52,14 @@ _L 0x2174C000 to idk where will it end, lmao
 |    3    |      ×      |     A      |
 |    4    |      ○      |     B      |
 
-## Face Buttons: 08C07D3C or 08C07D3D
+## Attack Input: 08C07D3C or 08C07D3D
+> Don't put neutral in any of these, it's just there.
 > *0xY0000000Z* - Y can be 2 or 4 (2 is for conditional inputs, 4 is for regular inputs), Z is the button itself.
+> (e.g. 0x40000004 = 3, 2 can only ve used on multiple buttons as it doesn't make sense to make a condition that has only one outcome, now does it?
+
+> 'Both inputs below does not need 2 or 4'
+> *0x00000X00* - means hold input (e.g. 300 = 1+2 Hold)
+> *0x000X0000* - means do not press (e.g. 3000 = do not press 1+2)
   
 | ID | Buttons |
 |:--:|:-------:|
@@ -73,10 +79,9 @@ _L 0x2174C000 to idk where will it end, lmao
 | D |  1+3+4  |
 | E |  2+3+4  |
 | F | 1+2+3+4 |
-</details>
 
 ## Directional Inputs: 08C07D30
-> Uppercase Letters mean 'Hold'
+> Uppercase Letters with asterisk mean 'Hold'
 
 | ID |      Buttons      |
 |:--:|:-----------------:|
@@ -103,51 +108,56 @@ _L 0x2174C000 to idk where will it end, lmao
 | 200 | u/f              |
 | 248 | u/f or f or d/f  |
 | 300 | u or u/f         |
+| 348 | ???              |
 | 380 | u/b or u or u/f  |
 | 38A | ???              |
 | 3C0 | ???              |
 | 3DA | ???              |
 | 3EE | any, except b    |
 | 3F0 | ???              |
-| 402 | D/B              |
-| 404 | D                |
-| 408 | D/F              |
-| 410 | B                |
-| 440 | F                |
-| 480 | U/B              |
+| 402 | D/B*             |
+| 404 | D*               |
+| 408 | D/F*             |
+| 410 | B*               |
+| 440 | F*               |
+| 480 | U/B*             |
 | 8001 | f,f             |
 | 8002 | b,b             |
-| 8003 | u~n (side Step) |
-| 8004 | d~n (side Step) |
+| 8003 | u~n (Side Step) |
+| 8004 | d~n (Side Step) |
 
 ## Character IDs: 08C078B4
-> [Click Here](https://github.com/gibesauce/Kekken-6/blob/main/Documentation/CharID.md)
+> [Wanna Take A Look Inside?](https://github.com/gibesauce/Kekken-6/blob/main/Documentation/CharID.md)
 
 ## Hit Ranks: 08C07A08
 | ID  | Rank |
 |:---:|---------------------------|
-| 10F | Low
+| 10F | Low |
 | 217 | Mid
-| 31F | Special Mid (Projectiles?)
-| 41F | Special Mid
-| 512 | High
-| 707 | Unblockable Mid
-| 806 | Unblockable High
-| 907 | Unblockable Low
-| B07 | High (For Airborne Opponent)
+| 31F | Special Mid (Projectiles?) |
+| 41F | Special Mid |
+| 512 | High |
+| 707 | Unblockable Mid |
+| 806 | Unblockable High |
+| 907 | Unblockable Low |
+| B07 | High (For Airborne Opponent) |
 
 ## Body States: 
 | ID | Status |
 |:--:|-----------------------|
-| 842 | Stand, Can Block
-| 6084 | Grounded, Face Up
-| 6A84 | Grounded, Face Down
-| 7402 | Airborne, Face Up
-| 7E02 | Airborne, Face Down
-| 8291 | Crouch, Can Block
-| A000 | Invulnerable
-| E18A | 
-| F01A | 
+| 842 | Stand, Can Block |
+| 1029 | |
+| 1952 | Stand, Can Block |
+| 2821 | Crouch, Cannot Block |
+| 3029 | |
+| 6084 | Grounded, Face Up |
+| 6A84 | Grounded, Face Down |
+| 7402 | Airborne, Face Up |
+| 7E02 | Airborne, Face Down |
+| 8291 | Crouch, Can Block |
+| A000 | Invulnerable |
+| E18A | |
+| F01A | |
 
 ## Visual Recovery:
 <details>
@@ -170,8 +180,8 @@ _L 0x2174C000 to idk where will it end, lmao
 | 800C | On The Ground, Face Down, Hands Down, v2 |
 | 800D | On The Ground, Face Down, Hands Up       |
 | 800E | Lying, Facing Up, to Recovery            |
-| 800F | side Step to Left                        |
-| 8010 | side Step to Right                       |
+| 800F | Side Step to Left                        |
+| 8010 | Side Step to Right                       |
 | 8011 |                                          |
 | 8012 |                                          |
 | 8013 |                                          |
@@ -239,8 +249,8 @@ _L 0x2174C000 to idk where will it end, lmao
 | 8051 | On The Ground, Face Down, Hands Down, v2 |
 | 8052 | On The Ground, Face Down, Hands Up       |
 | 8053 | Lying, Facing Up, to Recovery            |
-| 8054 | side Step to Left                        |
-| 8055 | side Step to Right                       |
+| 8054 | Side Step to Left                        |
+| 8055 | Side Step to Right                       |
 | 8056 |                                          |
 | 8057 |                                          |
 | 8058 |                                          |
@@ -325,7 +335,7 @@ _L 0x00000000 0x00000000
 > *Note: There might be mistakes from here on out.=-)*
 
 ## Connection Type
-| Hexadecimal | Address | Attribute
+| Hex | Address | Attribute |
 |:-:|:-:|---|
 | 80 | 0x08E423B0 | Common |
 | 96 | |
@@ -333,19 +343,22 @@ _L 0x00000000 0x00000000
 | 185 | | Moderate Tracking |
 | 20F | |
 | 214 | |
-| 219 | 0x08E423BC |
+| 219 | 0x08E423BC | Related to Movement |
 | 401 | 0x08E423B4 | Parallel Connection |
 | 402 | | Parallel Connection |
 | 403 | |
 | 404 | |
 | 405 | | Parallel Connection |
+| 614 | | |
+| 619 | | |
 | 1ADC | | Connection to Throw |
 | 2800 | | Effects |
-| 8080 | 08E422B8 | Connection to BT |
+| 3FFF | | |
+| 8080 | 0x08E423B8 | Connection to BT |
 | 9ADC | | Connection to Back Throw |
 
-## Permissions 
-> [Click Here](https://github.com/gibesauce/Kekken-6/blob/main/Documentation/Permissions.md) 
+## Permissions & Effects
+> [Wanna Take A Look Inside?](https://github.com/gibesauce/Kekken-6/blob/main/Documentation/Permissions.md) 
 
 ## Customisations
 ```Markdown
@@ -436,7 +449,7 @@ _L 0x00000000 0x00000000
 5C38 - Default
 5FBC - SP Rage (White)
 1824 - SP Rage (Black)
-1AC0 - SP Rage (YelLow)
+1AC0 - SP Rage (Yellow)
 3C60 - SP Rage (Lightning)
 3E14 - SP Rage (Ice)
 420C - SP Rage (Fire)
@@ -448,14 +461,14 @@ _L 0x00000000 0x00000000
 28FC - Aura (Purple)
 29E4 - Aura (Red)
 26B8 - Aura (White)
-272C - Aura (YelLow)
+272C - Aura (Yellow)
 27A0 - Ki (Blue)
 2B40 - Ki (Green)
 2A58 - Ki (Pink)
 2888 - Ki (Purple)
 2970 - Ki (Red)
 2C28 - Ki (White)
-2C9C - Ki (YelLow)
+2C9C - Ki (Yellow)
 *Hair*
 0000 - Default
 1D5C - High Ponytail Base
@@ -492,8 +505,8 @@ _L 0x00000000 0x00000000
 
 
 
-# Audio Tracks
-## Folder 1: SFX
+## Audio Tracks
+### Folder 1: SFX
 ```Markdown
 | F | 
 | 10 | 
@@ -510,7 +523,7 @@ _L 0x00000000 0x00000000
 | 2D | Ki Charge SFX
 | 727 | Hatchet SFX
 ```
-## Folder 2: Grunts
+### Folder 2: Grunts
 ```Markdown
 ; Miguel
 | 01 | hmp
