@@ -404,6 +404,7 @@
 
 ## Effects
 | Tekken 6 | Tekken Tag Tournament 2 | Tekken 7 | Tekken 8 | Attribute |
+|:----:|:----:|:----:|:----:|-----------------|
 | 8001 | 8001 | 8001 | 8001 | Camera Shake #1 |
 | 8002 | 8002 | 8002 | 8002 | Camera Shake #2 |
 | 8003 | 8003 | 8003 | 8003 | Camera Shake #3 |
