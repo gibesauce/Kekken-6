@@ -1,6 +1,8 @@
 > There might be some wrong things I get here, feel free to correct them. Thanks.
->> Note: if a question mark appears beside the values, that means I have not yet confirmed if they are in fact, correct.
+> 
+> Note: if a question mark appears beside the values, that means I have not yet confirmed if they are in fact, correct.
 
+## Permissions
 | Tekken 6 | Tekken Tag Tournament 2 | Tekken 7 | Tekken 8 | Attribute |  
 |:--------:|:-----------------------:|:--------:|:--------:|-----------|  
 | 00 | | | | No Condition |  
@@ -50,6 +52,7 @@
 | 2C | 2E | 2C | 2C | If Regular Hit |
 | 2D | 31 | 2F | | If Blocked |
 | 2E | 32 | 30 | | If Attack Whiffs |
+| 2F | | | | 
 | 30 | 
 | 31 | 
 | 32 | 
@@ -80,10 +83,10 @@
 | 4B | | 56 | | If laying on the ground (Left) |
 | 4C | | 57 | | If laying on the ground (Feet Away) |
 | 4D | 5D | 60 | | If opponent is facing forward |
-| 4E | | | | If opponent is facing to the right |
-| 4F | | | | If opponent is facing to the left |
-| 50 | | | | If opponent is backturned |
-| 51 | | | | |
+| 4E | | 61 | | If opponent is facing to the right |
+| 4F | | 62 | | If opponent is facing to the left |
+| 50 | | 63 | | If opponent is backturned |
+| 51 | | x | | |
 | 52 | | 64 | | If opponent's attack is High |
 | 53 | | 65 | | |
 | 54 | | 66 | | If opponent attacks |
@@ -313,7 +316,7 @@
 | 137 | 
 | 138 |
 | 139 |
-| 13A | 
+| 13A | | 260 | | 
 | 13B | | 261 | | if customisation *00000XXX* item is equipped |
 | 13C | | | | 
 | 13D | | | | 
@@ -351,9 +354,9 @@
 | 15D | | | | 
 | 15E | | | | 
 | 15F | | | | 
-| 160 | 285 | | | If opponent hits with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Low Attacks) |
+| 160 | 285 | 32F? | | If opponent hits with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Low Attacks) |
 | 161 | 286 | 330 | | If opponent hits with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid/High Attacks) |
-| 162 | 287 | | | if opponent hits with one of the moves from the [registry](http://sadamitsu.ru/cwcheat/registry.htm), *0000XXXX* is the start index |
+| 162 | 287 | 331? | | if opponent hits with one of the moves from the [registry](http://sadamitsu.ru/cwcheat/registry.htm), *0000XXXX* is the start index |
 | 163 | | | | 
 | 164 | | | | 
 | 165 | | | | 
@@ -398,7 +401,9 @@
 | 18C | | | | 
 | 18D | 2B2 | 371 | 44C | End of Permission |
 | * | * | * | * | * |
-| * | * | * | * | * |
+
+## Effects
+| Tekken 6 | Tekken Tag Tournament 2 | Tekken 7 | Tekken 8 | Attribute |
 | 8001 | 8001 | 8001 | 8001 | Camera Shake #1 |
 | 8002 | 8002 | 8002 | 8002 | Camera Shake #2 |
 | 8003 | 8003 | 8003 | 8003 | Camera Shake #3 |
@@ -410,8 +415,8 @@
 | 8009 | 8009 | 8009 | 8009 | Camera Shake #4 (Alt) |
 | 800A | 800A | 800A | 800A | Camera Shake *000000XX* (*XX* is the strength) |
 | 800B | 800B | 800B | 800B | Blast Wave on the floor |
-| 800C | | 800C | |
-| 800D | | 800D | |
+| 800C | 800C | 800C | 800C |
+| 800D | 800D | 800D | 800D |
 | 800E | x | x | x | x |
 | 800F | 800E | 800E | | Ground Break Effect | 
 | 8010 | 800F | 800F | | Strong Blast Wave on the floor | 
@@ -427,12 +432,12 @@
 | 801D | 8067 | 801F | | Alisa's Character Specific Visual Effect |
 | 801E | 801D | 802E | | Character Specific Visual Effect |
 | 801F | | | | Character Specific Visual Effect |
-| 8020 | 8036 | | | Character Extra Specific Visual Effects |
-| 8021 | 8039 | | | Opponent Specific Visual Effect |
-| 8022 | 803A | | | Opponent Extra Visual Effect |
+| 8020 | | 8036 | | Character Extra Specific Visual Effects |
+| 8021 | | 8039 | | Opponent Specific Visual Effect |
+| 8022 | | 803A | | Opponent Extra Visual Effect |
 | 8023 | 8024 | 803B | | Regular Hit Effect |
 | 8024 | | | | | Grapple Indicator (Main) |
-| 8025 | 8042 | | | Smoke Effect |
+| 8025 | | 8042 | | Smoke Effect |
 | 8026 | 802C | 8043 | | Faint Smoke Effect (Doesn't Work in Tk6 PSP) |
 | 8027 | 802D | | | Block Effect |
 | 8028 | | | | Vertical Blast |
@@ -469,7 +474,7 @@
 | 804D | | | | |
 | 804E | | | | |
 | 804F | 8058 | 821B | | Opponent Damage |
-| 8050 | 8059 | 821C | | Character Damage |
+| 8050 | 8059 |  | | Character Damage |
 | 8051 | 806C | | | Gain Health? |
 | 8052 | | | | 
 | 8053 | | 806E | | 
@@ -482,7 +487,7 @@
 | 805A | | 807A | |
 | 805B | | 807B | |
 | 805C | 806C | 807C | | Set flag XX for permission D1 *see 08C07CB4* |
-| 805D | | 807D | | | Changes flag XX for permission D1 *see 08C07CB4* |
+| 805D | 806D | 807D | | | Changes flag XX for permission D1 *see 08C07CB4* |
 | 805E | | | | 
 | 805F | | | | 
 | 8060 | | | | 
@@ -490,9 +495,9 @@
 | 8062 | | | | 
 | 8063 | | | | 
 | 8064 | | | | 
-| 8065 | 8093? | 80A3? | | 
-| 8066 | | | | 
-| 8067 | | | | 
+| 8065 | 8093? | 80A3? | 80C2? | 
+| 8066 | 8094? | 80A4? | 80C3? | 
+| 8067 | 8095? | 80A5? | 80C4? | 
 | 8068 | 8096 | 80A6 | 80C5 | Set flag XX for permission D6 |
 | 8069 | | | | 
 | 806A | | | | 
@@ -535,18 +540,18 @@
 | 808F | 80F8 | 818A | 81FA | Tracking (0 = No Tracking, 1 = Homing, 7 = Standard, 12 = Infinite) |
 | 8090 | 80F9 | 818B | 
 | 8091 | 80FA | 818C | | Change Body State *see 08C0796C* |
-| 8092 | | | | |
-| 8093 | | | | |
+| 8092 | x | x | | |
+| 8093 | x | x | | |
 | 8094 | 80FB | 818D | | Return to Position after performing a throw |
-| 8095 | | 818E | | Set size of Colliders *0000XXXX* (0000 = 0%, 1000 = 100%) |
-| 8096 | | 818F | | | 
+| 8095 | 80FC? | 818E | | Set size of Colliders *0000XXXX* (0000 = 0%, 1000 = 100%) |
+| 8096 | 80FD? | 818F | | | 
 | 8097 | 8100 | 8193 | | Footstep SFX |
-| 8098 | | 8194 | |
-| 8099 | | 8195 | |
-| 809A | | 8196 | | Character can be Lower than Ground Level (00 = off, 01 = on) |
-| 809B | | | | |
-| 809C | 8105 | | | Every 1st Frame |
-| 809D | | | | |
+| 8098 | 8101? | 8194 | |
+| 8099 | 8102? | 8195 | |
+| 809A | 8103? | 8196 | | Character can be Lower than Ground Level (00 = off, 01 = on) |
+| 809B | 8104? | 8197? | | |
+| 809C | 8105 | 8198? | | Every 1st Frame |
+| 809D | x | x | | |
 | 809E | 8106 | 8199 | |  Removes breaking ground effect while airborne |
 | 809F | | | | |
 | 80A0 | | | | |
@@ -554,61 +559,87 @@
 | 80A2 | | 81A4 | | Returns Direction while performing a throw |
 | 80A3 | | | | |
 | 80A4 | | | | |
-| 80A5 | | | | Alisa's items can pass though walls
+| 80A5 | | | | Alisa's items can pass though walls |
 | 80A6 | | | | |
 | 80A7 | | | | |
 | 80A8 | | | | |
 | 80A9 | | | | |
 | 80AA | | 829A | | |
 | 80AB | | 81C8 | | Skip *00000XXX* frames of the following move |
+| 80AC | | | | |
+| 80AD | | | | |
+| 80AE | | | | |
+| 80AF | | | | |
+| 80B0 | | | | |
+| 80B1 | | | | |
+| 80B2 | | | | |
+| 80B3 | | | | |
+| 80B4 | | | | |
+| 80B5 | | | | |
 | 80B6 | | | | |
 | 80B7 | 8128 | 81D4 | | Opponent will perform a move from character base |
-| 80B8 | | | | Opponent will perform a move from character base |
-| 80B9 | | | | |
+| 80B8 | 8129 | 81D5? | | Opponent will perform a move from character base |
+| 80B9 | x | x | | |
 | 80BA | 812A | 81D6 | | Set Character Speed |
 | 80BB | 812B | 81D7 | | Change Character Speed |
-| 80BC | | 81D8 | | Set Opponent Speed |
-| 80BD | | 81D9 | | Change Opponent Speed |
-| 80BE | | 81DA | | Set Value for *08C07978* |
+| 80BC | 812C | 81D8 | | Set Opponent Speed |
+| 80BD | 812D | 81D9 | | Change Opponent Speed |
+| 80BE | 812E | 81DA | | Set Value for *08C07978* |
 | 80BF | 812F | 81DB | | Set Value for *08C0797C* |
-| 80C0 | | 81DC | | Character will perform a move from character base |
-| 80C1 | | 81DD | | 
-| 80C2 | | 81DE | | Character Ghost will perform a move |
-| 80C3 | | 81DF | | 
+| 80C0 | 8130 | 81DC | | Character will perform a move from character base |
+| 80C1 | 8131 | 81DD | | 
+| 80C2 | 8132 | 81DE | | Character Ghost will perform a move |
+| 80C3 | 8133 | 81DF | | 
 | 80C4 | | | | 
 | 80C5 | | | | 
 | 80C6 | | | | 
 | 80C7 | 8138 | 81E4 | | Floor Break F! |
 | 80C8 | 8139 | 81E5 | | Rotation of the Character when the Floor Breaks F! |
-| 80C9 | | 81E6 | | 
-| 80CA | | 81E7 | | 
-| 80CB | | 81E8 | | Pushback-related |
-| 80CC | | 81E9 | | 
-| 80CD | | 81EA | | 
-| 80CE | | 81EB | | 
-| 80CF | | 81EC | | Set Gravity |
-| 80D0 | | | | 
-| 80D1 | | | | 
-| 80D2 | | | | 
-| 80D3 | | | | 
-| 80D4 | | | | 
-| 80D5 | 8145 | 81F2 | | Laser Launcher |
-| 80D6 | 8146 | 81F3 | | Laser Mode |
-| 80D7 | 8147 | 81F4 | | Laser Stopper |
-| 80DE | | 81FE | | Reset Upwards Vector
-| 80DF | | | | Change Character Position |
-| 80E0 | | | | Direction of Character Changing Position |
-| 80E1 | | | | |
-| 80E2 | | | | Change Character Rotation |
-| 80E3 | | | | Change Opponent Rotation |
+| 80C9 | 813A | 81E6 | | 
+| 80CA | 813B | 81E7 | | 
+| 80CB | 813C | 81E8 | | Pushback-related |
+| 80CC | 813D | 81E9 | | 
+| 80CD | 813E | 81EA | | 
+| 80CE | 813F | 81EB | | 
+| 80CF | 8140 | 81EC | | Set Gravity |
+| 80D0 | 8141 | 81ED | | 
+| 80D1 | 8142 | 81EE | | 
+| 80D2 | 8143 | 81EF | | 
+| 80D3 | 8144 | 81F0 | | 
+| 80D4 | 8145 | 81F1 | | 
+| 80D5 | 8146 | 81F2 | | Laser Launcher |
+| 80D6 | 8147 | 81F3 | | Laser Mode |
+| 80D7 | 8148 | 81F4 | | Laser Stopper |
+| 80DE | 8149 | 81FE | | Reset Upwards Vector
+| 80DF | 814A | 81FF | | Change Character Position |
+| 80E0 | 814B | 8200 | | Direction of Character Changing Position |
+| 80E1 | 814C | 8201 | | |
+| 80E2 | 814D | 8202 | | Change Character Rotation |
+| 80E3 | 814E | 8203 | | Change Opponent Rotation |
 | 80E4 | | | | |
 | 80E5 | | | | |
 | 80E6 | | | | Change Character Height |
 | 80E7 | | 820A | | 
+| 80E8 | | | | 
+| 80E9 | | | | 
+| 80EA | | | | 
+| 80EB | | | | 
+| 80EC | | | | 
 | 80ED | | | | Character Disappears, including VFX |
 | 80EF | | | | Opponent Disappears, including VFX |
+| 80F0 | | | | 
+| 80F1 | | | | 
+| 80F2 | | | |
+| 80F3 | | | | 
+| 80F4 | | | | 
+| 80F5 | | | | 
+| 80F6 | | | | 
+| 80F7 | | | | 
+| 80F8 | | | | 
+| 80F9 | | | | 
+| 80FA | | | | 
 | 80FB | | | | Subtitles |
-| 80FC | | | | |
+| 80FC | | | | 
 | 80FD | | | | Tk6SC Dialogue Subtitles *00XX00YY* |
 | 80FE | | | | |
 | 80FF | | | | Reset Camera Position |
@@ -618,19 +649,19 @@
 | 8103 | | | | Clothes Position |
 | 8108 | | | | |
 | 8109 | 8184 | 8246 | |
-| 810A | | 8247 | | 
-| 810B | | 8248 | | 
-| 810C | | 8249 | | |
+| 810A | 8185 | 8247 | | 
+| 810B | 8186 | 8248 | | 
+| 810C | 8187 | 8249 | | 
 | 810D | 8188 | 824A | |
 | 810E | 8189 | 824B | | 
 | 810F | 818A | 824C | | Combo Meter Reset on *000000XX* frame |
-| 8110 | | | | 
-| 8111 | 818B | | 
-| 8112 | | 824E | | Combo Meter Does Not Reset |
-| 8113 | | | | 
-| 8114 | | | | 
-| 8115 | | 8251 | | Character Disappears, without VFX (01 = Disappear, 02 ≥ Flicker) |
-| 8116 | | 8252 | | Opponent Disappears, without VFX (01 = Disappear, 02 ≥ Flicker) |
+| 8110 | x | x | | 
+| 8111 | 818B | 824D | | 
+| 8112 | 818C | 824E | | Combo Meter Does Not Reset |
+| 8113 | 818D | 824F | | 
+| 8114 | 818E | 8250 | | 
+| 8115 | 818F | 8251 | | Character Disappears, without VFX (01 = Disappear, 02 ≥ Flicker) |
+| 8116 | 8190 | 8252 | | Opponent Disappears, without VFX (01 = Disappear, 02 ≥ Flicker) |
 | 8117 | | | | 
 | 8118 | | | | 
 | 8119 | | | | 
@@ -641,7 +672,7 @@
 | 811E | | | | 
 | 811F | | | | 
 | 8120 | 8193 | 8255 | | Spend *Bound* (Tk6/TTT2); *Screw* (Tk7); *Tornado* (Tk8) |
-| 8121 | | 8256 | |
+| 8121 | 8194 | 8256 | |
 | 8125 | | | | Item Move, attach item to *000000XX* limb |
 | 8126 | | | | Item Move, switch on |
 | 8127 | | | | Item Move, Reset |
@@ -673,29 +704,29 @@
 | 8141 | | | | |
 | 8142 | | | | |
 | 8143 | | | | |
-| 8144 | | 8264 | | Yoshimitsu's Left Hand Sword (0 = off, 1 = on) |
-| 8145 | | 8265 | | Yoshimitsu's Right Hand Sword (0 = off, 1 = on) |
-| 8146 | | 8266 | | Yoshimitsu's Left Hand Sword Effects (0 = off, 1 = on) |
-| 8147 | | 8267 | | Yoshimitsu's Right Hand Sword Effects (0 = off, 1 = on) |
+| 8144 | 81A5 | 8264 | | Yoshimitsu's Left Hand Sword (0 = off, 1 = on) |
+| 8145 | 81A6 | 8265 | | Yoshimitsu's Right Hand Sword (0 = off, 1 = on) |
+| 8146 | 81A7 | 8266 | | Yoshimitsu's Left Hand Sword Effects (0 = off, 1 = on) |
+| 8147 | 81A8 | 8267 | | Yoshimitsu's Right Hand Sword Effects (0 = off, 1 = on) |
 | 8148 | 81A9 | 826A | | Homing Effect for LP (0 = off, 1 = on) |
 | 8149 | 81AA | 826B | | Homing Effect for RP (0 = off, 1 = on) |
 | 814A | 81AB | 826C | | Homing Effect for LK (0 = off, 1 = on) |
 | 814B | 81AC | 826D | | Homing Effect for RK (0 = off, 1 = on) |
-| 814C | 81AD | | | Homing Effect for Tail (0 = off, 1= on) |
-| 814D | | | | |
-| 814E | | | | Rage Mode (00 = off, 01 = on) |
-| 814F | | 8273 | | 
-| 8150 | | | | |
-| 8151 | | | | |
-| 8152 | | | | |
+| 814C | 81AD | x | x | Homing Effect for Tail (0 = off, 1 = on) |
+| 814D | 81AE? | | | |
+| 814E | 81AF? | | | Rage Mode (00 = off, 01 = on) |
+| 814F | 81B0? | 8273 | | 
+| 8150 | 81B1? | | | |
+| 8151 | 81B2? | | | |
+| 8152 | 81B3? | | | |
 | 8153 | 81B4? | | | |
 | 8154 | 81B5? | | | |
-| 8155 | | | | |
-| 8156 | | | | |
-| 8157 | | | | |
-| 8158 | | | | |
-| 8159 | | | | |
-| 815A | | | | |
+| 8155 | 81B6? | | | |
+| 8156 | 81B7? | | | |
+| 8157 | 81B8? | | | |
+| 8158 | 81B9? | | | |
+| 8159 | 81BA? | | | |
+| 815A | 81BB? | | | |
 | 815B | 81BC? | 827E? | | |
 | 815C | 81BD? | 827F? | | |
 | 815D | | | | |
@@ -711,10 +742,10 @@
 | 8167 | 8234 | 838B | | Alisa's Items Attached (0 = Head, 1 = Left Hand, 2 = Right Hand, 3 = Torso) |
 | 8168 | 8235 | 838C | | Alisa's Items Detached (0 = Head, 1 = Left Hand, 2 = Right Hand, 3 = Torso) |
 | 8169 | 8236 | 838D | | 
-| 816A | | | | |
-| 816B | | | | |
-| 816C | | | | |
-| 816D | | | | |
+| 816A | 8237? | 838E? | | |
+| 816B | 8238? | 838F? | | |
+| 816C | 8239? | 8390? | | |
+| 816D | 823A? | 8391? | | |
 | 816E | 823B | 8392 | | Alisa's Flaps (2A = Appears on Left Hand, 2B = Disappears on Left Hand, 2C = Appears on Right Hand, 2D = Disappears on Right Hand) |
 | 816F | | | | |
 | 8170 | | | | |
@@ -803,7 +834,7 @@
 | 81C3 | 82D6 | 8429 | 860B | Gesture for Left Hand |
 | 81C4 | 82D7 | 842A | 860C | Gesture for Right Hand |
 | 81C5 | 82D9 | 842C | 860D | Gesture for Both Hands |
-| 81C6 | 82DA | | | Gesture Animation for Both Hands |
+| 81C6 | 82DA | 842D | | Gesture Animation for Both Hands |
 | 81C7 | 82DB | 842E | | Gesture Animation for Left Hand |
 | 81C8 | 82DC | 842F | | Gesture Animation for Right Hand |
 | 81C9 | | | |
@@ -829,14 +860,14 @@
 | 81DD | | | | |
 | 81DE | | | | |
 | 81DF | 8286 | 84C1 | | Facial Expression *0000XXYY* (XX = Expression Number, YY = Smoothing) |
-| 81E0 | 84C2 | | | Facial Animation |
+| 81E0 | 8287? | 84C2 | | Facial Animation |
 | 81E1 | | | | 
 | 81E2 | | | | 
 | 81E3 | | | | 
 | 81E4 | 82F9 | 84C4 | 87F0 | Play Sound from Character's Base *XX0000YY* (XX is the folder, YY is the sound) |
 | 81E5 | 82FB | 84C6 | 87F2 | Play Sound from Opponent's Base *XX0000YY* (XX is the folder, YY is the sound) |
-| 81E6 | | 84C8 | | 
-| 81E7 | | 84CB | | Audio Track for Cutscenes |
+| 81E6 | 82FD? | 84C8 | | 
+| 81E7 | 8300? | 84CB | | Audio Track for Cutscenes |
 | 81E8 | 8301 | 84CC | | Set of Camera Effects |
 | 81E9 | | | | 
 | 81EA | | | | 
@@ -845,6 +876,7 @@
 | 81ED | | | | 
 | 81EF | | 84D2? | | 
 | 81F0 | | | | 
+| 8202 | 230C | 853C | | 
 | 8203 | 230B | 853D | | 
 | * | * | * | * | * |
 
