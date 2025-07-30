@@ -157,11 +157,11 @@
 | 95 | 
 | 96 | AC | | | 
 | 97 | | BE | | 
-| 98 | | D8 | |
-| 99 | 8C | D9 | | if character is "Move ID" *see 08C07A18*
-| 9A | | | | if character is not "Move ID" *see 08C07A18*
-| 9B | | | | if opponent is "Character ID" *see 08C078B4*
-| 9C | | | | if opponent is not "Character ID" *see 08C078B4*
+| 98 | C7 | D8 | |
+| 99 | 8C | D9 | | if character is "Character ID" *see 08C078B4*
+| 9A | | | | if character is not "Character ID" *see 08C078B4*
+| 9B | | | | if opponent is "Move ID" *see 08C07A18*
+| 9C | | | | if opponent is not "Move ID" *see 08C07A18*
 | 9D | | | | 
 | 9E | | | | 
 | 9F | | | | if opponent is "Character ID" *see 08C078B4* (Probably Exclusive to Alisa, look at her u/f+1+2 Throw[KUM])
@@ -300,10 +300,10 @@
 | 126 | 
 | 127 | 
 | 128 |
-| 129 | | 256 | |
+| 129 | 1C0 | 256 | |
 | 12A | 
 | 12B | 
-| 12C | | 259 | | 
+| 12C | 1C3 | 259 | | 
 | 12D | 
 | 12E | 
 | 12F | 
@@ -312,7 +312,7 @@
 | 133 |
 | 134 |
 | 135 | 
-| 136 | | 25C | | 
+| 136 | 1C6 | 25C | | 
 | 137 | 
 | 138 |
 | 139 |
@@ -418,7 +418,7 @@
 | 800B | 800B | 800B | 800B | Blast Wave on the floor |
 | 800C | 800C | 800C | 800C |
 | 800D | 800D | 800D | 800D |
-| 800E | x | x | x | x |
+| 800E | x | x | x |xxxxxxxxxxxxxxxxxx|
 | 800F | 800E | 800E | | Ground Break Effect | 
 | 8010 | 800F | 800F | | Strong Blast Wave on the floor | 
 | 8011 | | | | Character is on fire (0 = Yellow, 1 = Purple) | 
@@ -455,6 +455,12 @@
 | 8033 | | | | | 
 | 8034 | | | | | Chain Sparks on the Ground, v1 |
 | 8035 | | 8058 | | | Chain Sparks on the Ground, v2 |
+| 8036 | 
+| 8037 | 
+| 8038 | 
+| 8039 | 
+| 803A | 
+| 803B | 8040 | 
 | 803C | | | | | Steam Comes Out of the Mouth (Same as 801C) |
 | 803D | | | | | Character Specific Visual Effect |
 | 803E | | | | | Character Extra Visual Effect (Same as 8020) |
@@ -476,9 +482,9 @@
 | 804E | | | | |
 | 804F | 8058 | 821B | | Opponent Damage |
 | 8050 | 8059 |  | | Character Damage |
-| 8051 | 806C | | | Gain Health? |
+| 8051 | | | | Gain Health? |
 | 8052 | | | | 
-| 8053 | | 806E | | 
+| 8053 | 805C | 806E | | 
 | 8054 | | | | 
 | 8055 | 8062 | | 
 | 8056 | | | | 
@@ -515,7 +521,7 @@
 | 8075 | | | | 
 | 8076 | | | | 
 | 8077 | | 80DB | | Set Wall Combo Counter |
-| 8078 | | 80DC | | 
+| 8078 | 80B7 | 80DC | | 
 | 8079 | | | | 
 | 807A | | | | 
 | 807B | | | | 
@@ -544,13 +550,13 @@
 | 8092 | x | x | | |
 | 8093 | x | x | | |
 | 8094 | 80FB | 818D | | Return to Position after performing a throw |
-| 8095 | 80FC? | 818E | | Set size of Colliders *0000XXXX* (0000 = 0%, 1000 = 100%) |
-| 8096 | 80FD? | 818F | | | 
+| 8095 | 80FC | 818E | | Set size of Colliders *0000XXXX* (0000 = 0%, 1000 = 100%) |
+| 8096 | 80FD | 818F | | | 
 | 8097 | 8100 | 8193 | | Footstep SFX |
-| 8098 | 8101? | 8194 | |
-| 8099 | 8102? | 8195 | |
-| 809A | 8103? | 8196 | | Character can be Lower than Ground Level (00 = off, 01 = on) |
-| 809B | 8104? | 8197? | | |
+| 8098 | 8101 | 8194 | |
+| 8099 | 8102 | 8195 | |
+| 809A | 8103 | 8196 | | Character can be Lower than Ground Level (00 = off, 01 = on) |
+| 809B | 8104 | 8197? | | |
 | 809C | 8105 | 8198? | | Every 1st Frame |
 | 809D | x | x | | |
 | 809E | 8106 | 8199 | |  Removes breaking ground effect while airborne |
@@ -565,8 +571,8 @@
 | 80A7 | | | | |
 | 80A8 | | | | |
 | 80A9 | | | | |
-| 80AA | | 829A | | |
-| 80AB | | 81C8 | | Skip *00000XXX* frames of the following move |
+| 80AA | 8113 | 829A | | |
+| 80AB | 811C | 81C8 | | Skip *00000XXX* frames of the following move |
 | 80AC | | | | |
 | 80AD | | | | |
 | 80AE | | | | |
@@ -579,7 +585,7 @@
 | 80B5 | | | | |
 | 80B6 | | | | |
 | 80B7 | 8128 | 81D4 | | Opponent will perform a move from character base |
-| 80B8 | 8129 | 81D5? | | Opponent will perform a move from character base |
+| 80B8 | 8129 | 81D5 | | Opponent will perform a move from character base |
 | 80B9 | x | x | | |
 | 80BA | 812A | 81D6 | | Set Character Speed |
 | 80BB | 812B | 81D7 | | Change Character Speed |
@@ -596,13 +602,13 @@
 | 80C6 | | | | 
 | 80C7 | 8138 | 81E4 | | Floor Break F! |
 | 80C8 | 8139 | 81E5 | | Rotation of the Character when the Floor Breaks F! |
-| 80C9 | 813A | 81E6 | | 
-| 80CA | 813B | 81E7 | | 
-| 80CB | 813C | 81E8 | | Pushback-related |
-| 80CC | 813D | 81E9 | | 
-| 80CD | 813E | 81EA | | 
-| 80CE | 813F | 81EB | | 
-| 80CF | 8140 | 81EC | | Set Gravity |
+| 80C9 |  | | | 
+| 80CA |  | | | 
+| 80CB | 813B | 81E8 | | Pushback-related |
+| 80CC | 813C | 81E9 | | 
+| 80CD | 813D | 81EA | | 
+| 80CE | 813E | 81EB | | 
+| 80CF | 813F | 81EC | | Set Gravity |
 | 80D0 | 8141 | 81ED | | 
 | 80D1 | 8142 | 81EE | | 
 | 80D2 | 8143 | 81EF | | 
@@ -611,16 +617,21 @@
 | 80D5 | 8146 | 81F2 | | Laser Launcher |
 | 80D6 | 8147 | 81F3 | | Laser Mode |
 | 80D7 | 8148 | 81F4 | | Laser Stopper |
-| 80DE | 8149 | 81FE | | Reset Upwards Vector
-| 80DF | 814A | 81FF | | Change Character Position |
-| 80E0 | 814B | 8200 | | Direction of Character Changing Position |
-| 80E1 | 814C | 8201 | | |
-| 80E2 | 814D | 8202 | | Change Character Rotation |
-| 80E3 | 814E | 8203 | | Change Opponent Rotation |
+| 80D8 | | | | 
+| 80D9 | | | | 
+| 80DA | | | | 
+| 80DB | | | | 
+| 80DC | | | | 
+| 80DE | | 81FE | | Reset Upwards Vector |
+| 80DF | | 81FF | | Change Character Position |
+| 80E0 | | 8200 | | Direction of Character Changing Position |
+| 80E1 | | 8201 | | |
+| 80E2 | | 8202 | | Change Character Rotation |
+| 80E3 | | 8203 | | Change Opponent Rotation |
 | 80E4 | | | | |
 | 80E5 | | | | |
 | 80E6 | | | | Change Character Height |
-| 80E7 | | 820A | | 
+| 80E7 | 815D | 820A | | 
 | 80E8 | | | | 
 | 80E9 | | | | 
 | 80EA | | | | 
@@ -643,11 +654,15 @@
 | 80FC | | | | 
 | 80FD | | | | Tk6SC Dialogue Subtitles *00XX00YY* |
 | 80FE | | | | |
-| 80FF | | | | Reset Camera Position |
+| 80FF | 8180 | | | Reset Camera Position |
 | 8100 | | | | |
 | 8101 | | | | |
 | 8102 | | | | |
 | 8103 | | | | Clothes Position |
+| 8104 | | | | |
+| 8105 | | | | |
+| 8106 | | | | |
+| 8107 | | | | |
 | 8108 | | | | |
 | 8109 | 8184 | 8246 | |
 | 810A | 8185 | 8247 | | 
@@ -674,6 +689,9 @@
 | 811F | | | | 
 | 8120 | 8193 | 8255 | | Spend *Bound* (Tk6/TTT2); *Screw* (Tk7); *Tornado* (Tk8) |
 | 8121 | 8194 | 8256 | |
+| 8122 | | | | 
+| 8123 | | | | 
+| 8124 | | | | 
 | 8125 | | | | Item Move, attach item to *000000XX* limb |
 | 8126 | | | | Item Move, switch on |
 | 8127 | | | | Item Move, Reset |
@@ -840,7 +858,7 @@
 | 81C8 | 82DC | 842F | | Gesture Animation for Right Hand |
 | 81C9 | | | |
 | 81CA | | | |
-| 81CB | | 8435 | | Camera Anim for Cutscenes, Based on Character Coordinates |
+| 81CB | 82E5 | 8435 | | Camera Anim for Cutscenes, Based on Character Coordinates |
 | 81CC | | | |
 | 81CD | | | | Camera Anim for Cutscenes, Based on Stage Coordinates |
 | 81CE | | | | 
@@ -861,14 +879,14 @@
 | 81DD | | | | |
 | 81DE | | | | |
 | 81DF | 8286 | 84C1 | | Facial Expression *0000XXYY* (XX = Expression Number, YY = Smoothing) |
-| 81E0 | 8287? | 84C2 | | Facial Animation |
+| 81E0 | 82F7 | 84C2 | | Facial Animation |
 | 81E1 | | | | 
 | 81E2 | | | | 
 | 81E3 | | | | 
 | 81E4 | 82F9 | 84C4 | 87F0 | Play Sound from Character's Base *XX0000YY* (XX is the folder, YY is the sound) |
 | 81E5 | 82FB | 84C6 | 87F2 | Play Sound from Opponent's Base *XX0000YY* (XX is the folder, YY is the sound) |
-| 81E6 | 82FD? | 84C8 | | 
-| 81E7 | 8300? | 84CB | | Audio Track for Cutscenes |
+| 81E6 | 82FD | 84C8 | | 
+| 81E7 | 8300 | 84CB | | Audio Track for Cutscenes |
 | 81E8 | 8301 | 84CC | | Set of Camera Effects |
 | 81E9 | | | | 
 | 81EA | | | | 
