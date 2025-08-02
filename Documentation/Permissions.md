@@ -110,36 +110,36 @@
 | 66 | 
 | 67 | 
 | 68 | | 7A | | |
-| 69 | 
-| 6A | 
-| 6B | 
+| 69 | | 7B | | |
+| 6A | | 7C | | |
+| 6B | | 7D | | |
 | 6C | 7C | 7E | | If opponent is downed |
 | 6D | | 7F | | If opponent is not downed |
 | 6E | | 80 | | 
 | 6F | | 81 | | | if opponent is ?? |
 | 70 | 80 | 82 | | If counterhit |
-| 71 | | 83 | | If pressed 1 only |
-| 72 | | 84 | | If pressed 2 only |
-| 73 | | 85 | | If pressed 1+2 only |
+| 71 | | 83 | | If pressed 1 |
+| 72 | | 84 | | If pressed 2 |
+| 73 | | 85 | | If pressed 1+2 |
 | 74 | | 86 | | 
-| 75 | | 87 | | If character is KO'd |
+| 75 | | 87 | | If KO'd |
 | 76 | | 88 | | 
 | 77 | | 89 | | 
-| 78 | | 8A | | If character HP ≥ XX |
+| 78 | | 8A | | If HP is ≥ XX |
 | 79 | | 8B | | 
 | 7A | | 8C | | 
-| 7B | | 8D | | If opponent's HP ≤ XX |
+| 7B | | 8D | | If HP is ≤ XX |
 | 7C | | 8E | | 
 | 7D | | 8F | | 
 | 7E | | 90 | | 
 | 7F | | 91 | | 
-| 80 | | 92 | | If on P1 side |
-| 81 | | 93 | | If on P2 side |
-| 82 | | 94 | | if on P2 Side |
-| 83 | | 95 | | if on P1 Side |
-| 84 | | 96 | | if on P1 Side |
-| 85 | | 97 | | if on P2 Side |
-| 86 | | 9B | | If KiCharge |
+| 80 | | 92 | | If at the P1 side |
+| 81 | | 93 | | If at the P2 side |
+| 82 | | 94 | | if at the P2 Side |
+| 83 | | 95 | | if at the P1 Side |
+| 84 | | 96 | | if at the P1 Side |
+| 85 | | 97 | | if at the P2 Side |
+| 86 | | 9B | | If KiCharge is *000000XX* (00 = off, 01 = on) |
 | 87 | 
 | 88 | 
 | 89 | 
@@ -148,7 +148,7 @@
 | 8C | 
 | 8D | 
 | 8E | 
-| 8F | | B6 | | if character is near to the wall (01 = Front (of P1) , 02 = Left (of P1), 04 = Back (of P1), 08 = Right (of P1)) |
+| 8F | | B6 | | if character is near to the wall (01 = Front, 02 = Left, 04 = Back, 08 = Right) |
 | 90 | 
 | 91 | 
 | 92 | 
@@ -158,8 +158,8 @@
 | 96 | AC | | | 
 | 97 | | BE | | 
 | 98 | C7 | D8 | |
-| 99 | 8C | D9 | | if character is "Character ID" *see 08C078B4*
-| 9A | | | | if character is not "Character ID" *see 08C078B4*
+| 99 | 8C | D9 | | if character is "Move ID" *see 08C07A18*
+| 9A | | | | if character is not "Move ID" *see 08C07A18*
 | 9B | | | | if opponent is "Move ID" *see 08C07A18*
 | 9C | | | | if opponent is not "Move ID" *see 08C07A18*
 | 9D | | | | 
@@ -732,22 +732,22 @@
 | 814A | 81AB | 826C | | Homing Effect for LK (0 = off, 1 = on) |
 | 814B | 81AC | 826D | | Homing Effect for RK (0 = off, 1 = on) |
 | 814C | 81AD | x | x | Homing Effect for Tail (0 = off, 1 = on) |
-| 814D | 81AE? | | | |
-| 814E | 81AF? | | | Rage Mode (00 = off, 01 = on) |
-| 814F | 81B0? | 8273 | | 
-| 8150 | 81B1? | | | |
-| 8151 | 81B2? | | | |
-| 8152 | 81B3? | | | |
-| 8153 | 81B4? | | | |
-| 8154 | 81B5? | | | |
-| 8155 | 81B6? | | | |
-| 8156 | 81B7? | | | |
-| 8157 | 81B8? | | | |
-| 8158 | 81B9? | | | |
-| 8159 | 81BA? | | | |
-| 815A | 81BB? | | | |
-| 815B | 81BC? | 827E? | | |
-| 815C | 81BD? | 827F? | | |
+| 814D | | | | |
+| 814E | | | | Rage Mode (00 = off, 01 = on) |
+| 814F | | 8273 | | 
+| 8150 | | | | |
+| 8151 | | | | |
+| 8152 | | | | |
+| 8153 | | | | |
+| 8154 | | 8278? | | |
+| 8155 | | | | |
+| 8156 | | | | |
+| 8157 | | | | |
+| 8158 | | | | |
+| 8159 | | | | |
+| 815A | | 827E? | | |
+| 815B | | 827F? | | |
+| 815C | | | | |
 | 815D | | | | |
 | 815E | | | | |
 | 815F | | | | |
@@ -878,7 +878,7 @@
 | 81DC | | | | |
 | 81DD | | | | |
 | 81DE | | | | |
-| 81DF | 8286 | 84C1 | | Facial Expression *0000XXYY* (XX = Expression Number, YY = Smoothing) |
+| 81DF | 82F6 | 84C1 | | Facial Expression *0000XXYY* (XX = Expression Number, YY = Smoothing) |
 | 81E0 | 82F7 | 84C2 | | Facial Animation |
 | 81E1 | | | | 
 | 81E2 | | | | 
@@ -888,13 +888,31 @@
 | 81E6 | 82FD | 84C8 | | 
 | 81E7 | 8300 | 84CB | | Audio Track for Cutscenes |
 | 81E8 | 8301 | 84CC | | Set of Camera Effects |
-| 81E9 | | | | 
-| 81EA | | | | 
-| 81EB | | | | 
-| 81EC | | | | 
-| 81ED | | | | 
-| 81EF | | 84D2? | | 
-| 81F0 | | | | 
+| 81E9 | | | | |
+| 81EA | | | | |
+| 81EB | | | | |
+| 81EC | | | | |
+| 81ED | | | | |
+| 81EE | | 84D2? | | |
+| 81EF | | | | |
+| 81F0 | | | | |
+| 81F1 | | | | |
+| 81F2 | | | | |
+| 81F3 | | | | |
+| 81F4 | | | | |
+| 81F5 | | | | |
+| 81F6 | | | | |
+| 81F7 | | | | |
+| 81F8 | | | | |
+| 81F9 | | | | |
+| 81FA | | | | |
+| 81FB | | | | |
+| 81FC | | | | |
+| 81FD | | | | |
+| 81FE | | | | |
+| 81FF | | | | |
+| 8200 | | | | |
+| 8201 | | | | |
 | 8202 | 230C | 853C | | 
 | 8203 | 230B | 853D | | 
 | * | * | * | * | * |
@@ -935,4 +953,5 @@
 | * | * | * | * | * |
 | | | | 1C5 | 
 | | | | 83C3 | 
+
 
