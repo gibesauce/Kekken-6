@@ -240,8 +240,8 @@
 | E8 | 
 | E9 | 
 | EA | 
-| EB | 184 | 214 | | if character speed > *0000XXXX*
-| EC | 
+| EB | 184 | 214 | | if character speed > *0000XXXX* |
+| EC | | 215 | | if character speed < *0000XXXX* |
 | ED | 
 | EE | 
 | EF | 
@@ -599,7 +599,7 @@
 | 80C3 | 8133 | 81DF | | 
 | 80C4 | | | | 
 | 80C5 | | | | 
-| 80C6 | | | | 
+| 80C6 | | 81E3 | | 
 | 80C7 | 8138 | 81E4 | | Floor Break F! |
 | 80C8 | 8139 | 81E5 | | Rotation of the Character when the Floor Breaks F! |
 | 80C9 |  | | | 
@@ -953,5 +953,6 @@
 | * | * | * | * | * |
 | | | | 1C5 | 
 | | | | 83C3 | 
+
 
 
