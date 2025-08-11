@@ -419,8 +419,8 @@
 | 800C | 800C | 800C | 800C |
 | 800D | 800D | 800D | 800D |
 | 800E | x | x | x |xxxxxxxxxxxxxxxxxx|
-| 800F | 800E | 800E | | Ground Break Effect | 
-| 8010 | 800F | 800F | | Strong Blast Wave on the floor | 
+| 800F | 800E | 800E | 800E | Ground Break Effect | 
+| 8010 | 800F | 800F | 800F | Strong Blast Wave on the floor | 
 | 8011 | | | | Character is on Fire (0 = Yellow, 1 = Purple) | 
 | 8012 | | | | Opponent is on Fire (0 = Yellow, 1 = Purple) | 
 | 8013 | | | | |
@@ -443,7 +443,7 @@
 | 8024 | | | | | Grapple Indicator (Main) |
 | 8025 | | 8042 | | Smoke Effect |
 | 8026 | 802C | 8043 | | Faint Smoke Effect (Doesn't Work in Tk6 PSP) |
-| 8027 | 802D | | | Block Effect |
+| 8027 | 802D | 8044 | | Block Effect |
 | 8028 | | | | Vertical Blast |
 | 8029 | | | | Strong Vertical Blast |
 | 802A | | 8046 | | [Collection of Visual Effects](http://sadamitsu.ru/cwcheat/802A.htm) |
@@ -483,8 +483,8 @@
 | 804C | | | | |
 | 804D | | | | |
 | 804E | | | | |
-| 804F | 8058 | | | Inflict Damage to Opponent |
-| 8050 | 8059 | | | Inflict Self Damage |
+| 804F | 8058 | 821C (*No Definitive Equivalent as it Scales Differently*) | | Inflict Damage to Opponent |
+| 8050 | 8059 | 821D (*No Definitive Equivalent as it Scales Differently*) | | Inflict Self Damage |
 | 8051 | | | | |
 | 8052 | | | | |
 | 8053 | 805C | 806E | | Inflict Self Damage on Wall Hit |
@@ -492,12 +492,12 @@
 | 8055 | 8062 | | |
 | 8056 | | | | |
 | 8057 | | | | Countdown Timer for Tk6SC Dialogs |
-| 8058 | 8066 | 8078 | | Launch The "Inner KiCharge" timer. *0000XXXX* is the time (Current Timer Value in 08C07C80) |
+| 8058 | 8066 | 8078 | | Launch The *Inner KiCharge* timer. *0000XXXX* is the time (Current Timer Value in 08C07C80) |
 | 8059 | | | | |
 | 805A | | | | |
 | 805B | | | | |
-| 805C | 806C | 807C | | Set flag XX for permission D1 *see 08C07CB4* |
-| 805D | 806D | 807D | | Changes flag XX for permission D1 *see 08C07CB4* |
+| 805C | 806C | 807C | | Set flag XX for permission D1 (*see 08C07CB4*) |
+| 805D | 806D | 807D | | Changes flag XX for permission D1 (*see 08C07CB4*) |
 | 805E | | | | |
 | 805F | | | | |
 | 8060 | | | | |
@@ -505,9 +505,9 @@
 | 8062 | | | | |
 | 8063 | | | | |
 | 8064 | | | | |
-| 8065 | 8093? | 80A3? | 80C2? | 
-| 8066 | 8094? | 80A4? | 80C3? | 
-| 8067 | 8095? | 80A5? | 80C4? | 
+| 8065 | 8093 | 80A3 | 80C2 | |
+| 8066 | 8094 | 80A4 | 80C3 | |
+| 8067 | 8095 | 80A5 | 80C4 | |
 | 8068 | 8096 | 80A6 | 80C5 | Set flag XX for permission D6 |
 | 8069 | | | | |
 | 806A | | | | |
@@ -537,38 +537,38 @@
 | 8082 | | | | |
 | 8083 | 80EA | 817C | | Ability to Block |
 | 8084 | 80EB | 817D | | Launch the "KiCharge" timer. XXXX is the time (Current Timer Value in 08C07C60) |
-| 8085 | 80EC | 817E | | 
-| 8086 | 80ED | 817F | | 
-| 8087 | 80EE | 8180 | | 
-| 8088 | 80EF | 8181 | | Disconnection of Positions while performing a throw |
+| 8085 | 80EC | 817E | | |
+| 8086 | 80ED | 817F | | |
+| 8087 | 80EE | 8180 | | |
+| 8088 | 80EF | 8181 | | Disconnect Positions While Performing a Throw |
 | 8089 | | | | |
-| 808A | 80F3 | 8185 | | Disconnection of Height Average while performing a throw, Smoothly |
-| 808B | 80F4 | 8186 | | Disconnection of Height Average while performing a throw, Instantly |
+| 808A | 80F3 | 8185 | | Disconnection of Height Average While Performing a Throw, Smoothly |
+| 808B | 80F4 | 8186 | | Disconnection of Height Average While Performing a Throw, Instantly |
 | 808C | 80F5 | 8187 | | 
 | 808D | 80F6 | 8188 | | 
 | 808E | 80F7 | 8189 | | 
 | 808F | 80F8 | 818A | 81FA | Tracking (0 = No Tracking, 1 = Homing, 7 = Standard, 12 = Infinite) |
 | 8090 | 80F9 | 818B | |
 | 8091 | 80FA | 818C | | Change Body State *see 08C0796C* |
-| 8092 | x | x | | |
-| 8093 | x | x | | |
+| 8092 | x | x | x |xxxxxxxxxxxxxxxxxx|
+| 8093 | x | x | x |xxxxxxxxxxxxxxxxxx|
 | 8094 | 80FB | 818D | | Return to Position after performing a throw |
 | 8095 | 80FC | 818E | | Set Size of Colliders *0000XXXX* (0000 = 0%, 1000 = 100%) |
 | 8096 | 80FD | 818F | | | 
 | 8097 | 8100 | 8193 | | Footstep SFX |
-| 8098 | 8101 | 8194 | |
-| 8099 | 8102 | 8195 | |
+| 8098 | 8101 | 8194 | | |
+| 8099 | 8102 | 8195 | | |
 | 809A | 8103 | 8196 | | Character can be Lower than Ground Level (00 = off, 01 = on) |
-| 809B | 8104 | 8197? | | |
-| 809C | 8105 | 8198? | | Every 1st Frame |
-| 809D | x | x | | |
+| 809B | 8104 | 8197 | | |
+| 809C | 8105 | 8198 | | Every 1st Frame |
+| 809D | x | x | x |xxxxxxxxxxxxxxxxxx|
 | 809E | 8106 | 8199 | |  Removes breaking ground effect while airborne |
 | 809F | | | | |
 | 80A0 | | | | |
-| 80A1 | | 81A3 | | 
+| 80A1 | | 81A3 | | |
 | 80A2 | | 81A4 | | Realignment while Performing a Move (Usually Used on Throws) |
-| 80A3 | | | | |
-| 80A4 | | | | |
+| 80A3 | | 81A5 | | |
+| 80A4 | | 81A6 | | |
 | 80A5 | | 81A7 | | Realignment While Performing a Move at the Wall |
 | 80A6 | | | | |
 | 80A7 | | | | |
@@ -589,7 +589,7 @@
 | 80B6 | | | | |
 | 80B7 | 8128 | 81D4 | | Opponent will perform a move from character base |
 | 80B8 | 8129 | 81D5 | | Opponent will perform a move from character base |
-| 80B9 | x | x | | |
+| 80B9 | x | x | x |xxxxxxxxxxxxxxxxxx|
 | 80BA | 812A | 81D6 | | Set Character Speed |
 | 80BB | 812B | 81D7 | | Change Character Speed |
 | 80BC | 812C | 81D8 | | Set Opponent Speed |
@@ -602,29 +602,29 @@
 | 80C3 | 8133 | 81DF | | |
 | 80C4 | | | | |
 | 80C5 | | | | |
-| 80C6 | 8137 | 81E3 | | 
+| 80C6 | 8137 | 81E3 | | |
 | 80C7 | 8138 | 81E4 | | Floor Break F! |
 | 80C8 | 8139 | 81E5 | | Rotation of the Character when the Floor Breaks F! |
 | 80C9 | | | | |
 | 80CA | | | | |
 | 80CB | 813B | 81E8 | | Pushback-related |
-| 80CC | 813C | 81E9 | | 
-| 80CD | 813D | 81EA | | 
-| 80CE | 813E | 81EB | | 
+| 80CC | 813C | 81E9 | | |
+| 80CD | 813D | 81EA | | |
+| 80CE | 813E | 81EB | | |
 | 80CF | 813F | 81EC | | Set Gravity |
-| 80D0 | 8141 | 81ED | | 
-| 80D1 | 8142 | 81EE | | 
-| 80D2 | 8143 | 81EF | | 
-| 80D3 | 8144 | 81F0 | | 
-| 80D4 | 8145 | 81F1 | | 
+| 80D0 | 8141 | 81ED | | |
+| 80D1 | 8142 | 81EE | | |
+| 80D2 | 8143 | 81EF | | |
+| 80D3 | 8144 | 81F0 | | |
+| 80D4 | 8145 | 81F1 | | |
 | 80D5 | 8146 | 81F2 | | Laser Launcher |
 | 80D6 | 8147 | 81F3 | | Laser Mode |
 | 80D7 | 8148 | 81F4 | | Laser Stopper |
-| 80D8 | | | | 
-| 80D9 | | | | 
-| 80DA | | | | 
-| 80DB | | | | 
-| 80DC | | | | 
+| 80D8 | | | | |
+| 80D9 | | | | |
+| 80DA | | | | |
+| 80DB | | | | |
+| 80DC | | | | |
 | 80DE | | 81FE | | Reset Upwards Vector |
 | 80DF | | 81FF | | Change Character Position |
 | 80E0 | | 8200 | | Direction of Character Changing Position |
@@ -675,7 +675,7 @@
 | 810D | 8188 | 824A | | |
 | 810E | 8189 | 824B | | |
 | 810F | 818A | 824C | | Combo Meter Reset on *000000XX* frame |
-| 8110 | x | x | | |
+| 8110 | x | x | x |xxxxxxxxxxxxxxxxxx|
 | 8111 | 818B | 824D | | |
 | 8112 | 818C | 824E | | Combo Meter Does Not Reset |
 | 8113 | 818D | 824F | | |
@@ -737,8 +737,8 @@
 | 814B | 81AC | 826D | | Homing Effect for RK (0 = off, 1 = on) |
 | 814C | 81AD | x | x | Homing Effect for Tail (0 = off, 1 = on) |
 | 814D | | | | |
-| 814E | | | | Rage Mode (00 = off, 01 = on) |
-| 814F | | 8273 | | 
+| 814E | | 8272 | | Rage Mode (00 = off, 01 = on) *Values are Reversed in Tekken 7, If Set to 1 It Will Remove Rage* |
+| 814F | | 8273 | | |
 | 8150 | | | | |
 | 8151 | | | | |
 | 8152 | | | | |
@@ -765,10 +765,10 @@
 | 8167 | 8234 | 838B | | Alisa's Items Attached (0 = Head, 1 = Left Hand, 2 = Right Hand, 3 = Torso) |
 | 8168 | 8235 | 838C | | Alisa's Items Detached (0 = Head, 1 = Left Hand, 2 = Right Hand, 3 = Torso) |
 | 8169 | 8236 | 838D | | 
-| 816A | 8237? | 838E? | | |
-| 816B | 8238? | 838F? | | |
-| 816C | 8239? | 8390? | | |
-| 816D | 823A? | 8391? | | |
+| 816A | 8237 | 838E | | |
+| 816B | 8238 | 838F | | |
+| 816C | 8239 | 8390 | | |
+| 816D | 823A | 8391 | | |
 | 816E | 823B | 8392 | | Alisa's Flaps (2A = Appears on Left Hand, 2B = Disappears on Left Hand, 2C = Appears on Right Hand, 2D = Disappears on Right Hand) |
 | 816F | | | | |
 | 8170 | | | | |
@@ -845,8 +845,8 @@
 | 81B7 | | | | |
 | 81B8 | | | | |
 | 81B9 | | | | |
-| 81BA | | | | Raven's Ghost performs a P1 move (Can be used by any character) |
-| 81BB | | | | Raven's Ghost Disappears (Can be used by any character) |
+| 81BA | | x | | Raven's Ghost performs a P1 move (Can be used by any character) |
+| 81BB | | x | | Raven's Ghost Disappears (Can be used by any character) |
 | 81BC | | | | Switch Sides |
 | 81BD | | | | |
 | 81BE | | | | |
@@ -958,6 +958,7 @@
 | * | * | * | * | * |
 | | | | 1C5 | |
 | | | | 83C3 | |
+
 
 
 
