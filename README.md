@@ -45,6 +45,8 @@ _L 0x217440D0 to _L 0x2174BFFC
 ; Memory Plugin is Needed
 _L 0x2174C000 to idk where will it end, lmao
 ```
+---
+
 ## Legend:
 | Buttons | PlayStation |    Xbox    |
 |:-------:|:-----------:|:----------:|
@@ -52,15 +54,18 @@ _L 0x2174C000 to idk where will it end, lmao
 |    2    |      △     |     Y      |
 |    3    |      ×      |     A      |
 |    4    |      ○      |     B      |
+---
 
 ## Attack Input: 08C07D3C or 08C07D3D
 > Don't put neutral in any of these, it's just there.
-> *0xY0000000Z* - Y can be 2 or 4 (2 is for conditional inputs, 4 is for regular inputs), Z is the button itself.
-> (e.g. 0x40000004 = 3, 2 can only ve used on multiple buttons as it doesn't make sense to make a condition that has only one outcome, now does it?
 
-> 'Both inputs below does not need 2 or 4'
-> *0x00000X00* - means hold input (e.g. 300 = 1+2 Hold)
-> *0x000X0000* - means do not press (e.g. 3000 = do not press 1+2)
+> *0xY000ZZZZ* - Y can be 2 or 4 (2 is for conditional inputs, 4 is for regular inputs), Z is the button itself.
+> (e.g. 0x40000004 = press 3, 0x00003000 = do not press 3, 0x00000300 = hold 3)
+> 
+
+> Note: 0x20000ZZZ can only be used on multiple buttons as it doesn't make sense to make a condition that only has one outcome, now does it?
+>
+> Hold and "Do Not Press *" inputs does not need 2 or 4
   
 | ID | Buttons |
 |:--:|:-------:|
@@ -80,61 +85,64 @@ _L 0x2174C000 to idk where will it end, lmao
 | D |  1+3+4  |
 | E |  2+3+4  |
 | F | 1+2+3+4 |
+---
 
 ## Directional Inputs: 08C07D30
 > Uppercase Letters with asterisk mean 'Hold'
 
 | ID |      Buttons      |
 |:--:|:-----------------:|
-| 02 | d/b               |
-| 04 | d                 |
-| 06 | d or d/b          |
-| 08 | d/f               |
-| 0A | ???               |
-| 0C | ???               |
-| 0E | d/b or d or d/f   |
-| 10 | b                 |
-| 12 | d/b or d          |
-| 20 | neutral           |
-| 40 | f                 |
-| 48 | f or d/f          |
-| 50 | ???               |
-| 60 | f or nothing      |
-| 70 | on release        |
-| 80 | u/b               |
-| 90 | b or u/b          |
-| D0 | f or b or u/b     |
-| 100 | u                |
-| 120 | ???              |
-| 200 | u/f              |
-| 248 | u/f or f or d/f  |
-| 300 | u or u/f         |
-| 348 | ???              |
-| 380 | u/b or u or u/f  |
-| 38A | ???              |
-| 3C0 | ???              |
-| 3DA | ???              |
-| 3EE | any, except b    |
-| 3F0 | ???              |
-| 402 | D/B*             |
-| 404 | D*               |
-| 408 | D/F*             |
-| 410 | B*               |
-| 440 | F*               |
-| 480 | U/B*             |
-| 8001 | f,f             |
-| 8002 | b,b             |
+| 02 | d/b |
+| 04 | d |
+| 06 | d or d/b |
+| 08 | d/f |
+| 0A | |
+| 0C | |
+| 0E | d/b or d or d/f |
+| 10 | b |
+| 12 | d/b or d |
+| 20 | neutral |
+| 40 | f |
+| 48 | f or d/f |
+| 50 | |
+| 60 | f or nothing |
+| 70 | on release |
+| 80 | u/b |
+| 90 | b or u/b |
+| D0 | f or b or u/b |
+| 100 | u |
+| 120 | |
+| 200 | u/f |
+| 248 | u/f or f or d/f |
+| 300 | u or u/f |
+| 348 | |
+| 380 | u/b or u or u/f |
+| 38A | |
+| 3C0 | |
+| 3DA | |
+| 3EE | any, except b |
+| 3F0 | |
+| 402 | D/B* |
+| 404 | D* |
+| 408 | D/F* |
+| 410 | B* |
+| 440 | F* |
+| 480 | U/B* |
+| 8001 | f,f |
+| 8002 | b,b |
 | 8003 | u~n (Side Step) |
 | 8004 | d~n (Side Step) |
+---
 
 ## Character IDs: 08C078B4
 > [Wanna Take A Look Inside?](https://github.com/gibesauce/Kekken-6/blob/main/Documentation/CharID.md)
+---
 
 ## Hit Ranks: 08C07A08
 | ID  | Rank |
 |:---:|---------------------------|
 | 10F | Low |
-| 217 | Mid
+| 217 | Mid |
 | 31F | Special Mid (Projectiles?) |
 | 41F | Special Mid |
 | 512 | High |
@@ -142,11 +150,12 @@ _L 0x2174C000 to idk where will it end, lmao
 | 806 | Unblockable High |
 | 907 | Unblockable Low |
 | B07 | High (For Airborne Opponent) |
+---
 
 ## Body States: 
 | ID | Status |
-|:--:|-----------------------|
-| 842 | Stand, Can Block |
+|:--:|--------|
+| 842 | Stand, Cannot Block |
 | 1029 | |
 | 1952 | Stand, Can Block |
 | 2821 | Crouch, Cannot Block |
@@ -159,8 +168,9 @@ _L 0x2174C000 to idk where will it end, lmao
 | A000 | Invulnerable |
 | E18A | |
 | F01A | |
+---
 
-## Visual Recovery:
+## Visual Recovery: 
 <details>
   <summary>Click to Expand</summary>
 
@@ -306,6 +316,8 @@ _L 0x2174C000 to idk where will it end, lmao
 | 8089 | Azazel Default Stance Connection         |
 </details>
 
+---
+
 ## Some Shitty Codes
 ```hex
 _C1 Slow-Mo on Hit
@@ -321,7 +333,8 @@ _L 0xE0030014 0x20407CA0
 _L 0x20405890 0x00000002
 _L 0x20407974 0x00000500
 _L 0x204082A4 0x00000500
-
+```
+```hex
 _C1 Slightly Better Slow-Mo on Hit
 _L 0xE02908C0 0x204078E2// If the Stage is Loaded
 _L 0xE1010000 0x009043B8// Address 1
@@ -369,7 +382,8 @@ _L 0x209043BC 0x00000000// Reset Address 2
 _L 0x20413F94 0x00000000
 _L 0x20407974 0x00001000// P1 Normal Speed
 _L 0x204082A4 0x00001000// P2 Normal Speed
-
+```
+```hex
 _C1 Rage on Practice Mode
 _L 0xE0070016 0x004140B8
 _L 0xE0020000 0x009060E0
@@ -380,8 +394,7 @@ _L 0xE101003F 0x30407B4E
 _L 0x00407B4E 0x00000004
 _L 0x00000000 0x00000000
 ```
-
-> *Note: There might be mistakes from here on out.=-)*
+---
 
 ## Connection Type
 | Hex | Address | Attribute |
@@ -411,13 +424,15 @@ _L 0x00000000 0x00000000
 | 8080 | 0x08E423B8 | Connection to BT |
 | 9ADC | | Connection to Back Throw |
 | 84099 | | |
+---
 
 ## Permissions & Effects
 > [Wanna Take A Look Inside?](https://github.com/gibesauce/Kekken-6/blob/main/Documentation/Permissions.md) 
+---
 
 ## Customisations
 > [Wanna Take A Look Inside?](https://github.com/gibesauce/Kekken-6/blob/main/Documentation/Customisations.md)
-
+---
 
 ## Audio Tracks
 ### Folder 1: SFX
