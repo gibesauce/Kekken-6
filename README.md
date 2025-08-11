@@ -24,6 +24,7 @@
 ## Free Memory Addresses
 > I forgot where I got this. Credits to yer meemaws.
 ```hex
+*Ignore Some of these for now*
 _L 0x20000000 to _L 0x20003FFC// User Memory; idk if you can use this
 _L 0x2061A488 to _L 0x20640C3C// Unused Animation Area
 _L 0x204C9000 to _L 0x204D3000// I'm not sure about this one
@@ -321,6 +322,54 @@ _L 0x20405890 0x00000002
 _L 0x20407974 0x00000500
 _L 0x204082A4 0x00000500
 
+_C1 Slightly Better Slow-Mo on Hit
+_L 0xE02908C0 0x204078E2// If the Stage is Loaded
+_L 0xE1010000 0x009043B8// Address 1
+_L 0x20413F94 0x00000000
+_L 0xE102000A 0x009043B8// Address 1
+_L 0xE001001E 0x109043BC// Address 2
+_L 0x30100001 0x009043BC// Address 2
+# -- Timer Set -- #
+_L 0xE10C000A 0x009043B8// Address 1
+_L 0xE10B0001 0x009043BC// Address 2
+_L 0x50407974 0x00000004// Copy 4 Bytes to 883F00 (P1 Current Speed)
+_L 0x00883F00 0x00000000
+_L 0x504082A4 0x00000004// Copy 4 Bytes to 883F04 (P2 Current Speed)
+_L 0x00883F04 0x00000000
+_L 0x504082D0 0x0000000C// Copy 12 Bytes to 883F08 (X,Y, and Z Coordinates)
+_L 0x00883F08 0x00000000
+_L 0x50408604 0x00000004// Copy 4 Bytes to 883F14 (P2 Pushback Data)
+_L 0x00883F14 0x00000000
+_L 0x2056F4B0 0x00000000
+_L 0x2056F4B4 0x00000005
+_L 0x1015350C 0x00003F60// Camera Zoom In
+# -- Timer 1 -- #
+_L 0xE107000A 0x009043B8// Address 1
+_L 0xE106001E 0x209043BC// Address 2
+_L 0x20407974 0x00000000// P1 Speed to 0
+_L 0x204082A4 0x00000000// P2 Speed to 0
+_L 0x204082D0 0x00000000// Write x to X coordinates (relative to a stage)
+_L 0x204082D4 0x40C00000// Write x to Y coordinates (height)
+_L 0x204082D8 0x00000000// Write x to Z coordinates (relative to a stage)
+_L 0x20408604 0x00000000// This fucks up the pushback but you get that oompf
+# -- Timer 2 -- #
+_L 0xE10F000A 0x009043B8// Address 1
+_L 0xE10E001E 0x009043BC// Address 2
+_L 0x50883F00 0x00000004// Copy 4 Bytes Back to 407974
+_L 0x00407974 0x00000000
+_L 0x50883F04 0x00000004// Copy 4 Bytes Back to 4082A4
+_L 0x004082A4 0x00000000
+_L 0x50883F08 0x0000000C// Copy 12 Bytes Back to 4082D0  
+_L 0x004082D0 0x00000000
+_L 0x50883F14 0x00000004// Copy 4 Bytes Back to 408604
+_L 0x00408604 0x00000000
+_L 0x1015350C 0x00003F80// Camera Zoom Out
+_L 0x209043B8 0x00000000// Reset Address 1
+_L 0x209043BC 0x00000000// Reset Address 2
+_L 0x20413F94 0x00000000
+_L 0x20407974 0x00001000// P1 Normal Speed
+_L 0x204082A4 0x00001000// P2 Normal Speed
+
 _C1 Rage on Practice Mode
 _L 0xE0070016 0x004140B8
 _L 0xE0020000 0x009060E0
@@ -338,171 +387,36 @@ _L 0x00000000 0x00000000
 | Hex | Address | Attribute |
 |:-:|:-:|---|
 | 80 | 0x08E423B0 | Common |
-| 96 | |
+| 96 | | |
+| 97 | | |
+| 99 | | |
 | 182 | 0x08E423C0 | Slight Tracking |
 | 185 | | Moderate Tracking |
-| 20F | |
-| 214 | |
+| 20F | | |
+| 214 | | |
 | 219 | 0x08E423BC | Related to Movement |
 | 401 | 0x08E423B4 | Parallel Connection |
 | 402 | | Parallel Connection |
-| 403 | |
-| 404 | |
+| 403 | | |
+| 404 | | |
 | 405 | | Parallel Connection |
 | 614 | | |
 | 619 | | |
+| 880 | | |
+| 897 | | |
+| 982 | | |
 | 1ADC | | Connection to Throw |
 | 2800 | | Effects |
 | 3FFF | | |
 | 8080 | 0x08E423B8 | Connection to BT |
 | 9ADC | | Connection to Back Throw |
+| 84099 | | |
 
 ## Permissions & Effects
 > [Wanna Take A Look Inside?](https://github.com/gibesauce/Kekken-6/blob/main/Documentation/Permissions.md) 
 
 ## Customisations
-```Markdown
-08CBF290 - Head
-08CBF2A4 - Face
-08CBF2B8 - Upper Body
-08CBF2CC - Lower Body
-08CBF2E0 - Other
-08CBF2F4 - Effect
-08CBF31C - Rage
-08CBF394 - Aura
-08CBF330 - Hair (Base)
-
-08CBF324 - Costume Colour 1 (Accessories)
-08CBF328 - Costume Colour 2 (Upper Body)
-08CBF32C - Costume Colour 3 (Lower Body)
-
-; Costume Colour is Universal
-0000 - Colour 1 (White)
-0001 - Colour 2 (Black)
-0002 - Colour 3 (Red)
-0003 - Colour 4 (Blue)
-0004 - Colour 5 (YelLow)
-0005 - Colour 6 (Green)
-0006 - Colour 7 (Purple)
-0007 - Colour 8 (Brown)
-
-
--Paul Phoenix-
-*Head*
-51CC - Default
-48E8 - Bandana
-5824 - Biker Bandana
-4D20 - Cowboy Hat
-3A74 - Dundee Hat & Hair Down
-31E4 - Dundee Hat
-5898 - Hi-Top Fade
-35E4 - Sports Cap
-5158 - Ten Gallon Hat
-*Face*
-0000 - Default
-33E4 - Aviator Sunglasses
-1C74 - Eye Patch
-4124 - Sharp Sunglasses
-36CC - Thick Frame Sunglasses
-*Upper Body*
-4814 - P1 Default
-1FEC - P2 Default
-495C - Cowboy Shirt
-4B78 - Flight Jacket (Brown)
-21BC - Flight Jacket (Black)
-2230 - Jean Jacket
-255C - Leather Vest
-20D4 - Shirtless
-44A8 - Spiked Shoulder Pads
-5654 - T-Shirt
-4198 - Wilder Jean Jacket (Black)
-403C - Wilder Jean Jacket (White)
-*Lower Body*
-556C - P1 Default
-49D0 - P2 Default
-5328 - Cowboy Jeans (Brown)
-1A4C - Cowboy Jeans (White)
-3740 - Cowboy Jeans (Black)
-4434 - Flight Pants (Orange)
-56C8 - Flight Pants (Black)
-5DEC - Jeans
-2148 - Leather Pants
-2DE8 - Torn Jeans (Black)
-57B0 - Torn Jeans (White)
-3258 - Torn Jeans (Red/Brown)
-*Other*
-0000 - Default
-32CC - Broadsword
-37B4 - Chinese Sword
-34CC - Japanese Sword
-3AE8 - One-Hit Kill Sign (3B)
-4604 - Sledgehammer (71)
-*Effect*
-1E44 - Default
-4BEC - Effect (Red)
-4E7C - Effect (Purple)
-4A44 - Effect (Blue)
-5024 - Effect (White)
-2E6C - Comic Effect (Japanese)
-3940 - Comic Effect (English)
-*Rage*
-5C38 - Default
-5FBC - SP Rage (White)
-1824 - SP Rage (Black)
-1AC0 - SP Rage (Yellow)
-3C60 - SP Rage (Lightning)
-3E14 - SP Rage (Ice)
-420C - SP Rage (Fire)
-*Aura*
-0000 - Default
-2814 - Aura (Blue)
-2BB4 - Aura (Green)
-2ACC - Aura (Pink)
-28FC - Aura (Purple)
-29E4 - Aura (Red)
-26B8 - Aura (White)
-272C - Aura (Yellow)
-27A0 - Ki (Blue)
-2B40 - Ki (Green)
-2A58 - Ki (Pink)
-2888 - Ki (Purple)
-2970 - Ki (Red)
-2C28 - Ki (White)
-2C9C - Ki (Yellow)
-*Hair*
-0000 - Default
-1D5C - High Ponytail Base
-17B0 - Low Ponytail Base
-2318 - Ponytail Base
-3170 - Slicked Back Base
-
-
--Miguel Caballero Rojo-
-*Head*
-
-*Face*
-
-*Upper Body*
-
-*Lower Body*
-
-*Other*
-5970 - Broadsword
-2BEC - Chinese Sword
-47EC - Combat Knife & Quiver
-5E44 - Flamenco Guitar (6B)
-1770 - Japanese Sword
-4E98 - Pistol (28)
-2BA0 - Sledgehammer (71)
-*Effect*
-
-*Rage*
-
-*Aura*
-
-*Hair*
-```
-
+> [Wanna Take A Look Inside?](https://github.com/gubesauce/Kekken-6/blob/main/Documentation/Customisations.md)
 
 
 ## Audio Tracks
