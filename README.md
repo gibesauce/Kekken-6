@@ -416,7 +416,7 @@ _L 0x00000000 0x00000000
 > [Wanna Take A Look Inside?](https://github.com/gibesauce/Kekken-6/blob/main/Documentation/Permissions.md) 
 
 ## Customisations
-> [Wanna Take A Look Inside?](https://github.com/gubesauce/Kekken-6/blob/main/Documentation/Customisations.md)
+> [Wanna Take A Look Inside?](https://github.com/gibesauce/Kekken-6/blob/main/Documentation/Customisations.md)
 
 
 ## Audio Tracks
