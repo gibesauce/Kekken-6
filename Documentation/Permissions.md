@@ -24,10 +24,10 @@
 | 10 | | | | If It Hits Grounded Opponent (Face Down, Feet Towards). *0000XXXX* is the required distance (min:300, max:1B58) |
 | 11 | | | | If It Hits Grounded Opponent (Face Down, Left). *0000XXXX* is the required distance (min:300, max:1B58) |
 | 12 | | | | If It Hits Grounded Opponent (Face Down, Right). *0000XXXX* is the required distance (min:300, max:1B58) |
-| 13 | | | |
-| 14 | | | |
-| 15 | | | |
-| 16 | | | |
+| 13 | | | | |
+| 14 | | | | |
+| 15 | | | | |
+| 16 | | | | |
 | 17 | 17 | | | If It Hits Standing/Crouching Opponent (Front). *0000XXXX* is the required distance (min:300, max:1B58) |
 | 18 | 18 | | | If It hits Standing/Crouching Opponent (Back). *0000XXXX* is the required distance (min:300, max:1B58) |
 | 19 | 19 | | | If It hits Standing/Crouching Opponent (Left). *0000XXXX* is the required distance (min:300, max:1B58) |
@@ -42,35 +42,35 @@
 | 22 | | | | If It hits Airborne Opponent (Face Down, Right). *0000XXXX* is the required distance (min:300, max:1B58) |
 | 23 | | | | If The Opponent's distance < *0000XXXX* (min:300, max:1B58) |
 | 24 | | | | If The Opponent's distance > *0000XXXX* (min:300, max:1B58) |
-| 25 | 
-| 26 | 
-| 27 | 
-| 28 | 
-| 29 | 
-| 2A | 
-| 2B |  
+| 25 | | | | |
+| 26 | | | | |
+| 27 | | | | |
+| 28 | | | | |
+| 29 | | | | |
+| 2A | | | | |
+| 2B | | | | |
 | 2C | 2E | 2C | 2C | If Regular Hit |
 | 2D | 31 | 2F | | If Blocked |
 | 2E | 32 | 30 | | If Attack Whiffs |
-| 2F | | | | 
-| 30 | 
-| 31 | 
-| 32 | 
-| 33 | 
-| 34 | 
-| 35 | 
+| 2F | | | | |
+| 30 | | | | |
+| 31 | | | | |
+| 32 | | | | |
+| 33 | | | | |
+| 34 | | | | |
+| 35 | | | | |
 | 36 | 3F | 43 | 42 | If Standing |
 | 37 | 40 | 44 | 43 | If Crouching |
-| 38 | 
-| 39 | 
-| 3A | 
-| 3B | 
-| 3C | 
+| 38 | | | | |
+| 39 | | | | |
+| 3A | | | | |
+| 3B | | | | |
+| 3C | | | | |
 | 3D | | 48 | | If backturned |
 | 3E | | 49 | | If not backturned |
-| 3F | 
-| 40 | 
-| 41 | 
+| 3F | | | | |
+| 40 | | | | |
+| 41 | | | | |
 | 42 | | 4D | | Related to Throws |
 | 43 | | 4E | | 
 | 44 | | 4F | | 
@@ -91,24 +91,24 @@
 | 53 | | 65 | | |
 | 54 | | 66 | | If opponent attacks |
 | 55 | | 67 | | If opponent's attack frame is XX |
-| 56 | 
-| 57 | 
-| 58 | 
-| 59 | 
-| 5A | 
-| 5B | 
-| 5C | 
-| 5D | 
-| 5E | 
-| 5F | 
-| 60 | 
-| 61 | 
-| 62 | 
-| 63 | 
-| 64 | 
-| 65 | 
-| 66 | 
-| 67 | 
+| 56 | | | | |
+| 57 | | | | |
+| 58 | | | | |
+| 59 | | | | |
+| 5A | | | | |
+| 5B | | | | |
+| 5C | | | | |
+| 5D | | | | |
+| 5E | | | | |
+| 5F | | | | |
+| 60 | | | | |
+| 61 | | | | |
+| 62 | | | | |
+| 63 | | | | |
+| 64 | | | | |
+| 65 | | | | |
+| 66 | | | | |
+| 67 | | | | |
 | 68 | | 7A | | |
 | 69 | | 7B | | |
 | 6A | | 7C | | |
@@ -140,265 +140,265 @@
 | 84 | | 96 | | if at the P1 Side |
 | 85 | | 97 | | if at the P2 Side |
 | 86 | | 9B | | If KiCharge is *000000XX* (00 = off, 01 = on) |
-| 87 | 
-| 88 | 
-| 89 | 
+| 87 | | | | |
+| 88 | | | | |
+| 89 | | | | |
 | 8A | | | | if opponent performs one of the moves from the [registry](https://sadamitsu.ru/cwcheat/registry.htm). *0000XXXX* is the start index |
-| 8B | 
-| 8C | 
-| 8D | 
-| 8E | 
+| 8B | | | | |
+| 8C | | | | |
+| 8D | | | | |
+| 8E | | | | |
 | 8F | | B6 | | if character is near to the wall (01 = Front, 02 = Left, 04 = Back, 08 = Right) |
-| 90 | 
-| 91 | 
-| 92 | 
-| 93 | 
-| 94 | 
-| 95 | 
+| 90 | | | | |
+| 91 | | | | |
+| 92 | | | | |
+| 93 | | | | |
+| 94 | | | | |
+| 95 | | | | |
 | 96 | AC | | | 
 | 97 | | BE | | 
 | 98 | C7 | D8 | |
-| 99 | 8C | D9 | | if character is "Move ID" *see 08C07A18*
-| 9A | | | | if character is not "Move ID" *see 08C07A18*
-| 9B | | | | if opponent is "Move ID" *see 08C07A18*
-| 9C | | | | if opponent is not "Move ID" *see 08C07A18*
-| 9D | | | | 
-| 9E | | | | 
-| 9F | | | | if opponent is "Character ID" *see 08C078B4* (Probably Exclusive to Alisa, look at her u/f+1+2 Throw[KUM])
-| A0 | 
-| A1 | D6 | E1 | E4 | Character Controller
-| A2 |
-| A3 | 
-| A4 | 
-| A5 | 
-| A6 | 
-| A7 | 
-| A8 | 
-| A9 | 
-| AA | 
-| AB | 
-| AC | 
-| AD | 
-| AE | 
-| AF | 
-| B0 | 
-| B1 |
-| B2 |
-| B3 |
-| B4 |
-| B5 |
-| B6 |
-| B7 | 
+| 99 | 8C | D9 | | if character is "Move ID" *see 08C07A18* |
+| 9A | | | | if character is not "Move ID" *see 08C07A18* |
+| 9B | | | | if opponent is "Move ID" *see 08C07A18* |
+| 9C | | | | if opponent is not "Move ID" *see 08C07A18* |
+| 9D | | | | |
+| 9E | | | | |
+| 9F | | | | if opponent is "Character ID" *see 08C078B4* (Probably Exclusive to Alisa, look at her u/f+1+2 Throw[KUM]) |
+| A0 | | | | |
+| A1 | D6 | E1 | E4 | Character Controller |
+| A2 | | | | |
+| A3 | | | | |
+| A4 | | | | |
+| A5 | | | | |
+| A6 | | | | |
+| A7 | | | | |
+| A8 | | | | |
+| A9 | | | | |
+| AA | | | | |
+| AB | | | | |
+| AC | | | | |
+| AD | | | | |
+| AE | | | | |
+| AF | | | | |
+| B0 | | | | |
+| B1 | | | | |
+| B2 | | | | |
+| B3 | | | | |
+| B4 | | | | |
+| B5 | | | | |
+| B6 | | | | |
+| B7 | | | | |
 | B8 | E8 | | |
-| B9 | | | | 
+| B9 | | | | |
 | BA | | FD | | if "inner KiCharge" is (00 = off, 01 = on) |
-| BB | 
-| BC |
-| BD |
-| BE |
-| BF |
-| C0 |
-| C1 |
-| C2 |
-| C3 |
+| BB | | | | |
+| BC | | | | |
+| BD | | | | |
+| BE | | | | |
+| BF | | | | |
+| C0 | | | | |
+| C1 | | | | |
+| C2 | | | | |
+| C3 | | | | |
 | C4 | | 121 | | 
-| C5 |
-| C6 | 
-| C7 |
-| C8 |
-| C9 |
-| CA |
-| CB |
-| CC |
-| CD |
-| CE |
-| CF |
-| D0 |
-| D1 | 126 | 149 | | if flag XX is set by 805C *see 08C07C84*
-| D2 |
-| D3 |
-| D4 | 
-| D5 | 
-| D6 | 139 | 160 | 166 | if flag XX is set by 8068
-| D7 |
-| D8 |
-| D9 |
-| DA |
-| DB |
-| DC |
-| DD |
-| DE |
-| DF |
-| E0 |
-| E1 |
-| E2 |
-| E3 |
-| E4 |
-| E5 |
-| E6 | 
-| E7 | 
-| E8 | 
-| E9 | 
-| EA | 
+| C5 | | | | |
+| C6 | | | | |
+| C7 | | | | |
+| C8 | | | | |
+| C9 | | | | |
+| CA | | | | |
+| CB | | | | |
+| CC | | | | |
+| CD | | | | |
+| CE | | | | |
+| CF | | | | |
+| D0 | | | | |
+| D1 | 126 | 149 | | if flag XX is set by 805C *see 08C07C84* |
+| D2 | | | | |
+| D3 | | | | |
+| D4 | | | | |
+| D5 | | | | |
+| D6 | 139 | 160 | 166 | if flag XX is set by 8068 |
+| D7 | | | | |
+| D8 | | | | |
+| D9 | | | | |
+| DA | | | | |
+| DB | | | | |
+| DC | | | | |
+| DD | | | | |
+| DE | | | | |
+| DF | | | | |
+| E0 | | | | |
+| E1 | | | | |
+| E2 | | | | |
+| E3 | | | | |
+| E4 | | | | |
+| E5 | | | | |
+| E6 | | | | |
+| E7 | | | | |
+| E8 | | | | |
+| E9 | | | | |
+| EA | | | | |
 | EB | 184 | 214 | | if character speed > *0000XXXX* |
 | EC | | 215 | | if character speed < *0000XXXX* |
-| ED | 
-| EE | 
-| EF | 
-| F0 | 
-| F1 | 
-| F2 | 
-| F3 | 
-| F4 | 
-| F5 | 
-| F6 | 
-| F7 | 
-| F8 | 
-| F9 | 
-| FA | 
-| FB | 
-| FC | 
-| FD | 
-| FE | 
-| FF | 
-| 100 | 
-| 102 | 
-| 103 | 
-| 104 | 
-| 105 | 
-| 106 | 
-| 107 | 
-| 108 | 
-| 109 | 
-| 10A | 
-| 10B | 
-| 10C | 
-| 10D | 
-| 10E | 
-| 10F | 
-| 110 | 
-| 111 | 
-| 112 | 
-| 113 | 
-| 114 | 
-| 115 | 
-| 116 | 
-| 117 | 
-| 118 | 
-| 119 | 
-| 11A | 
-| 11B | 
-| 11C | 
-| 11D | 
+| ED | | | | |
+| EE | | | | |
+| EF | | | | |
+| F0 | | | | |
+| F1 | | | | |
+| F2 | | | | |
+| F3 | | | | |
+| F4 | | | | |
+| F5 | | | | |
+| F6 | | | | |
+| F7 | | | | |
+| F8 | | | | |
+| F9 | | | | |
+| FA | | | | |
+| FB | | | | |
+| FC | | | | |
+| FD | | | | |
+| FE | | | | |
+| FF | | | | |
+| 100 | | | | |
+| 102 | | | | |
+| 103 | | | | |
+| 104 | | | | |
+| 105 | | | | |
+| 106 | | | | |
+| 107 | | | | |
+| 108 | | | | |
+| 109 | | | | |
+| 10A | | 234 | | |
+| 10B | | 235 | | |
+| 10C | | 236 | | |
+| 10D | | 237 | | |
+| 10E | | 238 | | |
+| 10F | | 239 | | |
+| 110 | | 23A | | |
+| 111 | | 23B | | |
+| 112 | | | | |
+| 113 | | | | |
+| 114 | | | | |
+| 115 | | | | |
+| 116 | | | | |
+| 117 | | | | |
+| 118 | | | | |
+| 119 | | | | |
+| 11A | | | | |
+| 11B | | | | |
+| 11C | | | | |
+| 11D | | | | |
 | 11E | 1AA | | |
-| 11F | 
-| 120 | 
-| 121 | 
-| 123 |
-| 124 |
-| 125 | 
-| 126 | 
-| 127 | 
-| 128 |
+| 11F | | | | |
+| 120 | | | | |
+| 121 | | | | |
+| 123 | | | | |
+| 124 | | | | |
+| 125 | | | | |
+| 126 | | | | |
+| 127 | | | | |
+| 128 | | | | |
 | 129 | 1C0 | 256 | |
-| 12A | 
-| 12B | 
+| 12A | | | | |
+| 12B | | | | |
 | 12C | 1C3 | 259 | | 
-| 12D | 
-| 12E | 
-| 12F | 
-| 130 | 
-| 131 | 
-| 133 |
-| 134 |
-| 135 | 
+| 12D | | | | |
+| 12E | | | | |
+| 12F | | | | |
+| 130 | | | | |
+| 131 | | | | |
+| 133 | | | | |
+| 134 | | | | |
+| 135 | | | | |
 | 136 | 1C6 | 25C | | 
-| 137 | 
-| 138 |
-| 139 |
-| 13A | | 260 | | 
+| 137 | | | | |
+| 138 | | | | |
+| 139 | | | | |
+| 13A | | 260 | | |
 | 13B | | 261 | | if customisation *00000XXX* item is equipped |
-| 13C | | | | 
-| 13D | | | | 
-| 13E | | 262 | | if Yoshimitsu is not in NSS
-| 13F | | 263 | | if Yoshimitsu is in NSS
-| 140 | | | | 
-| 141 | | | | 
-| 142 | | | | 
-| 143 | | | | if opponent is airborne
-| 144 | | | | if B! is available
-| 145 | | | | 
-| 146 | | | | 
-| 147 | | | | 
-| 148 | | | | 
-| 149 | | | | 
-| 14A | | | | 
-| 14B | | | | 
-| 14C | | | | 
-| 14D | | | | 
-| 14E | | | | 
-| 14F | | | | 
-| 151 | | | | 
-| 152 | | | | 
-| 153 | | | | 
-| 154 | | | | 
-| 155 | | | | 
-| 156 | | | | 
-| 157 | | | | 
-| 158 | | | | 
-| 158 | | | | 
-| 159 | | | | 
-| 15A | | | | 
-| 15B | | | | 
-| 15C | | | | 
-| 15D | | | | 
-| 15E | | | | 
-| 15F | | | | 
+| 13C | | | | |
+| 13D | | | | |
+| 13E | | 262 | | if Yoshimitsu is not in NSS |
+| 13F | | 263 | | if Yoshimitsu is in NSS |
+| 140 | | | | |
+| 141 | | | | |
+| 142 | | | | |
+| 143 | | 267 | | if opponent is airborne |
+| 144 | | 268 | | if B! is available |
+| 145 | | | | |
+| 146 | | | | |
+| 147 | | | | |
+| 148 | | | | |
+| 149 | | | | |
+| 14A | | | | |
+| 14B | | | | |
+| 14C | | | | |
+| 14D | | | | |
+| 14E | | | | |
+| 14F | | | | |
+| 151 | | | | |
+| 152 | | | | |
+| 153 | | | | |
+| 154 | | | | |
+| 155 | | | | |
+| 156 | | | | |
+| 157 | | | | |
+| 158 | | | | |
+| 158 | | | | |
+| 159 | | | | |
+| 15A | | | | |
+| 15B | | | | |
+| 15C | | | | |
+| 15D | | | | |
+| 15E | | | | |
+| 15F | | | | |
 | 160 | 285 | 32F? | | If opponent hits with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Low Attacks) |
 | 161 | 286 | 330 | | If opponent hits with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid/High Attacks) |
 | 162 | 287 | 331? | | if opponent hits with one of the moves from the [registry](http://sadamitsu.ru/cwcheat/registry.htm), *0000XXXX* is the start index |
-| 163 | | | | 
-| 164 | | | | 
-| 165 | | | | 
-| 166 | | | | 
-| 167 | | | | 
-| 168 | | | | 
-| 169 | | | | 
-| 16A | | | | 
-| 16B | | | | 
-| 16C | | | | 
-| 16D | | | | 
-| 16E | | | | 
-| 16F | | | | 
+| 163 | | | | |
+| 164 | | | | |
+| 165 | | | | |
+| 166 | | | | |
+| 167 | | | | |
+| 168 | | | | |
+| 169 | | | | |
+| 16A | | | | |
+| 16B | | | | |
+| 16C | | | | |
+| 16D | | | | |
+| 16E | | | | |
+| 16F | | | | |
 | 170 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
 | 171 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
-| 172 | | | | 
-| 173 | | | | 
+| 172 | | | | |
+| 173 | | | | |
 | 174 | | | | if opponent hits with one of the moves from the [registry](http://sadamitsu.ru/cwcheat/registry.htm), *0000XXXX* is the start index |
-| 175 | | | | 
-| 176 | | | | 
-| 177 | | | | 
-| 178 | | | | 
-| 179 | | | | 
-| 17A | | | | 
-| 17B | | | | 
-| 17C | | | | 
-| 17D | | | | 
-| 17E | | | | 
-| 17F | | | | 
-| 180 | | | | 
+| 175 | | | | |
+| 176 | | | | |
+| 177 | | | | |
+| 178 | | | | |
+| 179 | | | | |
+| 17A | | | | |
+| 17B | | | | |
+| 17C | | | | |
+| 17D | | | | |
+| 17E | | | | |
+| 17F | | | | |
+| 180 | | | | |
 | 181 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
 | 182 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
-| 183 | | | | 
-| 184 | | | | 
+| 183 | | | | |
+| 184 | | | | |
 | 185 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
 | 186 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
-| 187 | | | | 
-| 188 | | | | 
-| 189 | | | | 
-| 18A | | | | 
-| 18B | | | | 
-| 18C | | | | 
+| 187 | | | | |
+| 188 | | | | |
+| 189 | | | | |
+| 18A | | | | |
+| 18B | | | | |
+| 18C | | | | |
 | 18D | 2B2 | 371 | 44C | End of Permission |
 | * | * | * | * | * |
 
@@ -446,7 +446,7 @@
 | 802A | | 8046 | | [Collection of Visual Effects](http://sadamitsu.ru/cwcheat/802A.htm) |
 | 802B | | 8046 | | [Collection of Visual Effects](http://sadamitsu.ru/cwcheat/802A.htm) |
 | 802C | | 8047 | | |
-| 802D | | 8048 | | Ground Break Effect Under Specific Limb *0000XXYY* (XX is the limb, YY is the mode; 00, 01 or 02) |
+| 802D | | 8048 | | Ground Break Effect Under Specific [Limb](https://sadamitsu.ru/cwcheat/limbs.htm) *0000XXYY* (XX is the limb, YY is the mode; 00, 01 or 02) |
 | 802E | | | | | Alisa's Extra Specific Visual Effects |
 | 802F | | | | | 
 | 8030 | | | | | 
@@ -475,26 +475,26 @@
 | 8047 | | | | | Opponent's Strong Vertical Blast |
 | 8048 | | | | | [Collection of Visual Effects](http://sadamitsu.ru/cwcheat/802A.htm) |
 | 8049 | | | | | [Collection of Visual Effects](http://sadamitsu.ru/cwcheat/802A.htm) |
-| 804A | | | | | Chain Sparks on the Ground, v1 |
-| 804B | | | | | Chain Sparks on the Ground, v2 |
+| 804A | | 8068 | | | Chain Sparks on the Ground, v1 |
+| 804B | | 8069 | | | Chain Sparks on the Ground, v2 |
 | 804C | | | | |
 | 804D | | | | |
 | 804E | | | | |
-| 804F | 8058 | 821B | | Opponent Damage |
-| 8050 | 8059 |  | | Character Damage |
-| 8051 | | | | Gain Health? |
-| 8052 | | | | 
-| 8053 | 805C | 806E | | 
-| 8054 | | | | 
-| 8055 | 8062 | | 
-| 8056 | | | | 
+| 804F | 8058 | 806D | | Opponent Damage |
+| 8050 | 8059 | 806E | | Character Damage |
+| 8051 | | | | |
+| 8052 | | | | |
+| 8053 | 805C | | | |
+| 8054 | | | | |
+| 8055 | 8062 | | |
+| 8056 | | | | |
 | 8057 | | | | Countdown Timer for Tk6SC Dialogs |
 | 8058 | 8066 | 8078 | | Launch The "Inner KiCharge" timer. *0000XXXX* is the time (Current Timer Value in 08C07C80) |
-| 8059 | | 8079 | |
-| 805A | | 807A | |
-| 805B | | 807B | |
+| 8059 | | | |
+| 805A | | | |
+| 805B | | | |
 | 805C | 806C | 807C | | Set flag XX for permission D1 *see 08C07CB4* |
-| 805D | 806D | 807D | | | Changes flag XX for permission D1 *see 08C07CB4* |
+| 805D | 806D | 807D | | Changes flag XX for permission D1 *see 08C07CB4* |
 | 805E | | | | 
 | 805F | | | | 
 | 8060 | | | | 
@@ -563,15 +563,15 @@
 | 809F | | | | |
 | 80A0 | | | | |
 | 80A1 | | 81A3 | | 
-| 80A2 | | 81A4 | | Returns Direction while performing a throw |
+| 80A2 | | 81A4 | | Returns Direction while performing a Move (Usually Used on Throws) |
 | 80A3 | | | | |
 | 80A4 | | | | |
-| 80A5 | | | | Alisa's items can pass though walls |
+| 80A5 | | 81A7 | | Returns Direction While Performing a Move at the Wall |
 | 80A6 | | | | |
 | 80A7 | | | | |
 | 80A8 | | | | |
 | 80A9 | | | | |
-| 80AA | 8113 | 829A | | |
+| 80AA | 8113 | | | |
 | 80AB | 811C | 81C8 | | Skip *00000XXX* frames of the following move |
 | 80AC | | | | |
 | 80AD | | | | |
@@ -597,13 +597,13 @@
 | 80C1 | 8131 | 81DD | | 
 | 80C2 | 8132 | 81DE | | Character Ghost will perform a move |
 | 80C3 | 8133 | 81DF | | 
-| 80C4 | | | | 
-| 80C5 | | | | 
-| 80C6 | | 81E3 | | 
+| 80C4 | | | | |
+| 80C5 | | | | |
+| 80C6 | 8137 | 81E3 | | 
 | 80C7 | 8138 | 81E4 | | Floor Break F! |
 | 80C8 | 8139 | 81E5 | | Rotation of the Character when the Floor Breaks F! |
-| 80C9 |  | | | 
-| 80CA |  | | | 
+| 80C9 | | | | |
+| 80CA | | | | |
 | 80CB | 813B | 81E8 | | Pushback-related |
 | 80CC | 813C | 81E9 | | 
 | 80CD | 813D | 81EA | | 
@@ -630,28 +630,28 @@
 | 80E3 | | 8203 | | Change Opponent Rotation |
 | 80E4 | | | | |
 | 80E5 | | | | |
-| 80E6 | | | | Change Character Height |
+| 80E6 | | 8209 | | Change Character Height |
 | 80E7 | 815D | 820A | | 
-| 80E8 | | | | 
-| 80E9 | | | | 
-| 80EA | | | | 
-| 80EB | | | | 
-| 80EC | | | | 
+| 80E8 | | | | |
+| 80E9 | | | | |
+| 80EA | | | | |
+| 80EB | | | | |
+| 80EC | | | | |
 | 80ED | | | | Character Disappears, including VFX |
 | 80EF | | | | Opponent Disappears, including VFX |
-| 80F0 | | | | 
-| 80F1 | | | | 
-| 80F2 | | | |
-| 80F3 | | | | 
-| 80F4 | | | | 
-| 80F5 | | | | 
-| 80F6 | | | | 
-| 80F7 | | | | 
-| 80F8 | | | | 
-| 80F9 | | | | 
-| 80FA | | | | 
+| 80F0 | | | | |
+| 80F1 | | | | |
+| 80F2 | | | | |
+| 80F3 | | | | |
+| 80F4 | | | | |
+| 80F5 | | | | |
+| 80F6 | | | | |
+| 80F7 | | | | |
+| 80F8 | | | | |
+| 80F9 | | | | |
+| 80FA | | | | |
 | 80FB | | | | Subtitles |
-| 80FC | | | | 
+| 80FC | | | | |
 | 80FD | | | | Tk6SC Dialogue Subtitles *00XX00YY* |
 | 80FE | | | | |
 | 80FF | 8180 | | | Reset Camera Position |
@@ -664,36 +664,36 @@
 | 8106 | | | | |
 | 8107 | | | | |
 | 8108 | | | | |
-| 8109 | 8184 | 8246 | |
-| 810A | 8185 | 8247 | | 
-| 810B | 8186 | 8248 | | 
-| 810C | 8187 | 8249 | | 
-| 810D | 8188 | 824A | |
-| 810E | 8189 | 824B | | 
+| 8109 | 8184 | 8246 | | |
+| 810A | 8185 | 8247 | | |
+| 810B | 8186 | 8248 | | |
+| 810C | 8187 | 8249 | | |
+| 810D | 8188 | 824A | | |
+| 810E | 8189 | 824B | | |
 | 810F | 818A | 824C | | Combo Meter Reset on *000000XX* frame |
-| 8110 | x | x | | 
-| 8111 | 818B | 824D | | 
+| 8110 | x | x | | |
+| 8111 | 818B | 824D | | |
 | 8112 | 818C | 824E | | Combo Meter Does Not Reset |
-| 8113 | 818D | 824F | | 
-| 8114 | 818E | 8250 | | 
+| 8113 | 818D | 824F | | |
+| 8114 | 818E | 8250 | | |
 | 8115 | 818F | 8251 | | Character Disappears, without VFX (01 = Disappear, 02 ≥ Flicker) |
 | 8116 | 8190 | 8252 | | Opponent Disappears, without VFX (01 = Disappear, 02 ≥ Flicker) |
-| 8117 | | | | 
-| 8118 | | | | 
-| 8119 | | | | 
-| 811A | | | | 
-| 811B | | | | 
-| 811C | | | | 
-| 811D | | | | 
-| 811E | | | | 
-| 811F | | | | 
-| 8120 | 8193 | 8255 | | Spend *Bound* (Tk6/TTT2); *Screw* (Tk7); *Tornado* (Tk8) |
-| 8121 | 8194 | 8256 | |
-| 8122 | | | | 
-| 8123 | | | | 
-| 8124 | | | | 
-| 8125 | | | | Item Move, attach item to *000000XX* limb |
-| 8126 | | | | Item Move, switch on |
+| 8117 | | | | |
+| 8118 | | | | |
+| 8119 | | | | |
+| 811A | | | | |
+| 811B | | | | |
+| 811C | | | | |
+| 811D | | | | |
+| 811E | | | | |
+| 811F | | | | |
+| 8120 | 8193 | 8255 | | Spend *Bound* (Tk6/TTT2) *Screw* (Tk7) *Tornado* (Tk8) |
+| 8121 | 8194 | 8256 | | 8120-Related (Use this after 8120) |
+| 8122 | | | | |
+| 8123 | | | | |
+| 8124 | | | | |
+| 8125 | | | | Item Move, Attach Item to *000000XX* [Limb](https://sadamitsu.ru/cwcheat/limbs.htm) |
+| 8126 | | | | Item Move, Switch On |
 | 8127 | | | | Item Move, Reset |
 | 8128 | | | | Item Move, Activate |
 | 8129 | | | | Projectile Item Move, Projectile's Forward/Backward Movement Speed |
@@ -707,7 +707,7 @@
 | 8131 | | | | Item Move, Shift Attack Point *0000XXYY* (XX = ITEM / YY = Distance) |
 | 8132 | | | | |
 | 8133 | | | | |
-| 8134 | | | | Projectile Item Move, Iteam Appears |
+| 8134 | | | | Projectile Item Move, Item Appears |
 | 8135 | | | | |
 | 8136 | | | | Projectile Item Move, Reset |
 | 8137 | | | | |
@@ -837,18 +837,18 @@
 | 81B3 | | | | Bring Character's 801E Move Number to default |
 | 81B4 | | | | Bring Character's 801F Move Number to default |
 | 81B5 | | | | Bring Character's 8020 Move Number to default |
-| 81B6 | | | |
-| 81B7 | | | | 
-| 81B8 | | | | 
-| 81B9 | | | | 
+| 81B6 | | | | |
+| 81B7 | | | | |
+| 81B8 | | | | |
+| 81B9 | | | | |
 | 81BA | | | | Raven's Ghost performs a P1 move (Can be used by any character) |
 | 81BB | | | | Raven's Ghost Disappears (Can be used by any character) |
 | 81BC | | | | Switch sides |
-| 81BD | | | | 
-| 81BE | | | | 
-| 81BF | | | | 
-| 81C0 | | | | 
-| 81C1 | | | | 
+| 81BD | | | | |
+| 81BE | | | | |
+| 81BF | | | | |
+| 81C0 | | | | |
+| 81C1 | | | | |
 | 81C2 | 82D5 | 8428 | 860A | Gesture for Both Hands |
 | 81C3 | 82D6 | 8429 | 860B | Gesture for Left Hand |
 | 81C4 | 82D7 | 842A | 860C | Gesture for Right Hand |
@@ -856,12 +856,12 @@
 | 81C6 | 82DA | 842D | | Gesture Animation for Both Hands |
 | 81C7 | 82DB | 842E | | Gesture Animation for Left Hand |
 | 81C8 | 82DC | 842F | | Gesture Animation for Right Hand |
-| 81C9 | | | |
-| 81CA | | | |
+| 81C9 | | | | |
+| 81CA | | | | |
 | 81CB | 82E5 | 8435 | | Camera Anim for Cutscenes, Based on Character Coordinates |
-| 81CC | | | |
+| 81CC | | | | |
 | 81CD | | | | Camera Anim for Cutscenes, Based on Stage Coordinates |
-| 81CE | | | | 
+| 81CE | | | | |
 | 81CF | 82E9 | 843C | | Camera Mode for Throws |
 | 81D0 | | 843D | | Camera Anim for Cutscene, Based on Character Coordinates |
 | 81D1 | | | | |
@@ -880,9 +880,9 @@
 | 81DE | | | | |
 | 81DF | 82F6 | 84C1 | | Facial Expression *0000XXYY* (XX = Expression Number, YY = Smoothing) |
 | 81E0 | 82F7 | 84C2 | | Facial Animation |
-| 81E1 | | | | 
-| 81E2 | | | | 
-| 81E3 | | | | 
+| 81E1 | | | | |
+| 81E2 | | | | |
+| 81E3 | | | | |
 | 81E4 | 82F9 | 84C4 | 87F0 | Play Sound from Character's Base *XX0000YY* (XX is the folder, YY is the sound) |
 | 81E5 | 82FB | 84C6 | 87F2 | Play Sound from Opponent's Base *XX0000YY* (XX is the folder, YY is the sound) |
 | 81E6 | 82FD | 84C8 | | 
@@ -919,40 +919,41 @@
 
 | I haven't | found the | Tekken 6 | equivalent | yet |
 |:-:|:-:|:-:|:-:|---|
-| | 12D | 385 | | 
-| | 1CA | 2CD | | 
-| | 1E4 | 2E6 | | 
-| | 1E5 | 3BB | | 
-| | 81B4 | | | 
-| | 81B5 | 85D6 | | 
-| | 81BC | 827E | | (Can be seen on Bryan's d+3+4,2~D/B at =>38)
-| | 81BD | 827F | | 
-| | 8258 | 83AD | | (Can be seen on Jin's b,f+2,3 at =>38)
-| | 8259 | 83AE | | (Can be seen on Jin's b,f+2,3 at =>14)
-| | 825D | 83B2 | | (Can be seen on Jin's f+1+2 [2] at =>38)
-| | 825F | 83B4 | | 
+| | 12D | 385 | | |
+| | 1CA | 2CD | | |
+| | 1E4 | 2E6 | | |
+| | 1E5 | 3BB | | |
+| | 81B4 | | | |
+| | 81B5 | 85D6 | | |
+| | 81BC | 827E | | (Can be seen on Bryan's d+3+4,2~D/B at =>38) |
+| | 81BD | 827F | | |
+| | 8258 | 83AD | | (Can be seen on Jin's b,f+2,3 at =>38) |
+| | 8259 | 83AE | | (Can be seen on Jin's b,f+2,3 at =>14) |
+| | 825D | 83B2 | | (Can be seen on Jin's f+1+2 [2] at =>38) |
+| | 825F | 83B4 | | |
 | * | * | * | * | * |
-| | | 9D | | | if Rage is activated *000000XX* (00 = off, 01 = on)
-| | | 8069 | | 
-| | | 8211 | | (Can be seen on Tk7 Kazuya's CD+3 at =>38)
-| | | 8212 | | (Can be seen on Tk7 Kazuya's CD+3 at =>38)
-| | | 821B | | Set Scaled Damage
-| | | 8220 | | 
-| | | 8236 | | 
-| | | 82A3 | | 
-| | | 82A4 | | 
-| | | 82B8 | | 
-| | | 82C8 | | Framedata, Use Fake Frame Advantage
-| | | 82C9 | | Framedata, Use Fake Frame Advantage
-| | | 82CB | | Special Cancelable? (Can be seen on Tk7 Bryan's d+2 at =>14)
-| | | 82D4 | | (Can be seen on T7 Armor King's f+1+4 at =>38)
-| | | 82DB | | (Can be seen on Tk7 Armor King's f,f+4 at =>38)
-| | | 82DC | | 
-| | | 82E9 | | 
-| | | 84D1 | | 
+| | | 9D | | | if Rage is activated *000000XX* (00 = off, 01 = on) |
+| | | 8069 | | |
+| | | 8211 | | (Can be seen on Tk7 Kazuya's CD+3 at =>38) |
+| | | 8212 | | (Can be seen on Tk7 Kazuya's CD+3 at =>38) |
+| | | 821B | | Set Scaled Damage |
+| | | 8220 | | |
+| | | 8236 | | |
+| | | 82A3 | | |
+| | | 82A4 | | |
+| | | 82B8 | | |
+| | | 82C8 | | Framedata, Use Fake Frame Advantage |
+| | | 82C9 | | Framedata, Use Fake Frame Advantage |
+| | | 82CB | | Special Cancelable? (Can be seen on Tk7 Bryan's d+2 at =>14) |
+| | | 82D4 | | (Can be seen on T7 Armor King's f+1+4 at =>38) |
+| | | 82DB | | (Can be seen on Tk7 Armor King's f,f+4 at =>38) |
+| | | 82DC | | |
+| | | 82E9 | | |
+| | | 84D1 | | |
 | * | * | * | * | * |
-| | | | 1C5 | 
-| | | | 83C3 | 
+| | | | 1C5 | |
+| | | | 83C3 | |
+
 
 
 
