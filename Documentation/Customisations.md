@@ -548,7 +548,7 @@
   </tr>
   <tr>
     <td>5970</td>
-    <td>Broadswoard</td>
+    <td align="center">Broadswoard</td>
   <tr>
     <td>2BEC</td>
     <td align="center">Chinese Sword</td>
