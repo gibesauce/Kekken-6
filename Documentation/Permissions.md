@@ -3,7 +3,7 @@
 > Note: if a question mark appears beside the values, that means I have not yet confirmed if they are in fact, correct.
 
 ## Permissions
-| Tekken 6 | Tekken Tag Tournament 2 | Tekken 7 | Tekken 8 | Attribute |  
+| Tekken 6 | Tekken Tag Tournament 2 | Tekken 7 | Tekken 8 | Attribute |
 |:--------:|:-----------------------:|:--------:|:--------:|-----------|  
 | 00 | | | | No Condition |  
 | 01 | | | | If Practice Mode |  
@@ -141,7 +141,7 @@
 | 85 | | 97 | | if at the P2 Side |
 | 86 | | 9B | | If KiCharge is *000000XX* (00 = off, 01 = on) |
 | 87 | | | | |
-| 88 | | | | |
+| 88 | | 9D? | | |
 | 89 | | | | |
 | 8A | | | | if opponent performs one of the moves from the [registry](https://sadamitsu.ru/cwcheat/registry.htm). *0000XXXX* is the start index |
 | 8B | | | | |
@@ -157,15 +157,15 @@
 | 95 | | | | |
 | 96 | AC | | | 
 | 97 | | BE | | 
-| 98 | C7 | D8 | |
+| 98 | C7 | | |
 | 99 | 8C | D9 | | if character is "Move ID" *see 08C07A18* |
-| 9A | | | | if character is not "Move ID" *see 08C07A18* |
-| 9B | | | | if opponent is "Move ID" *see 08C07A18* |
-| 9C | | | | if opponent is not "Move ID" *see 08C07A18* |
-| 9D | | | | |
-| 9E | | | | |
-| 9F | | | | if opponent is "Character ID" *see 08C078B4* (Probably Exclusive to Alisa, look at her u/f+1+2 Throw[KUM]) |
-| A0 | | | | |
+| 9A | | DA | | if character is not "Move ID" *see 08C07A18* |
+| 9B | | DB | | if opponent is "Move ID" *see 08C07A18* |
+| 9C | | DC | | if opponent is not "Move ID" *see 08C07A18* |
+| 9D | | DD | | |
+| 9E | | DE | | |
+| 9F | | DF | | if opponent is "Character ID" *see 08C078B4* (Probably Exclusive to Alisa, look at her u/f+1+2 Throw[KUM]) |
+| A0 | | E0 | | |
 | A1 | D6 | E1 | E4 | Character Controller |
 | A2 | | | | |
 | A3 | | | | |
@@ -201,7 +201,7 @@
 | C1 | | | | |
 | C2 | | | | |
 | C3 | | | | |
-| C4 | | 121 | | 
+| C4 | 121 | | | 
 | C5 | | | | |
 | C6 | | | | |
 | C7 | | | | |
@@ -214,12 +214,12 @@
 | CE | | | | |
 | CF | | | | |
 | D0 | | | | |
-| D1 | 126 | 149 | | if flag XX is set by 805C *see 08C07C84* |
+| D1 | 126 | 149 | 150 | If a Flag (01) is Set by 805C *see 08C07C84* |
 | D2 | | | | |
 | D3 | | | | |
 | D4 | | | | |
 | D5 | | | | |
-| D6 | 139 | 160 | 166 | if flag XX is set by 8068 |
+| D6 | 139 | 160 | 166 | If a Flag (01) is Set by 8068 |
 | D7 | | | | |
 | D8 | | | | |
 | D9 | | | | |
@@ -240,8 +240,8 @@
 | E8 | | | | |
 | E9 | | | | |
 | EA | | | | |
-| EB | 184 | 214 | | if character speed > *0000XXXX* |
-| EC | | 215 | | if character speed < *0000XXXX* |
+| EB | 184 | 214 | | If Character Speed > *0000XXXX* |
+| EC | | 215 | | If Character Speed < *0000XXXX* |
 | ED | | | | |
 | EE | | | | |
 | EF | | | | |
@@ -317,16 +317,16 @@
 | 138 | | | | |
 | 139 | | | | |
 | 13A | | 260 | | |
-| 13B | | 261 | | if customisation *00000XXX* item is equipped |
+| 13B | | 261 | | If Customisation Item is Equipped *0000XXXX* |
 | 13C | | | | |
 | 13D | | | | |
-| 13E | | 262 | | if Yoshimitsu is not in NSS |
-| 13F | | 263 | | if Yoshimitsu is in NSS |
+| 13E | | 262 | | If Yoshimitsu is not in NSS |
+| 13F | | 263 | | If Yoshimitsu is in NSS |
 | 140 | | | | |
 | 141 | | | | |
 | 142 | | | | |
-| 143 | | 267 | | if opponent is airborne |
-| 144 | | 268 | | if B! is available |
+| 143 | | 267 | | If Opponent is Airborne |
+| 144 | | 268 | | If B! is Available |
 | 145 | | | | |
 | 146 | | | | |
 | 147 | | | | |
@@ -354,9 +354,9 @@
 | 15D | | | | |
 | 15E | | | | |
 | 15F | | | | |
-| 160 | 285 | 32F? | | If opponent hits with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Low Attacks) |
-| 161 | 286 | 330 | | If opponent hits with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid/High Attacks) |
-| 162 | 287 | 331? | | if opponent hits with one of the moves from the [registry](http://sadamitsu.ru/cwcheat/registry.htm), *0000XXXX* is the start index |
+| 160 | 285 | 32F? | | If Opponent Attacks with *000000XX* [Limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Low Attacks) |
+| 161 | 286 | 330 | | If Opponent Attacks with *000000XX* [Limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid/High Attacks) |
+| 162 | 287 | 331? | | if Opponent Performs One of the Moves From the [Registry](http://sadamitsu.ru/cwcheat/registry.htm), *0000XXXX* is the start index |
 | 163 | | | | |
 | 164 | | | | |
 | 165 | | | | |
@@ -370,11 +370,11 @@
 | 16D | | | | |
 | 16E | | | | |
 | 16F | | | | |
-| 170 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
-| 171 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
+| 170 | | | | If Opponent Hits Character with *000000XX* [Limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
+| 171 | | | | If Opponent Hits Character with *000000XX* [Limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
 | 172 | | | | |
 | 173 | | | | |
-| 174 | | | | if opponent hits with one of the moves from the [registry](http://sadamitsu.ru/cwcheat/registry.htm), *0000XXXX* is the start index |
+| 174 | | | | If Opponent Performs one of the Moves From the [Registry](http://sadamitsu.ru/cwcheat/registry.htm), *0000XXXX* is the Start Index |
 | 175 | | | | |
 | 176 | | | | |
 | 177 | | | | |
@@ -387,12 +387,12 @@
 | 17E | | | | |
 | 17F | | | | |
 | 180 | | | | |
-| 181 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
-| 182 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
+| 181 | | | | If Opponent Hits Character with *000000XX* [Limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
+| 182 | | | | If Opponent Hits Character with *000000XX* [Limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
 | 183 | | | | |
 | 184 | | | | |
-| 185 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
-| 186 | | | | if opponent hits character with *000000XX* [limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
+| 185 | | | | If Opponent Hits Character with *000000XX* [Limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against High Attacks) |
+| 186 | | | | If Opponent Hits Character with *000000XX* [Limb](https://sadamitsu.ru/cwcheat/limbs.htm) (Against Mid Attacks) |
 | 187 | | | | |
 | 188 | | | | |
 | 189 | | | | |
@@ -421,13 +421,16 @@
 | 800E | x | x | x |xxxxxxxxxxxxxxxxxx|
 | 800F | 800E | 800E | | Ground Break Effect | 
 | 8010 | 800F | 800F | | Strong Blast Wave on the floor | 
-| 8011 | | | | Character is on fire (0 = Yellow, 1 = Purple) | 
-| 8012 | | | | Opponent is on fire (0 = Yellow, 1 = Purple) | 
-| 8013 | | | | 
-| 8014 | | | | 
+| 8011 | | | | Character is on Fire (0 = Yellow, 1 = Purple) | 
+| 8012 | | | | Opponent is on Fire (0 = Yellow, 1 = Purple) | 
+| 8013 | | | | |
+| 8014 | | | | |
 | 8015 | | | | Seen on Elemental Reaction: Thunder (Idk what it does) |
 | 8016 | | | | Seen on Elemental Reaction: Thunder (Idk what it does) |
 | 8017 | | | | Seen on Elemental Reaction: Ice (Idk what it does) |
+| 8018 | | | | |
+| 8019 | | | | |
+| 801A | | | | |
 | 801B | | | | Seen on Elemental Reaction: Ice (Idk what it does) |
 | 801C | 801B | 801E | | Steam Comes Out of The Mouth |
 | 801D | 8067 | 801F | | Alisa's Character Specific Visual Effect |
@@ -455,102 +458,102 @@
 | 8033 | | | | | 
 | 8034 | | | | | Chain Sparks on the Ground, v1 |
 | 8035 | | 8058 | | | Chain Sparks on the Ground, v2 |
-| 8036 | 
-| 8037 | 
-| 8038 | 
-| 8039 | 
-| 803A | 
-| 803B | 8040 | 
-| 803C | | | | | Steam Comes Out of the Mouth (Same as 801C) |
+| 8036 | | | | |
+| 8037 | | | | |
+| 8038 | | | | |
+| 8039 | | | | |
+| 803A | | | | |
+| 803B | 8040 | | | |
+| 803C | | | | | Steam Comes Out of the Mouth |
 | 803D | | | | | Character Specific Visual Effect |
-| 803E | | | | | Character Extra Visual Effect (Same as 8020) |
+| 803E | | | | | Character Extra Visual Effect |
 | 803F | | | | | Opponent Specific Visual Effect |
-| 8040 | | | | | Opponent Extra Visual Effect (Same as 8022) |
-| 8041 | | | | | Regular Hit Effect (Same as 8023) |
-| 8042 | | | | | Grapple Indicator (Main) (Same as 8024) |
-| 8043 | | | | | Smoke Effect (Same as 8025) |
-| 8044 | | | | | Faint Smoke Effect (Same as 8026) |
-| 8045 | | | | | Block Effect (Same as 8027) |
+| 8040 | | | | | Opponent Extra Visual Effect |
+| 8041 | | | | | Regular Hit Effect |
+| 8042 | | | | | Grapple Indicator (Main) |
+| 8043 | | | | | Smoke Effect |
+| 8044 | | | | | Faint Smoke Effect |
+| 8045 | | | | | Block Effect |
 | 8046 | | | | | Opponent's Vertical Blast |
 | 8047 | | | | | Opponent's Strong Vertical Blast |
 | 8048 | | | | | [Collection of Visual Effects](http://sadamitsu.ru/cwcheat/802A.htm) |
 | 8049 | | | | | [Collection of Visual Effects](http://sadamitsu.ru/cwcheat/802A.htm) |
-| 804A | | 8068 | | | Chain Sparks on the Ground, v1 |
-| 804B | | 8069 | | | Chain Sparks on the Ground, v2 |
+| 804A | | | | | Chain Sparks on the Ground, v1 |
+| 804B | | | | | Chain Sparks on the Ground, v2 |
 | 804C | | | | |
 | 804D | | | | |
 | 804E | | | | |
-| 804F | 8058 | 806D | | Opponent Damage |
-| 8050 | 8059 | 806E | | Character Damage |
+| 804F | 8058 | | | Inflict Damage to Opponent |
+| 8050 | 8059 | | | Inflict Self Damage |
 | 8051 | | | | |
 | 8052 | | | | |
-| 8053 | 805C | | | |
+| 8053 | 805C | 806E | | Inflict Self Damage on Wall Hit |
 | 8054 | | | | |
 | 8055 | 8062 | | |
 | 8056 | | | | |
 | 8057 | | | | Countdown Timer for Tk6SC Dialogs |
 | 8058 | 8066 | 8078 | | Launch The "Inner KiCharge" timer. *0000XXXX* is the time (Current Timer Value in 08C07C80) |
-| 8059 | | | |
-| 805A | | | |
-| 805B | | | |
+| 8059 | | | | |
+| 805A | | | | |
+| 805B | | | | |
 | 805C | 806C | 807C | | Set flag XX for permission D1 *see 08C07CB4* |
 | 805D | 806D | 807D | | Changes flag XX for permission D1 *see 08C07CB4* |
-| 805E | | | | 
-| 805F | | | | 
-| 8060 | | | | 
-| 8061 | | | | 
-| 8062 | | | | 
-| 8063 | | | | 
-| 8064 | | | | 
+| 805E | | | | |
+| 805F | | | | |
+| 8060 | | | | |
+| 8061 | | | | |
+| 8062 | | | | |
+| 8063 | | | | |
+| 8064 | | | | |
 | 8065 | 8093? | 80A3? | 80C2? | 
 | 8066 | 8094? | 80A4? | 80C3? | 
 | 8067 | 8095? | 80A5? | 80C4? | 
 | 8068 | 8096 | 80A6 | 80C5 | Set flag XX for permission D6 |
-| 8069 | | | | 
-| 806A | | | | 
-| 806B | | | | 
-| 806C | | | | 
-| 806D | | | | 
-| 806E | | | | 
-| 806F | | | | 
-| 8070 | | | | 
-| 8071 | | | | 
-| 8072 | | | | 
-| 8073 | | | | 
-| 8074 | | | | 
-| 8075 | | | | 
-| 8076 | | | | 
+| 8069 | | | | |
+| 806A | | | | |
+| 806B | | | | |
+| 806C | | | | |
+| 806D | | | | |
+| 806E | | | | |
+| 806F | | | | |
+| 8070 | | | | |
+| 8071 | | | | |
+| 8072 | | | | |
+| 8073 | | | | |
+| 8074 | | | | |
+| 8075 | | | | |
+| 8076 | | | | |
 | 8077 | | 80DB | | Set Wall Combo Counter |
 | 8078 | 80B7 | 80DC | | 
-| 8079 | | | | 
-| 807A | | | | 
-| 807B | | | | 
-| 807C | | | | 
-| 807D | | | | 
-| 807E | | | | 
-| 807F | | | | 
-| 8080 | | | | 
-| 8081 | | | | 
-| 8082 | | | | 
+| 8079 | | | | |
+| 807A | | | | |
+| 807B | | | | |
+| 807C | | | | |
+| 807D | | | | |
+| 807E | | | | |
+| 807F | | | | |
+| 8080 | | | | |
+| 8081 | | | | |
+| 8082 | | | | |
 | 8083 | 80EA | 817C | | Ability to Block |
 | 8084 | 80EB | 817D | | Launch the "KiCharge" timer. XXXX is the time (Current Timer Value in 08C07C60) |
 | 8085 | 80EC | 817E | | 
 | 8086 | 80ED | 817F | | 
 | 8087 | 80EE | 8180 | | 
-| 8088 | 80EF | 8181 | | Disconnect of Positions while performing a throw |
+| 8088 | 80EF | 8181 | | Disconnection of Positions while performing a throw |
 | 8089 | | | | |
-| 808A | 80F3 | 8185 | | Disconnect of Height Average while performing a throw, Smoothly |
-| 808B | 80F4 | 8186 | | Disconnect of Height Average while performing a throw, Instantly |
+| 808A | 80F3 | 8185 | | Disconnection of Height Average while performing a throw, Smoothly |
+| 808B | 80F4 | 8186 | | Disconnection of Height Average while performing a throw, Instantly |
 | 808C | 80F5 | 8187 | | 
 | 808D | 80F6 | 8188 | | 
 | 808E | 80F7 | 8189 | | 
 | 808F | 80F8 | 818A | 81FA | Tracking (0 = No Tracking, 1 = Homing, 7 = Standard, 12 = Infinite) |
-| 8090 | 80F9 | 818B | 
+| 8090 | 80F9 | 818B | |
 | 8091 | 80FA | 818C | | Change Body State *see 08C0796C* |
 | 8092 | x | x | | |
 | 8093 | x | x | | |
 | 8094 | 80FB | 818D | | Return to Position after performing a throw |
-| 8095 | 80FC | 818E | | Set size of Colliders *0000XXXX* (0000 = 0%, 1000 = 100%) |
+| 8095 | 80FC | 818E | | Set Size of Colliders *0000XXXX* (0000 = 0%, 1000 = 100%) |
 | 8096 | 80FD | 818F | | | 
 | 8097 | 8100 | 8193 | | Footstep SFX |
 | 8098 | 8101 | 8194 | |
@@ -563,10 +566,10 @@
 | 809F | | | | |
 | 80A0 | | | | |
 | 80A1 | | 81A3 | | 
-| 80A2 | | 81A4 | | Returns Direction while performing a Move (Usually Used on Throws) |
+| 80A2 | | 81A4 | | Realignment while Performing a Move (Usually Used on Throws) |
 | 80A3 | | | | |
 | 80A4 | | | | |
-| 80A5 | | 81A7 | | Returns Direction While Performing a Move at the Wall |
+| 80A5 | | 81A7 | | Realignment While Performing a Move at the Wall |
 | 80A6 | | | | |
 | 80A7 | | | | |
 | 80A8 | | | | |
@@ -594,9 +597,9 @@
 | 80BE | 812E | 81DA | | Set Value for *08C07978* |
 | 80BF | 812F | 81DB | | Set Value for *08C0797C* |
 | 80C0 | 8130 | 81DC | | Character will perform a move from character base |
-| 80C1 | 8131 | 81DD | | 
+| 80C1 | 8131 | 81DD | | |
 | 80C2 | 8132 | 81DE | | Character Ghost will perform a move |
-| 80C3 | 8133 | 81DF | | 
+| 80C3 | 8133 | 81DF | | |
 | 80C4 | | | | |
 | 80C5 | | | | |
 | 80C6 | 8137 | 81E3 | | 
@@ -638,6 +641,7 @@
 | 80EB | | | | |
 | 80EC | | | | |
 | 80ED | | | | Character Disappears, including VFX |
+| 80EE | | | | |
 | 80EF | | | | Opponent Disappears, including VFX |
 | 80F0 | | | | |
 | 80F1 | | | | |
@@ -843,7 +847,7 @@
 | 81B9 | | | | |
 | 81BA | | | | Raven's Ghost performs a P1 move (Can be used by any character) |
 | 81BB | | | | Raven's Ghost Disappears (Can be used by any character) |
-| 81BC | | | | Switch sides |
+| 81BC | | | | Switch Sides |
 | 81BD | | | | |
 | 81BE | | | | |
 | 81BF | | | | |
@@ -939,6 +943,7 @@
 | | | 821B | | Set Scaled Damage |
 | | | 8220 | | |
 | | | 8236 | | |
+| | | 8272 | | Spend Rage |
 | | | 82A3 | | |
 | | | 82A4 | | |
 | | | 82B8 | | |
@@ -953,6 +958,7 @@
 | * | * | * | * | * |
 | | | | 1C5 | |
 | | | | 83C3 | |
+
 
 
 
