@@ -923,29 +923,29 @@
 
 | I haven't | found the | Tekken 6 | equivalent | yet |
 |:-:|:-:|:-:|:-:|---|
+| | | 9D | | if Rage is activated *000000XX* (00 = off, 01 = on) |
+| | | | 1C5 | |
 | | 12D | 385 | | |
 | | 1CA | 2CD | | |
 | | 1E4 | 2E6 | | |
 | | 1E5 | 3BB | | |
 | | 81B4 | | | |
-| | 81B5 | 85D6 | | |
-| | 81BC | 827E | | (Can be seen on Bryan's d+3+4,2~D/B at =>38) |
-| | 81BD | 827F | | |
-| | 8258 | 83AD | | (Can be seen on Jin's b,f+2,3 at =>38) |
-| | 8259 | 83AE | | (Can be seen on Jin's b,f+2,3 at =>14) |
-| | 825D | 83B2 | | (Can be seen on Jin's f+1+2 [2] at =>38) |
-| | 825F | 83B4 | | |
-| * | * | * | * | * |
-| | | 9D | | | if Rage is activated *000000XX* (00 = off, 01 = on) |
-| | | 8069 | | |
+| | | 8068 | |
+| | | 8069 | |
 | | | 8211 | | (Can be seen on Tk7 Kazuya's CD+3 at =>38) |
 | | | 8212 | | (Can be seen on Tk7 Kazuya's CD+3 at =>38) |
 | | | 821B | | Set Scaled Damage |
 | | | 8220 | | |
 | | | 8236 | | |
-| | | 8272 | | Spend Rage |
+| | 81B5 | 85D6 | | |
+| | 81BC | 827E | | (Can be seen on Bryan's d+3+4,2~D/B at =>38) |
+| | 81BD | 827F | | |
 | | | 82A3 | | |
 | | | 82A4 | | |
+| | 8258 | 83AD | | (Can be seen on Jin's b,f+2,3 at =>38) |
+| | 8259 | 83AE | | (Can be seen on Jin's b,f+2,3 at =>14) |
+| | 825D | 83B2 | | (Can be seen on Jin's f+1+2 [2] at =>38) |
+| | 825F | 83B4 | | |
 | | | 82B8 | | |
 | | | 82C8 | | Framedata, Use Fake Frame Advantage |
 | | | 82C9 | | Framedata, Use Fake Frame Advantage |
@@ -955,12 +955,5 @@
 | | | 82DC | | |
 | | | 82E9 | | |
 | | | 84D1 | | |
-| * | * | * | * | * |
-| | | | 1C5 | |
 | | | | 83C3 | |
-
-
-
-
-
-
+| * | * | * | * | * |
