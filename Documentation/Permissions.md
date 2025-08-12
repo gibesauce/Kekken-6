@@ -204,8 +204,7 @@
   <tr>
     <td align="center"><code>2D</code></td>
     <td align="center"><code>31</code></td>
-    <td align="center"><code>2F</code></td>
-    <td align="center"></td>
+    <td colspan="2"><code>2F</code></td>
     <td>If Blocked</td>
   </tr>
   <tr>
@@ -862,8 +861,8 @@
     <td align="center"><code>B6</code></td>
     <td align="center"></td>
     <td>If Character is Near to the Wall (01 = Back, 02 = Left, 04 = Front, 08 = Right)</td>
-    </tr>
-    <tr>
+  </tr>
+  <tr>
     <td align="center"><code>90</code></td>
     <td align="center"></td>
     <td align="center"></td>
@@ -973,7 +972,7 @@
     <td align="center"><code>D0</code></td>
     <td align="center"><code>DF</code></td>
     <td align="center"></td>
-    <td>If Opponent is <i>000000XX</i> (<i>see 08C081E4</i>) <i>*Exclusive to Alisa*</i></td>
+    <td>If Opponent is <i>000000XX</i> (<i>see 08C081E4</i>) <i>Exclusive to Alisa</i></td>
   </tr>
   <tr>
     <td align="center"><code>AE</code></td>
@@ -989,7 +988,1665 @@
     <td align="center"><code>E4</code></td>
     <td>Character Controller</td>
   </tr>
-</table>
+  <tr>
+    <td align="center"><code>A2</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>A3</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>A4</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>A5</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>A6</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>A7</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>A8</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>A9</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>AA</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>AB</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>AC</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>AD</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>AE</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>AF</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>B0</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>B1</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>B2</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>B3</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>B4</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>B5</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>B6</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>B7</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>B8</code></td>
+    <td align="center"><code>E8</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>B9</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>BA</code></td>
+    <td align="center"></td>
+    <td align="center"><code>FD</code></td>
+    <td align="center"></td>
+    <td>If "Inner KiCharge" is (00 = off, 01 = on)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>BB</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>BC</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>BD</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>BE</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>BF</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>C0</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>C1</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>C2</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>C3</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>C4</code></td>
+    <td align="center"><code>121</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>C5</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>C6</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>C7</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>C8</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>C9</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>CA</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>CB</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>CC</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>CD</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>CE</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>CF</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>D0</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>D1</code></td>
+    <td align="center"><code>126</code></td>
+    <td align="center"><code>149</code></td>
+    <td align="center"><code>14E</code></td>
+    <td>If a Flag (01) us Set by 805C (Tk6) 806C (TTT2) 707C (Tk7) 8098 (Tk8) (<i>see 08C07C84</i>)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>D2</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>D3</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>D4</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>D5</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>D6</code></td>
+    <td align="center"><code>139</code></td>
+    <td align="center"><code>160</code></td>
+    <td align="center"><code>166</code></td>
+    <td>If a Flag (01) us Set by 8068 (Tk6) 80A6 (TTT2) 80C5 (Tk7)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>D7</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>D8</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>D9</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>DA</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>DB</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>DC</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>DD</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>DE</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>DF</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>E0</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>E1</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>E2</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>E3</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>E4</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>E5</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>E6</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>E7</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>E8</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>E9</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>EA</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>EB</code></td>
+    <td align="center"><code>184</code></td>
+    <td align="center"><code>214</code></td>
+    <td align="center"><code>280</code></td>
+    <td>If Character Speed > <i>0000XXXX</i></td>
+  </tr>
+  <tr>
+    <td align="center"><code>EC</code></td>
+    <td align="center"><code>185</code></td>
+    <td align="center"><code>215</code></td>
+    <td align="center"><code>281</code></td>
+    <td>If Character Speed < <i>0000XXXX</i></td>
+  </tr>
+  <tr>
+    <td align="center"><code>ED</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>EE</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>EF</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>F0</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>F1</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>F2</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>F3</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>F4</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>F5</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>F6</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>F7</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>F8</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>F9</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>FA</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>FB</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>FC</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>FD</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>FE</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>FF</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>100</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>101</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>102</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>103</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>104</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>105</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>106</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>107</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>108</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>109</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>10A</code></td>
+    <td align="center"></td>
+    <td align="center"><code>234</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>10B</code></td>
+    <td align="center"></td>
+    <td align="center"><code>235</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>10C</code></td>
+    <td align="center"></td>
+    <td align="center"><code>236</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>10D</code></td>
+    <td align="center"></td>
+    <td align="center"><code>237</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>10E</code></td>
+    <td align="center"></td>
+    <td align="center"><code>238</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>10F</code></td>
+    <td align="center"></td>
+    <td align="center"><code>239</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>110</code></td>
+    <td align="center"></td>
+    <td align="center"><code>23A</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>111</code></td>
+    <td align="center"></td>
+    <td align="center"><code>23B</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>112</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>113</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>114</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>115</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>116</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>117</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>118</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>119</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>11A</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>11B</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>11C</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>11D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
 
+  <tr>
+    <td align="center"><code>11E</code></td>
+    <td align="center"><code>1AA</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>11F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>120</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>121</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>122</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>123</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>124</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>125</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>126</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>127</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>128</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>129</code></td>
+    <td align="center"><code>1C0</code></td>
+    <td align="center"><code>256</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>12A</code></td>
+    <td align="center"><code>1C1</code></td>
+    <td align="center"><code>257</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>12B</code></td>
+    <td align="center"><code>1C2</code></td>
+    <td align="center"><code>258</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>12C</code></td>
+    <td align="center"><code>1C3</code></td>
+    <td align="center"><code>259</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>12D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>12E</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>12F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>130</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>131</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>132</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>133</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>134</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>135</code></td>
+    <td align="center"><code>1C6</code></td>
+    <td align="center"><code>25C</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>136</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>137</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>138</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>139</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>13A</code></td>
+    <td align="center"></td>
+    <td align="center"><code>260</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>13B</code></td>
+    <td align="center"></td>
+    <td align="center"><code>261</code></td>
+    <td align="center"></td>
+    <td>If Customisation Item is Equipped <i>000000XX</i> (XX = Item)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>13C</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>13D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td align="center"><code>13E</code></td>
+    <td align="center"><code>1CE</code></td>
+    <td align="center"><code>262</code></td>
+    <td align="center"></td>
+    <td>If Yoshimitsu is Not in NSS</td>
+  </tr>
+  <tr>
+    <td align="center"><code>13F</code></td>
+    <td align="center"><code>1CF</code></td>
+    <td align="center"><code>263</code></td>
+    <td align="center"></td>
+    <td>If Yoshimitsu is in NSS</td>
+  </tr>
+  <tr>
+    <td align="center"><code>140</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>141</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>142</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>143</code></td>
+    <td align="center"><code>1D2</code></td>
+    <td align="center"><code>266</code></td>
+    <td align="center"></td>
+    <td>If Opponent is Airborne</td>
+  </tr>
+  <tr>
+    <td align="center"><code>144</code></td>
+    <td align="center"><code>1D3</code></td>
+    <td align="center"><code>267</code></td>
+    <td align="center"></td>
+    <td>If B! (Tk6/TTT2) S! (Tk7!) T! (Tk8) is Available</td>
+  </tr>
+  <tr>
+    <td align="center"><code>145</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>146</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>147</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>148</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>149</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>14A</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>14B</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>14C</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>14D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td align="center"><code>14E</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>14F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>150</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>151</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>152</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>153</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>154</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>155</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>156</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>157</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>158</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>159</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>15A</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>15B</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>15C</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>15D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td align="center"><code>15E</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>15F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>160</code></td>
+    <td align="center"><code>285</code></td>
+    <td align="center"><code>32F</code></td>
+    <td align="center"></td>
+    <td>If Opponent with <i>0000XXXX</i> <a href="https://sadamitsu.ru/cwcheat/limbs.htm">Limb</a> Against Low Attacks</td>
+  </tr>
+  <tr>
+    <td align="center"><code>161</code></td>
+    <td align="center"><code>286</code></td>
+    <td align="center"><code>330</code></td>
+    <td align="center"></td>
+    <td>If Opponent with <i>0000XXXX</i> <a href="https://sadamitsu.ru/cwcheat/limbs.htm">Limb</a> Against Mid or High Attacks</td>
+  </tr>
+  <tr>
+    <td align="center"><code>162</code></td>
+    <td align="center"><code>287</code></td>
+    <td align="center"><code>331</code></td>
+    <td align="center"></td>
+    <td>If Opponent Performs One of the Moves from the <a href="https://sadamitsu.ru/cwcheat/registry.htm">Registry</a>. <i>0000XXXX</i> is the start index</td>
+  </tr>
+  <tr>
+    <td align="center"><code>163</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>164</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>165</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>166</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>167</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>168</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>169</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>16A</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>16B</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>16C</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>16D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td align="center"><code>16E</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>16F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>170</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>If Opponent with <i>0000XXXX</i> <a href="https://sadamitsu.ru/cwcheat/limbs.htm">Limb</a> Against Low Attacks</td>
+  </tr>
+  <tr>
+    <td align="center"><code>171</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>If Opponent with <i>0000XXXX</i> <a href="https://sadamitsu.ru/cwcheat/limbs.htm">Limb</a> Against Mid or High Attacks</td>
+  </tr>
+  <tr>
+    <td align="center"><code>172</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>173</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>174</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>If Opponent Performs One of the Moves from the <a href="https://sadamitsu.ru/cwcheat/registry.htm">Registry</a>. <i>0000XXXX</i> is the start index</td>
+  </tr>
+  <tr>
+    <td align="center"><code>175</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>176</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>177</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>178</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>179</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>17A</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>17B</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>17C</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>17D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td align="center"><code>17E</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>17F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>180</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>181</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>If Opponent with <i>0000XXXX</i> <a href="https://sadamitsu.ru/cwcheat/limbs.htm">Limb</a> Against Mid Attacks</td>
+  </tr>
+  <tr>
+    <td align="center"><code>182</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>If Opponent with <i>0000XXXX</i> <a href="https://sadamitsu.ru/cwcheat/limbs.htm">Limb</a> Against High Attacks</td>
+  </tr>
+  <tr>
+    <td align="center"><code>183</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>184</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>185</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>If Opponent with <i>0000XXXX</i> <a href="https://sadamitsu.ru/cwcheat/limbs.htm">Limb</a> Against High Attacks</td>
+  </tr>
+  <tr>
+    <td align="center"><code>186</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>If Opponent with <i>0000XXXX</i> <a href="https://sadamitsu.ru/cwcheat/limbs.htm">Limb</a> Against Mid Attacks</td>
+  </tr>
+  <tr>
+    <td align="center"><code>187</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>188</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>189</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>18A</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>18B</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>18C</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>18D</code></td>
+    <td align="center"><code>2B2</code></td>
+    <td align="center"><code>371</code></td>
+    <td align="center"><code>44C</code></td>
+    <td>End of Permission</td>
+  </tr>
+</table>
 # TO DO SHI-...
+
 
