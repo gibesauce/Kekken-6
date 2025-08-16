@@ -2879,16 +2879,14 @@
     <td align="center"></td>
     <td align="center"><code>8045</code></td>
     <td align="center"></td>
-    <td align="center"><a href="https://sadamitsu.ru/cwcheat/802A.htm">Collection of Visual Effects</a></td>
-    <td></td>
+    <td><a href="https://sadamitsu.ru/cwcheat/802A.htm">Collection of Visual Effects</a></td>
   </tr>
   <tr>
     <td align="center"><code>802B</code></td>
     <td align="center"></td>
     <td align="center"><code>8046</code></td>
     <td align="center"></td>
-    <td align="center"><a href="https://sadamitsu.ru/cwcheat/802A.htm">Collection of Visual Effects</a></td>
-    <td></td>
+    <td><a href="https://sadamitsu.ru/cwcheat/802A.htm">Collection of Visual Effects</a></td>
   </tr>
   <tr>
     <td align="center"><code>802C</code></td>
@@ -3428,3 +3426,4 @@
 | | | 84D1 | | |
 | | | | 83C3 | |
 | * | * | * | * | * |
+
