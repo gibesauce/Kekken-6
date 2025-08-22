@@ -27,19 +27,11 @@
 *Ignore Some of these for now*
 _L 0x20000000 to _L 0x20003FFC// User Memory; idk if you can use this
 _L 0x2061A488 to _L 0x20640C3C// Unused Animation Area
-_L 0x204C9000 to _L 0x204D3000// I'm not sure about this one
-_L 0x2054BA10 to _L 0x2055F8F4
-_L 0x20883600 to _L 0x208A4000
-_L 0x208A6000 to _L 0x208A7C2C
-_L 0x208B1990 to _L 0x208B1F7C
-_L 0x208C4240 to _L 0x208DE16C
-_L 0x20904250 to _L 0x2095B8CC
-_L 0x20BFC910 to _L 0x20C2C2DC// I'm not sure
-_L 0x20C3C910 to _L 0x20C6C2DC// I'm not sure
-_L 0x20C7ED10 to _L 0x20C942DC// I'm not sure
-_L 0x20C9BB00 to _L 0x20CA02FC// I'm not sure
-_L 0x20DE4CD0 to _L 0x20DF049C// I'm not sure
-_L 0x20DF0A30 to _L 0x20DF33FC// I'm not sure
+_L 0x204C8C00 to _L 0x204D3B50
+_L 0x20883590 to _L 0x208A7C30
+_L 0x208C4240 to _L 0x208C81B0
+_L 0x208C82F0 t0 _L 0x208C86B0
+_L 0x20904250 to _L 0x2094E40C
 _L 0x20E24000// Kernel Memory Starts (Don't Use it)
 _L 0x217440D0 to _L 0x2174BFFC
 ; Memory Plugin is Needed
