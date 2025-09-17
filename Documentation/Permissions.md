@@ -210,8 +210,7 @@
   <tr>
     <td align="center"><code>2E</code></td>
     <td align="center"><code>32</code></td>
-    <td align="center"><code>30</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>30</code></td>
     <td>If Attack Whiffs</td>
   </tr>
   <tr>
@@ -252,15 +251,13 @@
   <tr>
     <td align="center"><code>36</code></td>
     <td align="center"><code>3F</code></td>
-    <td align="center"><code>43</code></td>
-    <td align="center"><code>42</code></td>
+    <td colspan="2" align="center"><code>42</code></td>
     <td>If Standing</td>
   </tr>
   <tr>
     <td align="center"><code>37</code></td>
     <td align="center"><code>40</code></td>
-    <td align="center"><code>44</code></td>
-    <td align="center"><code>43</code></td>
+    <td colspan="2" align="center"><code>43</code></td>
     <td>If Crouching</td>
   </tr>
   <tr>
@@ -304,17 +301,23 @@
   </tr>
   <tr>
     <td align="center"><code>3F</code></td>
-    <td colspan="3" align="center"></td>
+    <td align="center"></td>
+    <td align="center"><code>4A</code></td>
+    <td align="center"></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>40</code></td>
-    <td colspan="3" align="center"></td>
+    <td align="center"></td>
+    <td align="center"><code>4B</code></td>
+    <td align="center"></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>41</code></td>
-    <td colspan="3" align="center"></td>
+    <td align="center"></td>
+    <td align="center"><code>4C</code></td>
+    <td align="center"></td>
     <td></td>
   </tr>
   <tr>
@@ -475,7 +478,7 @@
     <td align="center"></td>
     <td align="center"></td>
     <td align="center"></td>
-    <td></td>
+    <td>If the Opponent's Attack is a High or Mid Left Punch or Right Punch</td>
   </tr>
   <tr>
     <td align="center"><code>59</code></td>
@@ -3426,4 +3429,5 @@
 | | | 84D1 | | |
 | | | | 83C3 | |
 | * | * | * | * | * |
+
 
