@@ -288,141 +288,121 @@
   <tr>
     <td align="center"><code>3D</code></td>
     <td align="center"></td>
-    <td align="center"><code>48</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>48</code></td>
     <td>If BT</td>
   </tr>
   <tr>
     <td align="center"><code>3E</code></td>
     <td align="center"></td>
-    <td align="center"><code>49</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>49</code></td>
     <td>If Not BT</td>
   </tr>
   <tr>
     <td align="center"><code>3F</code></td>
     <td align="center"></td>
-    <td align="center"><code>4A</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>4A</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>40</code></td>
     <td align="center"></td>
-    <td align="center"><code>4B</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>4B</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>41</code></td>
     <td align="center"></td>
-    <td align="center"><code>4C</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>4C</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>42</code></td>
     <td align="center"></td>
-    <td align="center"><code>4D</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>4D</code></td>
     <td>Throw-Related</td>
   </tr>
   <tr>
     <td align="center"><code>43</code></td>
     <td align="center"></td>
-    <td align="center"><code>4E</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>4E</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>44</code></td>
     <td align="center"></td>
-    <td align="center"><code>4F</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>4F</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>45</code></td>
     <td align="center"></td>
-    <td align="center"><code>50</code></td>
-    <td align="center"></td>
+    <td colspan="2" colspan="2" align="center"><code>50</code></td>
     <td>If BT or RT</td>
   </tr>
   <tr>
     <td align="center"><code>46</code></td>
     <td align="center"></td>
-    <td align="center"><code>51</code></td>
-    <td align="center"></td>
+    <td colspan="2" colspan="2" align="center"><code>51</code></td>
     <td>If BT or LT</td>
   </tr>
   <tr>
     <td align="center"><code>47</code></td>
     <td align="center"></td>
-    <td align="center"><code>52</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>52</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>48</code></td>
     <td align="center"></td>
-    <td align="center"><code>53</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>53</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>49</code></td>
     <td align="center"></td>
-    <td align="center"><code>54</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>54</code></td>
     <td>If Laying on the Ground (Feet Towards)</td>
   </tr>
   <tr>
     <td align="center"><code>4A</code></td>
     <td align="center"></td>
-    <td align="center"><code>55</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>55</code></td>
     <td>If Laying on the Ground (Right)</td>
   </tr>
   <tr>
     <td align="center"><code>4B</code></td>
     <td align="center"></td>
-    <td align="center"><code>56</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>56</code></td>
     <td>If Laying on the Ground (Left)</td>
   </tr>
   <tr>
     <td align="center"><code>4C</code></td>
     <td align="center"></td>
-    <td align="center"><code>57</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>57</code></td>
     <td>If Laying on the Ground (Feet Away)</td>
   </tr>
   <tr>
     <td align="center"><code>4D</code></td>
     <td align="center"></td>
-    <td align="center"><code>60</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>60</code></td>
     <td>If the Opponent is Facing Forward</td>
   </tr>
   <tr>
     <td align="center"><code>4E</code></td>
     <td align="center"></td>
-    <td align="center"><code>61</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>61</code></td>
     <td>If the Opponent is Facing to the Right</td>
   </tr>
   <tr>
     <td align="center"><code>4F</code></td>
     <td align="center"></td>
-    <td align="center"><code>62</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>62</code></td>
     <td>If the Opponent is Facing to the Left</td>
   </tr>
   <tr>
     <td align="center"><code>50</code></td>
     <td align="center"></td>
-    <td align="center"><code>63</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>63</code></td>
     <td>If the Opponent is Facing Away (BT)</td>
   </tr>
   <tr>
@@ -434,8 +414,7 @@
   </tr><tr>
     <td align="center"><code>52</code></td>
     <td align="center"></td>
-    <td align="center"><code>64</code></td>
-    <td align="center"></td>
+    <td colspan="2" align="center"><code>64</code></td>
     <td>If Opponent's Attack is High</td>
   </tr>
   <tr>
@@ -589,217 +568,217 @@
     <td align="center"><code>68</code></td>
     <td align="center"></td>
     <td align="center"><code>7A</code></td>
-    <td align="center"></td>
+    <td align="center"><code>7C</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>69</code></td>
     <td align="center"></td>
     <td align="center"><code>7B</code></td>
-    <td align="center"></td>
+    <td align="center"><code>7D</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>6A</code></td>
     <td align="center"></td>
     <td align="center"><code>7C</code></td>
-    <td align="center"></td>
+    <td align="center"><code>7E</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>6B</code></td>
     <td align="center"></td>
     <td align="center"><code>7D</code></td>
-    <td align="center"></td>
+    <td align="center"><code>7F</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>6C</code></td>
     <td align="center"><code>7C</code></td>
     <td align="center"><code>7E</code></td>
-    <td align="center"></td>
+    <td align="center"><code>80</code></td>
     <td>If Opponent is Downed</td>
   </tr>
   <tr>
     <td align="center"><code>6D</code></td>
     <td align="center"></td>
     <td align="center"><code>7F</code></td>
-    <td align="center"></td>
+    <td align="center"><code>81</code></td>
     <td>If Opponent is Not Downed</td>
   </tr>
   <tr>
     <td align="center"><code>6E</code></td>
     <td align="center"></td>
     <td align="center"><code>80</code></td>
-    <td align="center"></td>
+    <td align="center"><code>82</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>6F</code></td>
     <td align="center"></td>
     <td align="center"><code>81</code></td>
-    <td align="center"></td>
+    <td align="center"><code>83</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>70</code></td>
     <td align="center"><code>80</code></td>
     <td align="center"><code>82</code></td>
-    <td align="center"></td>
+    <td align="center"><code>84</code></td>
     <td>If Counterhit</td>
   </tr>
   <tr>
     <td align="center"><code>71</code></td>
     <td align="center"></td>
     <td align="center"><code>83</code></td>
-    <td align="center"></td>
+    <td align="center"><code>85</code></td>
     <td>If Pressed 1</td>
   </tr>
   <tr>
     <td align="center"><code>72</code></td>
     <td align="center"></td>
     <td align="center"><code>84</code></td>
-    <td align="center"></td>
+    <td align="center"><code>86</code></td>
     <td>If Pressed 2</td>
   </tr>
   <tr>
     <td align="center"><code>73</code></td>
     <td align="center"></td>
     <td align="center"><code>85</code></td>
-    <td align="center"></td>
+    <td align="center"><code>87</code></td>
     <td>If Pressed 1+2</td>
   </tr>
   <tr>
     <td align="center"><code>74</code></td>
     <td align="center"></td>
     <td align="center"><code>86</code></td>
-    <td align="center"></td>
+    <td align="center"><code>88</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>75</code></td>
     <td align="center"></td>
     <td align="center"><code>87</code></td>
-    <td align="center"></td>
+    <td align="center"><code>89</code></td>
     <td>If K.O'd</td>
   </tr>
   <tr>
     <td align="center"><code>76</code></td>
     <td align="center"></td>
     <td align="center"><code>88</code></td>
-    <td align="center"></td>
+    <td align="center"><code>8A</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>77</code></td>
     <td align="center"></td>
     <td align="center"><code>89</code></td>
-    <td align="center"></td>
+    <td align="center"><code>8B</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>78</code></td>
     <td align="center"></td>
     <td align="center"><code>8A</code></td>
-    <td align="center"></td>
+    <td align="center"><code>8C</code></td>
     <td>If HP > <i>000000XX</i> Points (A = 10HP)</td>
   </tr>
   <tr>
     <td align="center"><code>79</code></td>
     <td align="center"></td>
     <td align="center"><code>8B</code></td>
-    <td align="center"></td>
+    <td align="center"><code>8D</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>7A</code></td>
     <td align="center"></td>
     <td align="center"><code>8C</code></td>
-    <td align="center"></td>
+    <td align="center"><code>8E</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>7B</code></td>
     <td align="center"></td>
     <td align="center"><code>8D</code></td>
-    <td align="center"></td>
+    <td align="center"><code>8F</code></td>
     <td>If HP < <i>000000XX</i> Points (A = 10HP)</td>
   </tr>
   <tr>
     <td align="center"><code>7C</code></td>
     <td align="center"></td>
     <td align="center"><code>8E</code></td>
-    <td align="center"></td>
+    <td align="center"><code>90</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>7D</code></td>
     <td align="center"></td>
     <td align="center"><code>8F</code></td>
-    <td align="center"></td>
+    <td align="center"><code>91</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>7E</code></td>
     <td align="center"></td>
     <td align="center"><code>90</code></td>
-    <td align="center"></td>
+    <td align="center"><code>92</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>7F</code></td>
     <td align="center"></td>
     <td align="center"><code>91</code></td>
-    <td align="center"></td>
+    <td align="center"><code>93</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>80</code></td>
     <td align="center"></td>
     <td align="center"><code>92</code></td>
-    <td align="center"></td>
+    <td align="center"><code>94</code></td>
     <td>If at the P1 Side</td>
   </tr>
   <tr>
     <td align="center"><code>81</code></td>
     <td align="center"></td>
     <td align="center"><code>93</code></td>
-    <td align="center"></td>
+    <td align="center"><code>95</code></td>
     <td>If at the P2 Side</td>
   </tr>
   <tr>
     <td align="center"><code>82</code></td>
     <td align="center"></td>
     <td align="center"><code>94</code></td>
-    <td align="center"></td>
+    <td align="center"><code>96</code></td>
     <td>If at the P2 Side</td>
   </tr>
   <tr>
     <td align="center"><code>83</code></td>
     <td align="center"></td>
     <td align="center"><code>95</code></td>
-    <td align="center"></td>
+    <td align="center"><code>97</code></td>
     <td>If at the P1 Side</td>
   </tr>
   <tr>
     <td align="center"><code>84</code></td>
     <td align="center"></td>
     <td align="center"><code>96</code></td>
-    <td align="center"></td>
+    <td align="center"><code>98</code></td>
     <td>If at the P1 Side</td>
   </tr>
   <tr>
     <td align="center"><code>85</code></td>
     <td align="center"></td>
     <td align="center"><code>97</code></td>
-    <td align="center"></td>
+    <td align="center"><code>99</code></td>
     <td>If at the P2 Side</td>
   </tr>
   <tr>
     <td align="center"><code>86</code></td>
     <td align="center"></td>
     <td align="center"><code>9B</code></td>
-    <td align="center"></td>
+    <td align="center"><code>9D</code></td>
     <td>If KiCharge is <i>000000XX</i> (00 = off, 01 = on)</td>
   </tr>
   <tr>
@@ -862,8 +841,8 @@
     <td align="center"><code>8F</code></td>
     <td align="center"></td>
     <td align="center"><code>B6</code></td>
-    <td align="center"></td>
-    <td>If Character is Near to the Wall (01 = Back, 02 = Left, 04 = Front, 08 = Right)</td>
+    <td align="center"><code>B8</code></td>
+    <td>If Character is Near to the Wall (01 = Front, 02 = Left, 04 = Behind, 08 = Right)</td>
   </tr>
   <tr>
     <td align="center"><code>90</code></td>
@@ -924,64 +903,64 @@
   <tr>
     <td align="center"><code>98</code></td>
     <td align="center"><code>C7</code></td>
-    <td align="center"></td>
-    <td align="center"></td>
+    <td align="center"><code>D8</code></td>
+    <td align="center"><code>DB</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>99</code></td>
     <td align="center"><code>C8</code></td>
     <td align="center"><code>D9</code></td>
-    <td align="center"></td>
-    <td>If Character is Performing a Move <i>00000XXX</i> (<i>see 08C07A18</i>)</td>
+    <td align="center"><code>DC</code></td>
+    <td>If Character is <i>00000XXX</i> (<i>see 08C078B4</i>)</td>
   </tr>
   <tr>
     <td align="center"><code>9A</code></td>
     <td align="center"><code>C9</code></td>
     <td align="center"><code>DA</code></td>
-    <td align="center"></td>
-    <td>If Character is Not Performing a Move <i>00000XXX</i> (<i>see 08C07A18</i>)</td>
+    <td align="center"><code>DD</code></td>
+    <td>If Character is NOT <i>00000XXX</i> (<i>see 08C078B4</i>)</td>
   </tr>
   <tr>
     <td align="center"><code>9B</code></td>
     <td align="center"><code>CA</code></td>
     <td align="center"><code>DB</code></td>
-    <td align="center"></td>
+    <td align="center"><code>DE</code></td>
     <td>If Opponent is <i>000000XX</i> (<i>see 08C081E4</i>)</td>
   </tr>
   <tr>
     <td align="center"><code>9C</code></td>
     <td align="center"><code>CB</code></td>
     <td align="center"><code>DC</code></td>
-    <td align="center"></td>
-    <td>If Opponent is not <i>000000XX</i> (<i>see 08C081E4</i>)</td>
+    <td align="center"><code>DF</code></td>
+    <td>If Opponent is NOT <i>000000XX</i> (<i>see 08C081E4</i>)</td>
   </tr>
   <tr>
     <td align="center"><code>9D</code></td>
     <td align="center"></td>
     <td align="center"><code>DD</code></td>
-    <td align="center"></td>
+    <td align="center"><code>E0</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>9E</code></td>
     <td align="center"></td>
     <td align="center"><code>DE</code></td>
-    <td align="center"></td>
+    <td align="center"><code>E1</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>9F</code></td>
     <td align="center"><code>D0</code></td>
     <td align="center"><code>DF</code></td>
-    <td align="center"></td>
+    <td align="center"><code>E2</code></td>
     <td>If Opponent is <i>000000XX</i> (<i>see 08C081E4</i>) <i>*Exclusive to Alisa*</i></td>
   </tr>
   <tr>
     <td align="center"><code>AE</code></td>
     <td align="center"></td>
     <td align="center"><code>E0</code></td>
-    <td align="center"></td>
+    <td align="center"><code>E3</code></td>
     <td></td>
   </tr>
   <tr>
@@ -2060,14 +2039,14 @@
     <td align="center"><code>13A</code></td>
     <td align="center"></td>
     <td align="center"><code>260</code></td>
-    <td align="center"></td>
+    <td align="center"><code>2CD</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>13B</code></td>
     <td align="center"></td>
     <td align="center"><code>261</code></td>
-    <td align="center"></td>
+    <td align="center"><code>2CE</code></td>
     <td>If Customisation Item is Equipped <i>000000XX</i> (XX = Item)</td>
   </tr>
   <tr>
@@ -2124,15 +2103,15 @@
     <td align="center"><code>143</code></td>
     <td align="center"><code>1D2</code></td>
     <td align="center"><code>266</code></td>
-    <td align="center"></td>
+    <td align="center"><code>2D3</code></td>
     <td>If Opponent is Airborne</td>
   </tr>
   <tr>
     <td align="center"><code>144</code></td>
     <td align="center"><code>1D3</code></td>
     <td align="center"><code>267</code></td>
-    <td align="center"></td>
-    <td>If B! (Tk6/TTT2) S! (Tk7!) T! (Tk8) is Available</td>
+    <td align="center"><code>2D4</code></td>
+    <td>If B! (Tk6/TTT2) | S! (Tk7) | T! (Tk8) is Available</td>
   </tr>
   <tr>
     <td align="center"><code>145</code></td>
@@ -3429,5 +3408,6 @@
 | | | 84D1 | | |
 | | | | 83C3 | |
 | * | * | * | * | * |
+
 
 
