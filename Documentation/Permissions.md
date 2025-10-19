@@ -1,9 +1,9 @@
 > There might be some wrong things I get here, feel free to correct them. Thanks.
 > 
-> Note: if a question mark appears beside the values, that means I have not yet confirmed if they are in fact, correct.
+> Note: kindly use the find in page function of your chosen browser to seek what you're looking for. It's CTRL+F for PC users.
 
 ## Permissions
-<table>
+<table border="1">
   <tr>
     <th align="center"><b>Tekken 6</b></th>
     <th align="center"><b>Tekken Tag Tournament 2</b></th>
@@ -667,7 +667,7 @@
     <td align="center"></td>
     <td align="center"><code>88</code></td>
     <td align="center"><code>8A</code></td>
-    <td></td>
+    <td>if Opponent is K.O'd</td>
   </tr>
   <tr>
     <td align="center"><code>77</code></td>
@@ -679,21 +679,21 @@
   <tr>
     <td align="center"><code>78</code></td>
     <td align="center"></td>
-    <td align="center"><code>8A</code></td>
+    <td align="center"><code>8C</code></td>
     <td align="center"><code>8C</code></td>
     <td>If HP > <i>000000XX</i> Points (A = 10HP)</td>
   </tr>
   <tr>
     <td align="center"><code>79</code></td>
     <td align="center"></td>
-    <td align="center"><code>8B</code></td>
+    <td align="center"><code></code></td>
     <td align="center"><code>8D</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>7A</code></td>
     <td align="center"></td>
-    <td align="center"><code>8C</code></td>
+    <td align="center"><code></code></td>
     <td align="center"><code>8E</code></td>
     <td></td>
   </tr>
@@ -2632,7 +2632,7 @@
 
 
 ## Effects
-<table>
+<table border="1">
   <tr>
     <th align="center"><b>Tekken 6</b></th>
     <th align="center"><b>Tekken Tag Tournament 2</b></th>
@@ -2891,484 +2891,3285 @@
     <td align="center"></td>
     <td>Visual Effects for Items <i>0000XXYY</i> (<i>XX</i> is the <a href="https://sadamitsu.ru/cwcheat/limbs.htm">Limb</a>, <i>YY</i> is the Effect)</td>
   </tr>
+  <tr>
+    <td align="center"><code>802F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8030</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8031</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Evil Mist Effect (Certain Characters Only)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8032</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8033</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8034</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Chain Sparks on the Ground, v1</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8035</code></td>
+    <td align="center"></td>
+    <td align="center"><code>8058</code></td>
+    <td align="center"></td>
+    <td>Chain Sparks on the Ground, v2</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8036</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8037</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8038</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8039</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>803A</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>803B</code></td>
+    <td align="center"><code>8040</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>803C</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Steam Comes Out of the Mouth</td>
+  </tr>
+  <tr>
+    <td align="center"><code>803D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Character Specific Visual Effect</td>
+  </tr>
+  <tr>
+    <td align="center"><code>803E</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Character Extra Visual Effect</td>
+  </tr>
+  <tr>
+    <td align="center"><code>803F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Opponent Specific Visual Effect</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8040</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Opponent Extra Visual Effect</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8041</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Regular Hit Effect</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8042</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Grapple Indicator (Main)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8043</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Smoke Effect</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8044</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Faint Smoke Effect</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8045</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Block Effect</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8046</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Opponent's Vertical Blast</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8047</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Opponent's Strong Vertical Blast</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8048</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td><a href="http://sadamitsu.ru/cwcheat/802A.htm">Collection of Visual Effects</a></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8049</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td><a href="http://sadamitsu.ru/cwcheat/802A.htm">Collection of Visual Effects</a></td>
+  </tr>
+  <tr>
+    <td align="center"><code>804A</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Chain Sparks on the Ground, v1</td>
+  </tr>
+  <tr>
+    <td align="center"><code>804B</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Chain Sparks on the Ground, v2</td>
+  </tr>
+  <tr>
+    <td align="center"><code>804C</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>804D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>804E</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>804F</code></td>
+    <td align="center"><code>8058</code></td>
+    <td align="center"><code>821C</code> (*No Definitive Equivalent as it Scales Differently*)</td>
+    <td align="center"></td>
+    <td>Inflict Damage to Opponent</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8050</code></td>
+    <td align="center"><code>8059</code></td>
+    <td align="center"><code>821D</code> (*No Definitive Equivalent as it Scales Differently*)</td>
+    <td align="center"></td>
+    <td>Inflict Self Damage</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8051</code></td>
+    <td align="center"><code>805A</code></td>
+    <td align="center"><code>821E</code> (*No Definitive Equivalent as it Scales Differently*)</td>
+    <td align="center"></td>
+    <td>Gain Health</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8052</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8053</code></td>
+    <td align="center"><code>805C</code></td>
+    <td align="center"><code>806E</code></td>
+    <td align="center"></td>
+    <td>Inflict Self Damage on Wall Hit</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8054</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8055</code></td>
+    <td align="center"><code>8062</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8056</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8057</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Countdown Timer for Tk6SC Dialogs</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8058</code></td>
+    <td align="center"><code>8066</code></td>
+    <td align="center"><code>8078</code></td>
+    <td align="center"></td>
+    <td>Launch The <i>Inner KiCharge</i> timer. <i>0000XXXX</i> is the time (Current Timer Value in 08C07C80)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8059</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>805A</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>805B</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>805C</code></td>
+    <td align="center"><code>806C</code></td>
+    <td align="center"><code>807C</code></td>
+    <td align="center"><code>8098</code></td>
+    <td>Set flag XX for permission D1 (<i>see 08C07CB4</i>)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>805D</code></td>
+    <td align="center"><code>806D</code></td>
+    <td align="center"><code>807D</code></td>
+    <td align="center"><code>8099</code></td>
+    <td>Changes flag XX for permission D1 (<i>see 08C07CB4</i>)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>805E</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>805F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8060</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8061</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8062</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8063</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8064</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8065</code></td>
+    <td align="center"><code>8093</code></td>
+    <td align="center"><code>80A3</code></td>
+    <td align="center"><code>80C2</code></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8066</code></td>
+    <td align="center"><code>8094</code></td>
+    <td align="center"><code>80A4</code></td>
+    <td align="center"><code>80C3</code></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8067</code></td>
+    <td align="center"><code>8095</code></td>
+    <td align="center"><code>80A5</code></td>
+    <td align="center"><code>80C4</code></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8068</code></td>
+    <td align="center"><code>8096</code></td>
+    <td align="center"><code>80A6</code></td>
+    <td align="center"><code>80C5</code></td>
+    <td>Set flag XX for permission D6</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8069</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>806A</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>806B</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>806C</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>806D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>806E</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>806F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8070</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8071</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8072</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8073</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8074</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8075</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8076</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8077</code></td>
+    <td align="center"></td>
+    <td align="center"><code>80DB</code></td>
+    <td align="center"></td>
+    <td>Set Wall Combo Counter</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8078</code></td>
+    <td align="center"><code>80B7</code></td>
+    <td align="center"><code>80DC</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8079</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>807A</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>807B</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>807C</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>807D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>807E</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>807F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8080</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8081</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8082</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8083</code></td>
+    <td align="center"><code>80EA</code></td>
+    <td align="center"><code>817C</code></td>
+    <td align="center"></td>
+    <td>Ability to Block</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8084</code></td>
+    <td align="center"><code>80EB</code></td>
+    <td align="center"><code>817D</code></td>
+    <td align="center"></td>
+    <td>Launch the "KiCharge" timer. XXXX is the time (Current Timer Value in 08C07C60)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8085</code></td>
+    <td align="center"><code>80EC</code></td>
+    <td align="center"><code>817E</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8086</code></td>
+    <td align="center"><code>80ED</code></td>
+    <td align="center"><code>817F</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8087</code></td>
+    <td align="center"><code>80EE</code></td>
+    <td align="center"><code>8180</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8088</code></td>
+    <td align="center"><code>80EF</code></td>
+    <td align="center"><code>8181</code></td>
+    <td align="center"></td>
+    <td>Disconnect Positions While Performing a Throw</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8089</code></td>
+    <td align="center"><code>80F0</code></td>
+    <td align="center"><code>8182</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>808A</code></td>
+    <td align="center"><code>80F3</code></td>
+    <td align="center"><code>8185</code></td>
+    <td align="center"></td>
+    <td>Disconnection of Height Average While Performing a Throw, Smoothly</td>
+  </tr>
+  <tr>
+    <td align="center"><code>808B</code></td>
+    <td align="center"><code>80F4</code></td>
+    <td align="center"><code>8186</code></td>
+    <td align="center"></td>
+    <td>Disconnection of Height Average While Performing a Throw, Instantly</td>
+  </tr>
+  <tr>
+    <td align="center"><code>808C</code></td>
+    <td align="center"><code>80F5</code></td>
+    <td align="center"><code>8187</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>808D</code></td>
+    <td align="center"><code>80F6</code></td>
+    <td align="center"><code>8188</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>808E</code></td>
+    <td align="center"><code>80F7</code></td>
+    <td align="center"><code>8189</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>808F</code></td>
+    <td align="center"><code>80F8</code></td>
+    <td align="center"><code>818A</code></td>
+    <td align="center"><code>81FA</code></td>
+    <td>Tracking (0 = No Tracking, 1 = Homing, 7 = Standard, 12 = Infinite)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8090</code></td>
+    <td align="center"><code>80F9</code></td>
+    <td align="center"><code>818B</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8091</code></td>
+    <td align="center"><code>80FA</code></td>
+    <td align="center"><code>818C</code></td>
+    <td align="center"></td>
+    <td>Change Body State <i>see 08C0796C</i></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8092</code></td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td>------------------</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8093</code></td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td>------------------</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8094</code></td>
+    <td align="center"><code>80FB</code></td>
+    <td align="center"><code>818D</code></td>
+    <td align="center"></td>
+    <td>Return to Position after performing a throw</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8095</code></td>
+    <td align="center"><code>80FC</code></td>
+    <td align="center"><code>818E</code></td>
+    <td align="center"></td>
+    <td>Set Size of Colliders <i>0000XXXX</i> (0000 = 0%, 1000 = 100%)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8096</code></td>
+    <td align="center"><code>80FD</code></td>
+    <td align="center"><code>818F</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8097</code></td>
+    <td align="center"><code>8100</code></td>
+    <td align="center"><code>8193</code></td>
+    <td align="center"></td>
+    <td>Footstep SFX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8098</code></td>
+    <td align="center"><code>8101</code></td>
+    <td align="center"><code>8194</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8099</code></td>
+    <td align="center"><code>8102</code></td>
+    <td align="center"><code>8195</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>809A</code></td>
+    <td align="center"><code>8103</code></td>
+    <td align="center"><code>8196</code></td>
+    <td align="center"></td>
+    <td>Character can be Lower than Ground Level (00 = off, 01 = on)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>809B</code></td>
+    <td align="center"><code>8104</code></td>
+    <td align="center"><code>8197</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>809C</code></td>
+    <td align="center"><code>8105</code></td>
+    <td align="center"><code>8198</code></td>
+    <td align="center"></td>
+    <td>Every 1st Frame</td>
+  </tr>
+  <tr>
+    <td align="center"><code>809D</code></td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td>------------------</td>
+  </tr>
+  <tr>
+    <td align="center"><code>809E</code></td>
+    <td align="center"><code>8106</code></td>
+    <td align="center"><code>8199</code></td>
+    <td align="center"></td>
+    <td>Removes breaking ground effect while airborne</td>
+  </tr>
+  <tr>
+    <td align="center"><code>809F</code></td>
+    <td align="center"></td>
+    <td align="center"><code>81A1</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80A0</code></td>
+    <td align="center"></td>
+    <td align="center"><code>81A2</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80A1</code></td>
+    <td align="center"><code>810A</code></td>
+    <td align="center"><code>81A3</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80A2</code></td>
+    <td align="center"><code>810B</code></td>
+    <td align="center"><code>81A4</code></td>
+    <td align="center"></td>
+    <td>Realignment while Performing a Move (Usually Used on Throws)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80A3</code></td>
+    <td align="center"><code>810C</code></td>
+    <td align="center"><code>81A5</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80A4</code></td>
+    <td align="center"><code>810D</code></td>
+    <td align="center"><code>81A6</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80A5</code></td>
+    <td align="center"><code>810E</code></td>
+    <td align="center"><code>81A7</code></td>
+    <td align="center"></td>
+    <td>Realignment While Performing a Move at the Wall</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80A6</code></td>
+    <td align="center"><code>810F</code></td>
+    <td align="center"><code>81A8</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80A7</code></td>
+    <td align="center"><code>8110</code></td>
+    <td align="center"><code>81A9</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80A8</code></td>
+    <td align="center"><code>8111</code></td>
+    <td align="center"><code>81AA</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80A9</code></td>
+    <td align="center"><code>8112</code></td>
+    <td align="center"><code>81AB</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80AA</code></td>
+    <td align="center"><code>8113</code></td>
+    <td align="center"><code>81AC</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80AB</code></td>
+    <td align="center"><code>811C</code></td>
+    <td align="center"><code>81C8</code></td>
+    <td align="center"></td>
+    <td>Skip <i>00000XXX</i> frames of the following move</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80AC</code></td>
+    <td align="center"><code>811D</code></td>
+    <td align="center"><code>81C9</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80AD</code></td>
+    <td align="center"><code>811E</code></td>
+    <td align="center"><code>81CA</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80AE</code></td>
+    <td align="center"><code>811F</code></td>
+    <td align="center"><code>81CB</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80AF</code></td>
+    <td align="center"><code>8120</code></td>
+    <td align="center"><code>81CC</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80B0</code></td>
+    <td align="center"><code>8121</code></td>
+    <td align="center"><code>81CD</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80B1</code></td>
+    <td align="center"><code>8122</code></td>
+    <td align="center"><code>81CE</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80B2</code></td>
+    <td align="center"><code>8123</code></td>
+    <td align="center"><code>81CF</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80B3</code></td>
+    <td align="center"><code>8124</code></td>
+    <td align="center"><code>81D0</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80B4</code></td>
+    <td align="center"><code>8125</code></td>
+    <td align="center"><code>81D1</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80B5</code></td>
+    <td align="center"><code>8126</code></td>
+    <td align="center"><code>81D2</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80B6</code></td>
+    <td align="center"><code>8127</code></td>
+    <td align="center"><code>81D3</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80B7</code></td>
+    <td align="center"><code>8128</code></td>
+    <td align="center"><code>81D4</code></td>
+    <td align="center"></td>
+    <td>Opponent will perform a move from character base</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80B8</code></td>
+    <td align="center"><code>8129</code></td>
+    <td align="center"><code>81D5</code></td>
+    <td align="center"></td>
+    <td>Opponent will perform a move from character base</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80B9</code></td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td>------------------</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80BA</code></td>
+    <td align="center"><code>812A</code></td>
+    <td align="center"><code>81D6</code></td>
+    <td align="center"></td>
+    <td>Set Character Speed</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80BB</code></td>
+    <td align="center"><code>812B</code></td>
+    <td align="center"><code>81D7</code></td>
+    <td align="center"><code>8247</code></td>
+    <td>Change Character Speed</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80BC</code></td>
+    <td align="center"><code>812C</code></td>
+    <td align="center"><code>81D8</code></td>
+    <td align="center"></td>
+    <td>Set Opponent Speed</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80BD</code></td>
+    <td align="center"><code>812D</code></td>
+    <td align="center"><code>81D9</code></td>
+    <td align="center"></td>
+    <td>Change Opponent Speed</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80BE</code></td>
+    <td align="center"><code>812E</code></td>
+    <td align="center"><code>81DA</code></td>
+    <td align="center"></td>
+    <td>Set Value for <i>08C07978</i></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80BF</code></td>
+    <td align="center"><code>812F</code></td>
+    <td align="center"><code>81DB</code></td>
+    <td align="center"></td>
+    <td>Set Value for <i>08C0797C</i></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80C0</code></td>
+    <td align="center"><code>8130</code></td>
+    <td align="center"><code>81DC</code></td>
+    <td align="center"></td>
+    <td>Character will perform a move from character base</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80C1</code></td>
+    <td align="center"><code>8131</code></td>
+    <td align="center"><code>81DD</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80C2</code></td>
+    <td align="center"><code>8132</code></td>
+    <td align="center"><code>81DE</code></td>
+    <td align="center"></td>
+    <td>Character Ghost will perform a move</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80C3</code></td>
+    <td align="center"><code>8133</code></td>
+    <td align="center"><code>81DF</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80C4</code></td>
+    <td align="center"></td>
+    <td align="center"><code>81E1</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80C5</code></td>
+    <td align="center"></td>
+    <td align="center"><code>81E2</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80C6</code></td>
+    <td align="center"><code>8137</code></td>
+    <td align="center"><code>81E3</code></td>
+    <td align="center"><code>8253</code></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80C7</code></td>
+    <td align="center"><code>8138</code></td>
+    <td align="center"><code>81E4</code></td>
+    <td align="center"></td>
+    <td>Floor Break F!</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80C8</code></td>
+    <td align="center"><code>8139</code></td>
+    <td align="center"><code>81E5</code></td>
+    <td align="center"></td>
+    <td>Rotation of the Character when the Floor Breaks F!</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80C9</code></td>
+    <td align="center"></td>
+    <td align="center"><code>81E6</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80CA</code></td>
+    <td align="center"></td>
+    <td align="center"><code>81E7</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80CB</code></td>
+    <td align="center"><code>813B</code></td>
+    <td align="center"><code>81E8</code></td>
+    <td align="center"></td>
+    <td>Pushback-related</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80CC</code></td>
+    <td align="center"><code>813C</code></td>
+    <td align="center"><code>81E9</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80CD</code></td>
+    <td align="center"><code>813D</code></td>
+    <td align="center"><code>81EA</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80CE</code></td>
+    <td align="center"><code>813E</code></td>
+    <td align="center"><code>81EB</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80CF</code></td>
+    <td align="center"><code>813F</code></td>
+    <td align="center"><code>81EC</code></td>
+    <td align="center"></td>
+    <td>Set Gravity</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80D0</code></td>
+    <td align="center"><code>8141</code></td>
+    <td align="center"><code>81ED</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80D1</code></td>
+    <td align="center"><code>8142</code></td>
+    <td align="center"><code>81EE</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80D2</code></td>
+    <td align="center"><code>8143</code></td>
+    <td align="center"><code>81EF</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80D3</code></td>
+    <td align="center"><code>8144</code></td>
+    <td align="center"><code>81F0</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80D4</code></td>
+    <td align="center"><code>8145</code></td>
+    <td align="center"><code>81F1</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80D5</code></td>
+    <td align="center"><code>8146</code></td>
+    <td align="center"><code>81F2</code></td>
+    <td align="center"></td>
+    <td>Laser Launcher</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80D6</code></td>
+    <td align="center"><code>8147</code></td>
+    <td align="center"><code>81F3</code></td>
+    <td align="center"></td>
+    <td>Laser Mode</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80D7</code></td>
+    <td align="center"><code>8148</code></td>
+    <td align="center"><code>81F4</code></td>
+    <td align="center"></td>
+    <td>Laser Stopper</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80D8</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80D9</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80DA</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80DB</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80DC</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80DE</code></td>
+    <td align="center"></td>
+    <td align="center"><code>81FE</code></td>
+    <td align="center"></td>
+    <td>Reset Upwards Vector</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80DF</code></td>
+    <td align="center"></td>
+    <td align="center"><code>81FF</code></td>
+    <td align="center"></td>
+    <td>Change Character Position</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80E0</code></td>
+    <td align="center"></td>
+    <td align="center"><code>8200</code></td>
+    <td align="center"></td>
+    <td>Direction of Character Changing Position</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80E1</code></td>
+    <td align="center"></td>
+    <td align="center"><code>8201</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80E2</code></td>
+    <td align="center"></td>
+    <td align="center"><code>8202</code></td>
+    <td align="center"></td>
+    <td>Change Character Rotation</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80E3</code></td>
+    <td align="center"></td>
+    <td align="center"><code>8203</code></td>
+    <td align="center"></td>
+    <td>Change Opponent Rotation</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80E4</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80E5</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80E6</code></td>
+    <td align="center"></td>
+    <td align="center"><code>8209</code></td>
+    <td align="center"></td>
+    <td>Change Character Height</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80E7</code></td>
+    <td align="center"><code>815D</code></td>
+    <td align="center"><code>820A</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80E8</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80E9</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80EA</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80EB</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80EC</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80ED</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Character Disappears, including VFX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80EE</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80EF</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Opponent Disappears, including VFX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80F0</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80F1</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80F2</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80F3</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80F4</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80F5</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80F6</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80F7</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80F8</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80F9</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80FA</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80FB</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Subtitles</td>
+  </tr>
+  <tr>
+    <td align="center"><code>80FC</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80FD</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Tk6SC Dialogue Subtitles <i>00XX00YY</i></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80FE</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>80FF</code></td>
+    <td align="center"><code>8180</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Reset Camera Position</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8100</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8101</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8102</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8103</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Clothes Position</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8104</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8105</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8106</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8107</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8108</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8109</code></td>
+    <td align="center"><code>8184</code></td>
+    <td align="center"><code>8246</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>810A</code></td>
+    <td align="center"><code>8185</code></td>
+    <td align="center"><code>8247</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>810B</code></td>
+    <td align="center"><code>8186</code></td>
+    <td align="center"><code>8248</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>810C</code></td>
+    <td align="center"><code>8187</code></td>
+    <td align="center"><code>8249</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>810D</code></td>
+    <td align="center"><code>8188</code></td>
+    <td align="center"><code>824A</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>810E</code></td>
+    <td align="center"><code>8189</code></td>
+    <td align="center"><code>824B</code></td>
+    <td align="center"></td>
+    <td>Combo Meter Reset on <i>000000XX</i> frame</td>
+  </tr>
+  <tr>
+    <td align="center"><code>810F</code></td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td>------------------</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8110</code></td>
+    <td align="center"><code>818B</code></td>
+    <td align="center"><code>824D</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8111</code></td>
+    <td align="center"><code>818C</code></td>
+    <td align="center"><code>824E</code></td>
+    <td align="center"></td>
+    <td>Combo Meter Does Not Reset</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8112</code></td>
+    <td align="center"><code>818D</code></td>
+    <td align="center"><code>824F</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8113</code></td>
+    <td align="center"><code>818E</code></td>
+    <td align="center"><code>8250</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8114</code></td>
+    <td align="center"><code>818F</code></td>
+    <td align="center"><code>8251</code></td>
+    <td align="center"></td>
+    <td>Character Disappears, without VFX (01 = Disappear, 02 ≥ Flicker)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8115</code></td>
+    <td align="center"><code>8190</code></td>
+    <td align="center"><code>8252</code></td>
+    <td align="center"></td>
+    <td>Opponent Disappears, without VFX (01 = Disappear, 02 ≥ Flicker)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8116</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8117</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8118</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8119</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>811A</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>811B</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>811C</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>811D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>811E</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>811F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8120</code></td>
+    <td align="center"><code>8193</code></td>
+    <td align="center"><code>8255</code></td>
+    <td align="center"></td>
+    <td>Spend <i>Bound</i> (Tk6/TTT2) <i>Screw</i> (Tk7) <i>Tornado</i> (Tk8)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8121</code></td>
+    <td align="center"><code>8194</code></td>
+    <td align="center"><code>8256</code></td>
+    <td align="center"></td>
+    <td>8120-Related (Use this after 8120)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8122</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8123</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8124</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8125</code></td>
+    <td align="center"><code>81D1</code></td>
+    <td align="center"><code>8333</code></td>
+    <td align="center"><code>847A</code></td>
+    <td>Item Move, Attach Item to <i>000000XX</i> <a href="https://sadamitsu.ru/cwcheat/limbs.htm">Limb</a></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8126</code></td>
+    <td align="center"><code>81EC</code></td>
+    <td align="center"><code>8344</code></td>
+    <td align="center"><code>8482</code></td>
+    <td>Item Move, Switch On</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8127</code></td>
+    <td align="center"><code>81ED</code></td>
+    <td align="center"><code>8344</code></td>
+    <td align="center"><code>848B</code></td>
+    <td>Item Move, Reset</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8128</code></td>
+    <td align="center"><code>81C9</code></td>
+    <td align="center"><code>832B</code></td>
+    <td align="center"><code>848C</code></td>
+    <td>Item Move, Activate</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8129</code></td>
+    <td align="center"><code>81D7</code></td>
+    <td align="center"><code>8337</code></td>
+    <td align="center"></td>
+    <td>Projectile Item Move, Projectile's Forward/Backward Movement Speed</td>
+  </tr>
+  <tr>
+    <td align="center"><code>812A</code></td>
+    <td align="center"><code>81DA</code></td>
+    <td align="center"><code>8338</code></td>
+    <td align="center"></td>
+    <td>Projectile Item Move, Projectile's Upward/Downward Movement Speed</td>
+  </tr>
+  <tr>
+    <td align="center"><code>812B</code></td>
+    <td align="center"><code>81CF</code></td>
+    <td align="center"><code>8331</code></td>
+    <td align="center"></td>
+    <td>Projectile Item Move, slot of Stand Reaction</td>
+  </tr>
+  <tr>
+    <td align="center"><code>812C</code></td>
+    <td align="center"><code>81D0</code></td>
+    <td align="center"><code>8332</code></td>
+    <td align="center"></td>
+    <td>Projectile Item Move, slot of Air Reactions</td>
+  </tr>
+  <tr>
+    <td align="center"><code>812D</code></td>
+    <td align="center"><code>81CA</code></td>
+    <td align="center"><code>833C</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>812E</code></td>
+    <td align="center"><code>81CB</code></td>
+    <td align="center"><code>832D</code></td>
+    <td align="center"></td>
+    <td>Projectile Item Move, Damage</td>
+  </tr>
+  <tr>
+    <td align="center"><code>812F</code></td>
+    <td align="center"><code>81CC</code></td>
+    <td align="center"><code>832E</code></td>
+    <td align="center"></td>
+    <td>Projectile Item Move, Hit Rank</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8130</code></td>
+    <td align="center"><code>81EF</code></td>
+    <td align="center"><code>8346</code></td>
+    <td align="center"></td>
+    <td>Projectile Item Move, Gravitation</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8131</code></td>
+    <td align="center"><code>81EB</code></td>
+    <td align="center"><code>8342</code></td>
+    <td align="center"><code>848A</code></td>
+    <td>Item Move, Shift Attack Point <i>0000XXYY</i> (XX = ITEM / YY = Distance)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8132</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8133</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8134</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Projectile Item Move, Item Appears</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8135</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8136</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Projectile Item Move, Reset</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8137</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8138</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8139</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>813A</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>813B</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>813C</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>813D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>813E</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>813F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8140</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Projectile Item Move, Launch</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8141</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8142</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8143</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8144</code></td>
+    <td align="center"><code>81A5</code></td>
+    <td align="center"><code>8264</code></td>
+    <td align="center"></td>
+    <td>Yoshimitsu's Left Hand Sword (0 = off, 1 = on)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8145</code></td>
+    <td align="center"><code>81A6</code></td>
+    <td align="center"><code>8265</code></td>
+    <td align="center"></td>
+    <td>Yoshimitsu's Right Hand Sword (0 = off, 1 = on)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8146</code></td>
+    <td align="center"><code>81A7</code></td>
+    <td align="center"><code>8266</code></td>
+    <td align="center"></td>
+    <td>Yoshimitsu's Left Hand Sword Effects (0 = off, 1 = on)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8147</code></td>
+    <td align="center"><code>81A8</code></td>
+    <td align="center"><code>8267</code></td>
+    <td align="center"></td>
+    <td>Yoshimitsu's Right Hand Sword Effects (0 = off, 1 = on)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8148</code></td>
+    <td align="center"><code>81A9</code></td>
+    <td align="center"><code>826A</code></td>
+    <td align="center"></td>
+    <td>Homing Effect for LP (0 = off, 1 = on)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8149</code></td>
+    <td align="center"><code>81AA</code></td>
+    <td align="center"><code>826B</code></td>
+    <td align="center"></td>
+    <td>Homing Effect for RP (0 = off, 1 = on)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>814A</code></td>
+    <td align="center"><code>81AB</code></td>
+    <td align="center"><code>826C</code></td>
+    <td align="center"></td>
+    <td>Homing Effect for LK (0 = off, 1 = on)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>814B</code></td>
+    <td align="center"><code>81AC</code></td>
+    <td align="center"><code>826D</code></td>
+    <td align="center"></td>
+    <td>Homing Effect for RK (0 = off, 1 = on)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>814C</code></td>
+    <td align="center"><code>81AD</code></td>
+    <td align="center">x</td>
+    <td align="center">x</td>
+    <td>Homing Effect for Tail (0 = off, 1 = on)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>814D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>814E</code></td>
+    <td align="center"></td>
+    <td align="center"><code>8272</code></td>
+    <td align="center"></td>
+    <td>Rage Mode (00 = off, 01 = on) <i>Values are Reversed in Tekken 7, If Set to 1 It Will Remove Rage</i></td>
+  </tr>
+  <tr>
+    <td align="center"><code>814F</code></td>
+    <td align="center"></td>
+    <td align="center"><code>8273</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8150</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8151</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8152</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8153</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8154</code></td>
+    <td align="center"><code>81B2</code></td>
+    <td align="center"><code>8278</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8155</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8156</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8157</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8158</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8159</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>815A</code></td>
+    <td align="center"></td>
+    <td align="center"><code>827E</code>?</td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>815B</code></td>
+    <td align="center"></td>
+    <td align="center"><code>827F</code>?</td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>815C</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>815D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>815E</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>815F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8160</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8161</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8162</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8163</code></td>
+    <td align="center"><code>8230</code></td>
+    <td align="center"><code>8387</code></td>
+    <td align="center"></td>
+    <td>Alisa's Rocket Thrust Effects Appears (0 = Left Leg, 1 = Right Leg, 2 = Wings)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8164</code></td>
+    <td align="center"><code>8231</code></td>
+    <td align="center"><code>8388</code></td>
+    <td align="center"></td>
+    <td>Alisa's Rocket Thrust Effects Disappears (0 = Left Leg, 1 = Right Leg, 2 = Wings)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8165</code></td>
+    <td align="center"><code>8232</code></td>
+    <td align="center"><code>8389</code></td>
+    <td align="center"></td>
+    <td>Alisa's Saws Appears (00 = Left Hand Saw, 01 = Right Hand Saw)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8166</code></td>
+    <td align="center"><code>8233</code></td>
+    <td align="center"><code>838A</code></td>
+    <td align="center"></td>
+    <td>Alisa's Saws Disappears (00 = Left Hand Saw, 01 = Right Hand Saw)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8167</code></td>
+    <td align="center"><code>8234</code></td>
+    <td align="center"><code>838B</code></td>
+    <td align="center"></td>
+    <td>Alisa's Items Attached (0 = Head, 1 = Left Hand, 2 = Right Hand, 3 = Torso)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8168</code></td>
+    <td align="center"><code>8235</code></td>
+    <td align="center"><code>838C</code></td>
+    <td align="center"></td>
+    <td>Alisa's Items Detached (0 = Head, 1 = Left Hand, 2 = Right Hand, 3 = Torso)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8169</code></td>
+    <td align="center"><code>8236</code></td>
+    <td align="center"><code>838D</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>816A</code></td>
+    <td align="center"><code>8237</code></td>
+    <td align="center"><code>838E</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>816B</code></td>
+    <td align="center"><code>8238</code></td>
+    <td align="center"><code>838F</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>816C</code></td>
+    <td align="center"><code>8239</code></td>
+    <td align="center"><code>8390</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>816D</code></td>
+    <td align="center"><code>823A</code></td>
+    <td align="center"><code>8391</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>816E</code></td>
+    <td align="center"><code>823B</code></td>
+    <td align="center"><code>8392</code></td>
+    <td align="center"></td>
+    <td>Alisa's Flaps (2A = Appears on Left Hand, 2B = Disappears on Left Hand, 2C = Appears on Right Hand, 2D = Disappears on Right Hand)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>816F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8170</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8171</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8172</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8173</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8174</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8000 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8175</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8001 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8176</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8002 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8177</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8003 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8178</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8004 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8179</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8005 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>817A</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8006 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>817B</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8007 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>817C</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8008 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>817D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8009 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>817E</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 800A to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>817F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 800B to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8180</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 800C to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8181</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 800D to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8182</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 800E to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8183</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 800F to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8184</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8010 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8185</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8011 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8186</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8012 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8187</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8013 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8188</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8014 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8189</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8015 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>818A</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8016 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>818B</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8017 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>818C</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8018 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>818D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8019 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>818E</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 801A to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>818F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 801B to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8190</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 801C to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8191</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 801D to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8192</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 801E to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8193</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 801F to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8194</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Change Character's 8020 to XXX</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8195</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8000 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8196</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8001 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8197</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8002 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8198</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8003 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>8199</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8004 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>819A</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8005 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>819B</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8006 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>819C</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8007 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>819D</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8008 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>819E</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8009 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>819F</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 800A Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81A0</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 800B Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81A1</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 800C Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81A2</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 800D Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81A3</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 800E Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81A4</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 800F Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81A5</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8010 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81A6</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8011 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81A7</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8012 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81A8</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8013 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81A9</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8014 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81AA</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8015 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81AB</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8016 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81AC</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8017 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81AD</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8018 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81AE</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8019 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81AF</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 801A Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81B0</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 801B Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81B1</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 801C Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81B2</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 801D Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81B3</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 801E Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81B4</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 801F Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81B5</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Bring Character's 8020 Move Number to default</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81B6</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81B7</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81B8</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81B9</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81BA</code></td>
+    <td align="center"></td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td>Raven's Ghost performs a P1 move (Can be used by any character)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81BB</code></td>
+    <td align="center"></td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td>Raven's Ghost Disappears (Can be used by any character)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81BC</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Switch Sides</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81BD</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81BE</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81BF</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81C0</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81C1</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81C2</code></td>
+    <td align="center"><code>82D5</code></td>
+    <td align="center"><code>8428</code></td>
+    <td align="center"><code>860A</code></td>
+    <td>Gesture for Both Hands</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81C3</code></td>
+    <td align="center"><code>82D6</code></td>
+    <td align="center"><code>8429</code></td>
+    <td align="center"><code>860B</code></td>
+    <td>Gesture for Left Hand</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81C4</code></td>
+    <td align="center"><code>82D7</code></td>
+    <td align="center"><code>842A</code></td>
+    <td align="center"><code>860C</code></td>
+    <td>Gesture for Right Hand</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81C5</code></td>
+    <td align="center"><code>82D9</code></td>
+    <td align="center"><code>842C</code></td>
+    <td align="center"><code>860E</code></td>
+    <td>Gesture for Both Hands</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81C6</code></td>
+    <td align="center"><code>82DA</code></td>
+    <td align="center"><code>842D</code></td>
+    <td align="center">806F</td>
+    <td>Gesture Animation for Both Hands</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81C7</code></td>
+    <td align="center"><code>82DB</code></td>
+    <td align="center"><code>842E</code></td>
+    <td align="center">8070</td>
+    <td>Gesture Animation for Left Hand</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81C8</code></td>
+    <td align="center"><code>82DC</code></td>
+    <td align="center"><code>842F</code></td>
+    <td align="center">8071</td>
+    <td>Gesture Animation for Right Hand</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81C9</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81CA</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81CB</code></td>
+    <td align="center"><code>82E3</code></td>
+    <td align="center"><code>8435</code></td>
+    <td align="center"></td>
+    <td>Camera Animation for Cutscenes, Based on Character Coordinates</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81CC</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81CD</code></td>
+    <td align="center"><code>82E5</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td>Camera Animation for Cutscenes, Based on Stage Coordinates</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81CE</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81CF</code></td>
+    <td align="center"><code>82E9</code></td>
+    <td align="center"><code>843C</code></td>
+    <td align="center"></td>
+    <td>Camera Mode for Throws</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81D0</code></td>
+    <td align="center"></td>
+    <td align="center"><code>843D</code></td>
+    <td align="center"></td>
+    <td>Camera Animation for Cutscene, Based on Character Coordinates</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81D1</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81D2</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81D3</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81D4</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81D5</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81D6</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81D7</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81D8</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81D9</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81DA</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81DB</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81DC</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81DD</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81DE</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81DF</code></td>
+    <td align="center"><code>82F6</code></td>
+    <td align="center"><code>84C1</code></td>
+    <td align="center"></td>
+    <td>Facial Expression <i>0000XXYY</i> (XX = Expression Number, YY = Smoothing)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81E0</code></td>
+    <td align="center"><code>82F7</code></td>
+    <td align="center"><code>84C2</code></td>
+    <td align="center"></td>
+    <td>Facial Animation</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81E1</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81E2</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81E3</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81E4</code></td>
+    <td align="center"><code>82F9</code></td>
+    <td align="center"><code>84C4</code></td>
+    <td align="center"><code>87F0</code></td>
+    <td>Play Sound from Character's Base <i>XX0000YY</i> (XX is the folder, YY is the sound)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81E5</code></td>
+    <td align="center"><code>82FB</code></td>
+    <td align="center"><code>84C6</code></td>
+    <td align="center"><code>87F2</code></td>
+    <td>Play Sound from Opponent's Base <i>XX0000YY</i> (XX is the folder, YY is the sound)</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81E6</code></td>
+    <td align="center"><code>82FD</code></td>
+    <td align="center"><code>84C8</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81E7</code></td>
+    <td align="center"><code>8300</code></td>
+    <td align="center"><code>84CB</code></td>
+    <td align="center"></td>
+    <td>Audio Track for Cutscenes</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81E8</code></td>
+    <td align="center"><code>8301</code></td>
+    <td align="center"><code>84CC</code></td>
+    <td align="center"></td>
+    <td>Set of Camera Effects</td>
+  </tr>
+  <tr>
+    <td align="center"><code>81E9</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81EA</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81EB</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81EC</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81ED</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81EE</code></td>
+    <td align="center"></td>
+    <td align="center"><code>84D2</code>?</td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81EF</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81F0</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81F1</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81F2</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81F3</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81F4</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81F5</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81F6</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81F7</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81F8</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81F9</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81FA</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81FB</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81FC</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81FD</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81FE</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>81FF</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8200</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8201</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8202</code></td>
+    <td align="center"><code>230B</code></td>
+    <td align="center"><code>853C</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><code>8203</code></td>
+    <td align="center"><code>230C</code></td>
+    <td align="center"><code>853D</code></td>
+    <td align="center"></td>
+    <td></td>
+  </tr>
 </table>
 
-# WIP
-> Switching from Markdown Table over to HTML
-
 ## Effects
-| Tekken 6 | Tekken Tag Tournament 2 | Tekken 7 | Tekken 8 | Attribute |
-|:----:|:----:|:----:|:----:|-----------------|
-| 802F | | | | | 
-| 8030 | | | | | 
-| 8031 | | | | | Evil Mist Effect (Certain Characters Only) |
-| 8032 | | | | | 
-| 8033 | | | | | 
-| 8034 | | | | | Chain Sparks on the Ground, v1 |
-| 8035 | | 8058 | | | Chain Sparks on the Ground, v2 |
-| 8036 | | | | |
-| 8037 | | | | |
-| 8038 | | | | |
-| 8039 | | | | |
-| 803A | | | | |
-| 803B | 8040 | | | |
-| 803C | | | | | Steam Comes Out of the Mouth |
-| 803D | | | | | Character Specific Visual Effect |
-| 803E | | | | | Character Extra Visual Effect |
-| 803F | | | | | Opponent Specific Visual Effect |
-| 8040 | | | | | Opponent Extra Visual Effect |
-| 8041 | | | | | Regular Hit Effect |
-| 8042 | | | | | Grapple Indicator (Main) |
-| 8043 | | | | | Smoke Effect |
-| 8044 | | | | | Faint Smoke Effect |
-| 8045 | | | | | Block Effect |
-| 8046 | | | | | Opponent's Vertical Blast |
-| 8047 | | | | | Opponent's Strong Vertical Blast |
-| 8048 | | | | | [Collection of Visual Effects](http://sadamitsu.ru/cwcheat/802A.htm) |
-| 8049 | | | | | [Collection of Visual Effects](http://sadamitsu.ru/cwcheat/802A.htm) |
-| 804A | | | | | Chain Sparks on the Ground, v1 |
-| 804B | | | | | Chain Sparks on the Ground, v2 |
-| 804C | | | | |
-| 804D | | | | |
-| 804E | | | | |
-| 804F | 8058 | 821C (*No Definitive Equivalent as it Scales Differently*) | | Inflict Damage to Opponent |
-| 8050 | 8059 | 821D (*No Definitive Equivalent as it Scales Differently*) | | Inflict Self Damage |
-| 8051 | 805A | 821E (*No Definitive Equivalent as it Scales Differently*) | | Gain Health |
-| 8052 | | | | |
-| 8053 | 805C | 806E | | Inflict Self Damage on Wall Hit |
-| 8054 | | | | |
-| 8055 | 8062 | | |
-| 8056 | | | | |
-| 8057 | | | | Countdown Timer for Tk6SC Dialogs |
-| 8058 | 8066 | 8078 | | Launch The *Inner KiCharge* timer. *0000XXXX* is the time (Current Timer Value in 08C07C80) |
-| 8059 | | | | |
-| 805A | | | | |
-| 805B | | | | |
-| 805C | 806C | 807C | 8098 | Set flag XX for permission D1 (*see 08C07CB4*) |
-| 805D | 806D | 807D | 8099 | Changes flag XX for permission D1 (*see 08C07CB4*) |
-| 805E | | | | |
-| 805F | | | | |
-| 8060 | | | | |
-| 8061 | | | | |
-| 8062 | | | | |
-| 8063 | | | | |
-| 8064 | | | | |
-| 8065 | 8093 | 80A3 | 80C2 | |
-| 8066 | 8094 | 80A4 | 80C3 | |
-| 8067 | 8095 | 80A5 | 80C4 | |
-| 8068 | 8096 | 80A6 | 80C5 | Set flag XX for permission D6 |
-| 8069 | | | | |
-| 806A | | | | |
-| 806B | | | | |
-| 806C | | | | |
-| 806D | | | | |
-| 806E | | | | |
-| 806F | | | | |
-| 8070 | | | | |
-| 8071 | | | | |
-| 8072 | | | | |
-| 8073 | | | | |
-| 8074 | | | | |
-| 8075 | | | | |
-| 8076 | | | | |
-| 8077 | | 80DB | | Set Wall Combo Counter |
-| 8078 | 80B7 | 80DC | | 
-| 8079 | | | | |
-| 807A | | | | |
-| 807B | | | | |
-| 807C | | | | |
-| 807D | | | | |
-| 807E | | | | |
-| 807F | | | | |
-| 8080 | | | | |
-| 8081 | | | | |
-| 8082 | | | | |
-| 8083 | 80EA | 817C | | Ability to Block |
-| 8084 | 80EB | 817D | | Launch the "KiCharge" timer. XXXX is the time (Current Timer Value in 08C07C60) |
-| 8085 | 80EC | 817E | | |
-| 8086 | 80ED | 817F | | |
-| 8087 | 80EE | 8180 | | |
-| 8088 | 80EF | 8181 | | Disconnect Positions While Performing a Throw |
-| 8089 | 80F0 | 8182 | | |
-| 808A | 80F3 | 8185 | | Disconnection of Height Average While Performing a Throw, Smoothly |
-| 808B | 80F4 | 8186 | | Disconnection of Height Average While Performing a Throw, Instantly |
-| 808C | 80F5 | 8187 | | 
-| 808D | 80F6 | 8188 | | 
-| 808E | 80F7 | 8189 | | 
-| 808F | 80F8 | 818A | 81FA | Tracking (0 = No Tracking, 1 = Homing, 7 = Standard, 12 = Infinite) |
-| 8090 | 80F9 | 818B | |
-| 8091 | 80FA | 818C | | Change Body State *see 08C0796C* |
-| 8092 | - | - | - | ------------------ |
-| 8093 | - | - | - | ------------------ |
-| 8094 | 80FB | 818D | | Return to Position after performing a throw |
-| 8095 | 80FC | 818E | | Set Size of Colliders *0000XXXX* (0000 = 0%, 1000 = 100%) |
-| 8096 | 80FD | 818F | | | 
-| 8097 | 8100 | 8193 | | Footstep SFX |
-| 8098 | 8101 | 8194 | | |
-| 8099 | 8102 | 8195 | | |
-| 809A | 8103 | 8196 | | Character can be Lower than Ground Level (00 = off, 01 = on) |
-| 809B | 8104 | 8197 | | |
-| 809C | 8105 | 8198 | | Every 1st Frame |
-| 809D | - | - | - |------------------|
-| 809E | 8106 | 8199 | |  Removes breaking ground effect while airborne |
-| 809F | | | | |
-| 80A0 | | | | |
-| 80A1 | 810A | 81A3 | | |
-| 80A2 | 810B | 81A4 | | Realignment while Performing a Move (Usually Used on Throws) |
-| 80A3 | 810C | 81A5 | | |
-| 80A4 | 810D | 81A6 | | |
-| 80A5 | 810E | 81A7 | | Realignment While Performing a Move at the Wall |
-| 80A6 | 810F | 81A8 | | |
-| 80A7 | 8110 | 81A9 | | |
-| 80A8 | 8111 | 81AA | | |
-| 80A9 | 8112 | 81AB | | |
-| 80AA | 8113 | 81AC | | |
-| 80AB | 811C | 81C8 | | Skip *00000XXX* frames of the following move |
-| 80AC | 811D | 81C9 | | |
-| 80AD | 811E | 81CA | | |
-| 80AE | 811F | 81CB | | |
-| 80AF | 8120 | 81CC | | |
-| 80B0 | 8121 | 81CD | | |
-| 80B1 | 8122 | 81CE | | |
-| 80B2 | 8123 | 81CF | | |
-| 80B3 | 8124 | 81D0 | | |
-| 80B4 | 8125 | 81D1 | | |
-| 80B5 | 8126 | 81D2 | | |
-| 80B6 | 8127 | 81D3 | | |
-| 80B7 | 8128 | 81D4 | | Opponent will perform a move from character base |
-| 80B8 | 8129 | 81D5 | | Opponent will perform a move from character base |
-| 80B9 | - | - | - | ------------------ |
-| 80BA | 812A | 81D6 | | Set Character Speed |
-| 80BB | 812B | 81D7 | 8247 | Change Character Speed |
-| 80BC | 812C | 81D8 | | Set Opponent Speed |
-| 80BD | 812D | 81D9 | | Change Opponent Speed |
-| 80BE | 812E | 81DA | | Set Value for *08C07978* |
-| 80BF | 812F | 81DB | | Set Value for *08C0797C* |
-| 80C0 | 8130 | 81DC | | Character will perform a move from character base |
-| 80C1 | 8131 | 81DD | | |
-| 80C2 | 8132 | 81DE | | Character Ghost will perform a move |
-| 80C3 | 8133 | 81DF | | |
-| 80C4 | | | | |
-| 80C5 | | | | |
-| 80C6 | 8137 | 81E3 | | |
-| 80C7 | 8138 | 81E4 | | Floor Break F! |
-| 80C8 | 8139 | 81E5 | | Rotation of the Character when the Floor Breaks F! |
-| 80C9 | | 81E6 | | |
-| 80CA | | 81E7 | | |
-| 80CB | 813B | 81E8 | | Pushback-related |
-| 80CC | 813C | 81E9 | | |
-| 80CD | 813D | 81EA | | |
-| 80CE | 813E | 81EB | | |
-| 80CF | 813F | 81EC | | Set Gravity |
-| 80D0 | 8141 | 81ED | | |
-| 80D1 | 8142 | 81EE | | |
-| 80D2 | 8143 | 81EF | | |
-| 80D3 | 8144 | 81F0 | | |
-| 80D4 | 8145 | 81F1 | | |
-| 80D5 | 8146 | 81F2 | | Laser Launcher |
-| 80D6 | 8147 | 81F3 | | Laser Mode |
-| 80D7 | 8148 | 81F4 | | Laser Stopper |
-| 80D8 | | | | |
-| 80D9 | | | | |
-| 80DA | | | | |
-| 80DB | | | | |
-| 80DC | | | | |
-| 80DE | | 81FE | | Reset Upwards Vector |
-| 80DF | | 81FF | | Change Character Position |
-| 80E0 | | 8200 | | Direction of Character Changing Position |
-| 80E1 | | 8201 | | |
-| 80E2 | | 8202 | | Change Character Rotation |
-| 80E3 | | 8203 | | Change Opponent Rotation |
-| 80E4 | | | | |
-| 80E5 | | | | |
-| 80E6 | | 8209 | | Change Character Height |
-| 80E7 | 815D | 820A | | 
-| 80E8 | | | | |
-| 80E9 | | | | |
-| 80EA | | | | |
-| 80EB | | | | |
-| 80EC | | | | |
-| 80ED | | | | Character Disappears, including VFX |
-| 80EE | | | | |
-| 80EF | | | | Opponent Disappears, including VFX |
-| 80F0 | | | | |
-| 80F1 | | | | |
-| 80F2 | | | | |
-| 80F3 | | | | |
-| 80F4 | | | | |
-| 80F5 | | | | |
-| 80F6 | | | | |
-| 80F7 | | | | |
-| 80F8 | | | | |
-| 80F9 | | | | |
-| 80FA | | | | |
-| 80FB | | | 829F | Subtitles |
-| 80FC | | | | |
-| 80FD | | | | Tk6SC Dialogue Subtitles *00XX00YY* |
-| 80FE | | | | |
-| 80FF | 8180 | | | Reset Camera Position |
-| 8100 | | | | |
-| 8101 | | | | |
-| 8102 | | | | |
-| 8103 | | | | Clothes Position |
-| 8104 | | | | |
-| 8105 | | | | |
-| 8106 | | | | |
-| 8107 | | | | |
-| 8108 | | | | |
-| 8109 | 8184 | 8246 | | |
-| 810A | 8185 | 8247 | | |
-| 810B | 8186 | 8248 | | |
-| 810C | 8187 | 8249 | | |
-| 810D | 8188 | 824A | | |
-| 810E | 8189 | 824B | | |
-| 810F | 818A | 824C | | Combo Meter Reset on *000000XX* frame |
-| 8110 | - | - | - | ------------------ |
-| 8111 | 818B | 824D | | |
-| 8112 | 818C | 824E | | Combo Meter Does Not Reset |
-| 8113 | 818D | 824F | | |
-| 8114 | 818E | 8250 | | |
-| 8115 | 818F | 8251 | | Character Disappears, without VFX (01 = Disappear, 02 ≥ Flicker) |
-| 8116 | 8190 | 8252 | | Opponent Disappears, without VFX (01 = Disappear, 02 ≥ Flicker) |
-| 8117 | | | | |
-| 8118 | | | | |
-| 8119 | | | | |
-| 811A | | | | |
-| 811B | | | | |
-| 811C | | | | |
-| 811D | | | | |
-| 811E | | | | |
-| 811F | | | | |
-| 8120 | 8193 | 8255 | | Spend *Bound* (Tk6/TTT2) *Screw* (Tk7) *Tornado* (Tk8) |
-| 8121 | 8194 | 8256 | | 8120-Related (Use this after 8120) |
-| 8122 | | | | |
-| 8123 | | | | |
-| 8124 | | | | |
-| 8125 | | | | Item Move, Attach Item to *000000XX* [Limb](https://sadamitsu.ru/cwcheat/limbs.htm) |
-| 8126 | | | | Item Move, Switch On |
-| 8127 | | | | Item Move, Reset |
-| 8128 | | | | Item Move, Activate |
-| 8129 | | | | Projectile Item Move, Projectile's Forward/Backward Movement Speed |
-| 812A | | | | Projectile Item Move, Projectile's Upward/Downward Movement Speed |
-| 812B | | | | Projectile Item Move, slot of Stand Reaction |
-| 812C | | | | Projectile Item Move, slot of Air Reactions |
-| 812D | | | | |
-| 812E | | | | Projectile Item Move, Damage |
-| 812F | | | | Projectile Item Move, Hit Rank |
-| 8130 | | | | Projectile Item Move, Gravitation |
-| 8131 | | | | Item Move, Shift Attack Point *0000XXYY* (XX = ITEM / YY = Distance) |
-| 8132 | | | | |
-| 8133 | | | | |
-| 8134 | | | | Projectile Item Move, Item Appears |
-| 8135 | | | | |
-| 8136 | | | | Projectile Item Move, Reset |
-| 8137 | | | | |
-| 8138 | | | | |
-| 8139 | | | | |
-| 813A | | | | |
-| 813B | | | | |
-| 813C | | | | |
-| 813D | | | | |
-| 813E | | | | |
-| 813F | | | | |
-| 8140 | | | | Projectile Item Move, Launch |
-| 8141 | | | | |
-| 8142 | | | | |
-| 8143 | | | | |
-| 8144 | 81A5 | 8264 | | Yoshimitsu's Left Hand Sword (0 = off, 1 = on) |
-| 8145 | 81A6 | 8265 | | Yoshimitsu's Right Hand Sword (0 = off, 1 = on) |
-| 8146 | 81A7 | 8266 | | Yoshimitsu's Left Hand Sword Effects (0 = off, 1 = on) |
-| 8147 | 81A8 | 8267 | | Yoshimitsu's Right Hand Sword Effects (0 = off, 1 = on) |
-| 8148 | 81A9 | 826A | | Homing Effect for LP (0 = off, 1 = on) |
-| 8149 | 81AA | 826B | | Homing Effect for RP (0 = off, 1 = on) |
-| 814A | 81AB | 826C | | Homing Effect for LK (0 = off, 1 = on) |
-| 814B | 81AC | 826D | | Homing Effect for RK (0 = off, 1 = on) |
-| 814C | 81AD | x | x | Homing Effect for Tail (0 = off, 1 = on) |
-| 814D | | | | |
-| 814E | | 8272 | | Rage Mode (00 = off, 01 = on) *Values are Reversed in Tekken 7, If Set to 1 It Will Remove Rage* |
-| 814F | | 8273 | | |
-| 8150 | | | | |
-| 8151 | | | | |
-| 8152 | | | | |
-| 8153 | | | | |
-| 8154 | 81B2 | 8278 | | |
-| 8155 | | | | |
-| 8156 | | | | |
-| 8157 | | | | |
-| 8158 | | | | |
-| 8159 | | | | |
-| 815A | | 827E? | | |
-| 815B | | 827F? | | |
-| 815C | | | | |
-| 815D | | | | |
-| 815E | | | | |
-| 815F | | | | |
-| 8160 | | | | |
-| 8161 | | | | |
-| 8162 | | | | |
-| 8163 | 8230 | 8387 | | Alisa's Rocket Thrust Effects Appears (0 = Left Leg, 1 = Right Leg, 2 = Wings) |
-| 8164 | 8231 | 8388 | | Alisa's Rocket Thrust Effects Disappears (0 = Left Leg, 1 = Right Leg, 2 = Wings) |
-| 8165 | 8232 | 8389 | | Alisa's Saws Appears (00 = Left Hand Saw, 01 = Right Hand Saw) |
-| 8166 | 8233 | 838A | | Alisa's Saws Disappears (00 = Left Hand Saw, 01 = Right Hand Saw) |
-| 8167 | 8234 | 838B | | Alisa's Items Attached (0 = Head, 1 = Left Hand, 2 = Right Hand, 3 = Torso) |
-| 8168 | 8235 | 838C | | Alisa's Items Detached (0 = Head, 1 = Left Hand, 2 = Right Hand, 3 = Torso) |
-| 8169 | 8236 | 838D | | 
-| 816A | 8237 | 838E | | |
-| 816B | 8238 | 838F | | |
-| 816C | 8239 | 8390 | | |
-| 816D | 823A | 8391 | | |
-| 816E | 823B | 8392 | | Alisa's Flaps (2A = Appears on Left Hand, 2B = Disappears on Left Hand, 2C = Appears on Right Hand, 2D = Disappears on Right Hand) |
-| 816F | | | | |
-| 8170 | | | | |
-| 8171 | | | | |
-| 8172 | | | | |
-| 8173 | | | | |
-| 8174 | | | | Change Character's 8000 to XXX |
-| 8175 | | | | Change Character's 8001 to XXX |
-| 8176 | | | | Change Character's 8002 to XXX |
-| 8177 | | | | Change Character's 8003 to XXX |
-| 8178 | | | | Change Character's 8004 to XXX |
-| 8179 | | | | Change Character's 8005 to XXX |
-| 817A | | | | Change Character's 8006 to XXX |
-| 817B | | | | Change Character's 8007 to XXX |
-| 817C | | | | Change Character's 8008 to XXX |
-| 817D | | | | Change Character's 8009 to XXX |
-| 817E | | | | Change Character's 800A to XXX |
-| 817F | | | | Change Character's 800B to XXX |
-| 8180 | | | | Change Character's 800C to XXX |
-| 8181 | | | | Change Character's 800D to XXX |
-| 8182 | | | | Change Character's 800E to XXX |
-| 8183 | | | | Change Character's 800F to XXX |
-| 8184 | | | | Change Character's 8010 to XXX |
-| 8185 | | | | Change Character's 8011 to XXX |
-| 8186 | | | | Change Character's 8012 to XXX |
-| 8187 | | | | Change Character's 8013 to XXX |
-| 8188 | | | | Change Character's 8014 to XXX |
-| 8189 | | | | Change Character's 8015 to XXX |
-| 818A | | | | Change Character's 8016 to XXX |
-| 818B | | | | Change Character's 8017 to XXX |
-| 818C | | | | Change Character's 8018 to XXX |
-| 818D | | | | Change Character's 8019 to XXX |
-| 818E | | | | Change Character's 801A to XXX |
-| 818F | | | | Change Character's 801B to XXX |
-| 8190 | | | | Change Character's 801C to XXX |
-| 8191 | | | | Change Character's 801D to XXX |
-| 8192 | | | | Change Character's 801E to XXX |
-| 8193 | | | | Change Character's 801F to XXX |
-| 8194 | | | | Change Character's 8020 to XXX |
-| 8195 | | | | Bring Character's 8000 Move Number to default |
-| 8196 | | | | Bring Character's 8001 Move Number to default |
-| 8197 | | | | Bring Character's 8002 Move Number to default |
-| 8198 | | | | Bring Character's 8003 Move Number to default |
-| 8199 | | | | Bring Character's 8004 Move Number to default |
-| 819A | | | | Bring Character's 8005 Move Number to default |
-| 819B | | | | Bring Character's 8006 Move Number to default |
-| 819C | | | | Bring Character's 8007 Move Number to default |
-| 819D | | | | Bring Character's 8008 Move Number to default |
-| 819E | | | | Bring Character's 8009 Move Number to default |
-| 819F | | | | Bring Character's 800A Move Number to default |
-| 81A0 | | | | Bring Character's 800B Move Number to default |
-| 81A1 | | | | Bring Character's 800C Move Number to default |
-| 81A2 | | | | Bring Character's 800D Move Number to default |
-| 81A3 | | | | Bring Character's 800E Move Number to default |
-| 81A4 | | | | Bring Character's 800F Move Number to default |
-| 81A5 | | | | Bring Character's 8010 Move Number to default |
-| 81A6 | | | | Bring Character's 8011 Move Number to default |
-| 81A7 | | | | Bring Character's 8012 Move Number to default |
-| 81A8 | | | | Bring Character's 8013 Move Number to default |
-| 81A9 | | | | Bring Character's 8014 Move Number to default |
-| 81AA | | | | Bring Character's 8015 Move Number to default |
-| 81AB | | | | Bring Character's 8016 Move Number to default |
-| 81AC | | | | Bring Character's 8017 Move Number to default |
-| 81AD | | | | Bring Character's 8018 Move Number to default |
-| 81AE | | | | Bring Character's 8019 Move Number to default |
-| 81AF | | | | Bring Character's 801A Move Number to default |
-| 81B0 | | | | Bring Character's 801B Move Number to default |
-| 81B1 | | | | Bring Character's 801C Move Number to default |
-| 81B2 | | | | Bring Character's 801D Move Number to default |
-| 81B3 | | | | Bring Character's 801E Move Number to default |
-| 81B4 | | | | Bring Character's 801F Move Number to default |
-| 81B5 | | | | Bring Character's 8020 Move Number to default |
-| 81B6 | | | | |
-| 81B7 | | | | |
-| 81B8 | | | | |
-| 81B9 | | | | |
-| 81BA | | - | | Raven's Ghost performs a P1 move (Can be used by any character) |
-| 81BB | | - | | Raven's Ghost Disappears (Can be used by any character) |
-| 81BC | | | | Switch Sides |
-| 81BD | | | | |
-| 81BE | | | | |
-| 81BF | | | | |
-| 81C0 | | | | |
-| 81C1 | | | | |
-| 81C2 | 82D5 | 8428 | 860A | Gesture for Both Hands |
-| 81C3 | 82D6 | 8429 | 860B | Gesture for Left Hand |
-| 81C4 | 82D7 | 842A | 860C | Gesture for Right Hand |
-| 81C5 | 82D9 | 842C | 860D | Gesture for Both Hands |
-| 81C6 | 82DA | 842D | | Gesture Animation for Both Hands |
-| 81C7 | 82DB | 842E | | Gesture Animation for Left Hand |
-| 81C8 | 82DC | 842F | | Gesture Animation for Right Hand |
-| 81C9 | | | | |
-| 81CA | | | | |
-| 81CB | 82E3 | 8435 | | Camera Animation for Cutscenes, Based on Character Coordinates |
-| 81CC | | | | |
-| 81CD | 82E5 | | | Camera Animation for Cutscenes, Based on Stage Coordinates |
-| 81CE | | | | |
-| 81CF | 82E9 | 843C | | Camera Mode for Throws |
-| 81D0 | | 843D | | Camera Animation for Cutscene, Based on Character Coordinates |
-| 81D1 | | | | |
-| 81D2 | | | | |
-| 81D3 | | | | |
-| 81D4 | | | | |
-| 81D5 | | | | |
-| 81D6 | | | | |
-| 81D7 | | | | |
-| 81D8 | | | | |
-| 81D9 | | | | |
-| 81DA | | | | |
-| 81DB | | | | |
-| 81DC | | | | |
-| 81DD | | | | |
-| 81DE | | | | |
-| 81DF | 82F6 | 84C1 | | Facial Expression *0000XXYY* (XX = Expression Number, YY = Smoothing) |
-| 81E0 | 82F7 | 84C2 | | Facial Animation |
-| 81E1 | | | | |
-| 81E2 | | | | |
-| 81E3 | | | | |
-| 81E4 | 82F9 | 84C4 | 87F0 | Play Sound from Character's Base *XX0000YY* (XX is the folder, YY is the sound) |
-| 81E5 | 82FB | 84C6 | 87F2 | Play Sound from Opponent's Base *XX0000YY* (XX is the folder, YY is the sound) |
-| 81E6 | 82FD | 84C8 | | 
-| 81E7 | 8300 | 84CB | | Audio Track for Cutscenes |
-| 81E8 | 8301 | 84CC | | Set of Camera Effects |
-| 81E9 | | | | |
-| 81EA | | | | |
-| 81EB | | | | |
-| 81EC | | | | |
-| 81ED | | | | |
-| 81EE | | 84D2? | | |
-| 81EF | | | | |
-| 81F0 | | | | |
-| 81F1 | | | | |
-| 81F2 | | | | |
-| 81F3 | | | | |
-| 81F4 | | | | |
-| 81F5 | | | | |
-| 81F6 | | | | |
-| 81F7 | | | | |
-| 81F8 | | | | |
-| 81F9 | | | | |
-| 81FA | | | | |
-| 81FB | | | | |
-| 81FC | | | | |
-| 81FD | | | | |
-| 81FE | | | | |
-| 81FF | | | | |
-| 8200 | | | | |
-| 8201 | | | | |
-| 8202 | 230C | 853C | | 
-| 8203 | 230B | 853D | | 
-| * | * | * | * | * |
-
 | I haven't | found the | Tekken 6 | equivalent | yet |
 |:-:|:-:|:-:|:-:|---|
 | | CC | | | If Tag Partner is |
