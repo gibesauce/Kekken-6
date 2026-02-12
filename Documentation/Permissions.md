@@ -686,14 +686,14 @@
   <tr>
     <td align="center"><code>79</code></td>
     <td align="center"></td>
-    <td align="center"><code></code></td>
+    <td align="center"></td>
     <td align="center"><code>8D</code></td>
     <td></td>
   </tr>
   <tr>
     <td align="center"><code>7A</code></td>
     <td align="center"></td>
-    <td align="center"><code></code></td>
+    <td align="center"></td>
     <td align="center"><code>8E</code></td>
     <td></td>
   </tr>
@@ -791,7 +791,7 @@
   <tr>
     <td align="center"><code>88</code></td>
     <td align="center"></td>
-    <td align="center"><code>9D?</code></td>
+    <td align="center"></td>
     <td align="center"></td>
     <td></td>
   </tr>
@@ -1142,7 +1142,7 @@
     <td align="center"><code>BA</code></td>
     <td align="center"></td>
     <td align="center"><code>FD</code></td>
-    <td align="center"></td>
+    <td align="center"><code>1C6</code></td>
     <td>If "Inner KiCharge" is (00 = off, 01 = on)</td>
   </tr>
   <tr>
@@ -2703,12 +2703,14 @@
   </tr>
   <tr>
     <td align="center"><code>800F</code></td>
-    <td colspan="3" align="center">800E</td>
+    <td colspan="2" align="center"><code>800E</code></td>
+    <td align="center"></td>
     <td>Ground Break Effect</td>
   </tr>
   <tr>
     <td align="center"><code>8010</code></td>
-    <td colspan="3" align="center">800F</td>
+    <td colspan="2" align="center"><code>800F</code></td>
+    <td align="center"></td>
     <td>Strong Blast Wave on The Floor</td>
   </tr>
   <tr>
@@ -2881,7 +2883,7 @@
     <td align="center"><code>802D</code></td>
     <td align="center"></td>
     <td align="center"><code>8048</code></td>
-    <td align="center"></td>
+    <td align="center"><code>804B</code></td>
     <td>Ground Break Effect Under Specific <a href="https://sadamitsu.ru/cwcheat/limbs.htm">Limb</a> <i>0000XXYY</i> (<i>XX</i> is the limb, <i>YY</i> is the mode; 00, 01 or 02)</td>
   </tr>
   <tr>
@@ -6209,6 +6211,7 @@
 | | | 84D1 | | |
 | | | | 83C3 | |
 | * | * | * | * | * |
+
 
 
 
