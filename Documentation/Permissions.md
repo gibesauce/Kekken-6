@@ -1140,7 +1140,7 @@
   </tr>
   <tr>
     <td align="center"><code>BA</code></td>
-    <td align="center"></td>
+    <td align="center"><code>EA</code></td>
     <td align="center"><code>FD</code></td>
     <td align="center"><code>1C6</code></td>
     <td>If "Inner KiCharge" is (00 = off, 01 = on)</td>
@@ -6211,6 +6211,7 @@
 | | | 84D1 | | |
 | | | | 83C3 | |
 | * | * | * | * | * |
+
 
 
 
